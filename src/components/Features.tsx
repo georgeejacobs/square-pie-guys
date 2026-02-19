@@ -1,19 +1,15 @@
 "use client"
 
-import Image from "next/image"
-
 export default function Features() {
   return (
-    <section data-test="page-section" data-section-theme="bright" className="page-section 
+    <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider
     
       full-bleed-section
       layout-engine-section
     
     background-width--full-bleed
     
-      
-        section-height--custom
-      
+      section-height--medium
     
     
       content-width--wide
@@ -24,8 +20,8 @@ export default function Features() {
       
     
     
-    bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771485953910_150">
-      <div className="section-border">
+    bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771487219329_180">
+      <div className="section-border" style={{ clipPath: 'url(#section-divider-658f2bce80842075444608af)' }}>
         <div className="section-background">
         
           
@@ -33,45 +29,55 @@ export default function Features() {
         </div>
       </div>
       <div className="content-wrapper" style={{
-          paddingTop: 'calc(0vmax / 10)', 
-          paddingBottom: 'calc(0vmax / 10)'
-        }} id="yui_3_17_2_1_1771485953910_149">
-        <div className="content" id="yui_3_17_2_1_1771485953910_148">
           
-          <div data-fluid-engine="true" id="yui_3_17_2_1_1771485953910_147">
+            
+          
+        }} id="yui_3_17_2_1_1771487219329_179">
+        <div className="content" id="yui_3_17_2_1_1771487219329_178">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div data-fluid-engine="true" id="yui_3_17_2_1_1771487219329_177">
             <style jsx>{`
-              .fe-65a1c9d0ac1b343be05159cc {
-                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 0.0px);
-                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (8 - 1)) ) / 8 );
+              .fe-658f2bce80842075444608ae {
+                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
 
                 display: grid;
                 position: relative;
                 grid-area: 1/1/-1/-1;
-                grid-template-rows: repeat(39,minmax(24px, auto));
+                grid-template-rows: repeat(19,minmax(24px, auto));
                 grid-template-columns:
                   minmax(var(--grid-gutter), 1fr)
                   repeat(8, minmax(0, var(--cell-max-width)))
                   minmax(var(--grid-gutter), 1fr);
-                row-gap: 0.0px;
-                column-gap: 0.0px;
+                row-gap: 11.0px;
+                column-gap: 11.0px;
                 overflow-x: hidden;
                 overflow-x: clip;
               }
 
               @media (min-width: 768px) {
-                .background-width--inset .fe-65a1c9d0ac1b343be05159cc {
+                .background-width--inset .fe-658f2bce80842075444608ae {
                   --inset-padding: calc(var(--sqs-site-gutter) * 2);
                 }
 
-                .fe-65a1c9d0ac1b343be05159cc {
-                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 0.0px);
-                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (24 - 1)) ) / 24 );
+                .fe-658f2bce80842075444608ae {
+                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
                   --inset-padding: 0vw;
 
                   --row-height-scaling-factor: 0.0215;
                   --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
 
-                  grid-template-rows: repeat(31,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+                  grid-template-rows: repeat(15,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
                   grid-template-columns:
                     minmax(var(--grid-gutter), 1fr)
                     repeat(24, minmax(0, var(--cell-max-width)))
@@ -79,142 +85,174 @@ export default function Features() {
                 }
               }
 
-              .fe-block-7b816d4d13531865e314 {
-                grid-area: 1/1/25/11;
-                z-index: 0;
+              .fe-block-41bcbba421979d3ae030 {
+                grid-area: 3/2/12/10;
+                z-index: 2;
               }
 
-              .fe-block-7b816d4d13531865e314 .sqs-block {
+              .fe-block-41bcbba421979d3ae030 .sqs-block {
                 justify-content: center;
               }
 
-              .fe-block-7b816d4d13531865e314 .sqs-block-alignment-wrapper {
+              .fe-block-41bcbba421979d3ae030 .sqs-block-alignment-wrapper {
                 align-items: center;
               }
 
               @media (min-width: 768px) {
-                .fe-block-7b816d4d13531865e314 {
-                  grid-area: 1/14/32/27;
-                  z-index: 1;
+                .fe-block-41bcbba421979d3ae030 {
+                  grid-area: 1/15/16/26;
+                  z-index: 4;
                 }
 
-                .fe-block-7b816d4d13531865e314 .sqs-block {
+                .fe-block-41bcbba421979d3ae030 .sqs-block {
                   justify-content: center;
                 }
 
-                .fe-block-7b816d4d13531865e314 .sqs-block-alignment-wrapper {
+                .fe-block-41bcbba421979d3ae030 .sqs-block-alignment-wrapper {
                   align-items: center;
                 }
               }
 
-              .fe-block-db73a2bc0e9f3fe93b8a {
-                grid-area: 15/2/23/10;
+              .fe-block-0b12b4954d7f2e3bf119 {
+                grid-area: 1/2/5/10;
                 z-index: 1;
               }
 
-              .fe-block-db73a2bc0e9f3fe93b8a .sqs-block {
+              .fe-block-0b12b4954d7f2e3bf119 .sqs-block {
                 justify-content: flex-start;
               }
 
-              .fe-block-db73a2bc0e9f3fe93b8a .sqs-block-alignment-wrapper {
+              .fe-block-0b12b4954d7f2e3bf119 .sqs-block-alignment-wrapper {
                 align-items: flex-start;
               }
 
               @media (min-width: 768px) {
-                .fe-block-db73a2bc0e9f3fe93b8a {
-                  grid-area: 6/2/17/13;
-                  z-index: 2;
+                .fe-block-0b12b4954d7f2e3bf119 {
+                  grid-area: 3/2/8/12;
+                  z-index: 1;
                 }
 
-                .fe-block-db73a2bc0e9f3fe93b8a .sqs-block {
+                .fe-block-0b12b4954d7f2e3bf119 .sqs-block {
                   justify-content: flex-start;
                 }
 
-                .fe-block-db73a2bc0e9f3fe93b8a .sqs-block-alignment-wrapper {
+                .fe-block-0b12b4954d7f2e3bf119 .sqs-block-alignment-wrapper {
                   align-items: flex-start;
                 }
               }
 
-              .fe-block-42ea9b9c194822fa3437 {
-                grid-area: 26/2/35/10;
-                z-index: 4;
-              }
-
-              .fe-block-42ea9b9c194822fa3437 .sqs-block {
-                justify-content: flex-start;
-              }
-
-              .fe-block-42ea9b9c194822fa3437 .sqs-block-alignment-wrapper {
-                align-items: flex-start;
-              }
-
-              @media (min-width: 768px) {
-                .fe-block-42ea9b9c194822fa3437 {
-                  grid-area: 18/2/26/12;
-                  z-index: 4;
-                }
-
-                .fe-block-42ea9b9c194822fa3437 .sqs-block {
-                  justify-content: flex-start;
-                }
-
-                .fe-block-42ea9b9c194822fa3437 .sqs-block-alignment-wrapper {
-                  align-items: flex-start;
-                }
-              }
-
-              .fe-block-3051c7258fdf7da45539 {
-                grid-area: 36/2/38/10;
+              .fe-block-f7a4c0cfa5d9377898d0 {
+                grid-area: 11/2/15/10;
                 z-index: 3;
               }
 
-              .fe-block-3051c7258fdf7da45539 .sqs-block {
+              .fe-block-f7a4c0cfa5d9377898d0 .sqs-block {
                 justify-content: center;
               }
 
-              .fe-block-3051c7258fdf7da45539 .sqs-block-alignment-wrapper {
+              .fe-block-f7a4c0cfa5d9377898d0 .sqs-block-alignment-wrapper {
                 align-items: center;
               }
 
               @media (min-width: 768px) {
-                .fe-block-3051c7258fdf7da45539 {
-                  grid-area: 27/2/29/6;
+                .fe-block-f7a4c0cfa5d9377898d0 {
+                  grid-area: 6/2/10/12;
                   z-index: 3;
                 }
 
-                .fe-block-3051c7258fdf7da45539 .sqs-block {
+                .fe-block-f7a4c0cfa5d9377898d0 .sqs-block {
                   justify-content: center;
                 }
 
-                .fe-block-3051c7258fdf7da45539 .sqs-block-alignment-wrapper {
+                .fe-block-f7a4c0cfa5d9377898d0 .sqs-block-alignment-wrapper {
+                  align-items: center;
+                }
+              }
+
+              .fe-block-yui_3_17_2_1_1704391605064_26992 {
+                grid-area: 15/2/18/10;
+                z-index: 5;
+              }
+
+              .fe-block-yui_3_17_2_1_1704391605064_26992 .sqs-block {
+                justify-content: flex-start;
+              }
+
+              .fe-block-yui_3_17_2_1_1704391605064_26992 .sqs-block-alignment-wrapper {
+                align-items: flex-start;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-yui_3_17_2_1_1704391605064_26992 {
+                  grid-area: 10/2/12/14;
+                  z-index: 6;
+                }
+
+                .fe-block-yui_3_17_2_1_1704391605064_26992 .sqs-block {
+                  justify-content: flex-start;
+                }
+
+                .fe-block-yui_3_17_2_1_1704391605064_26992 .sqs-block-alignment-wrapper {
+                  align-items: flex-start;
+                }
+              }
+
+              .fe-block-yui_3_17_2_1_1703881549797_13556 {
+                grid-area: 18/2/20/10;
+                z-index: 4;
+              }
+
+              .fe-block-yui_3_17_2_1_1703881549797_13556 .sqs-block {
+                justify-content: center;
+              }
+
+              .fe-block-yui_3_17_2_1_1703881549797_13556 .sqs-block-alignment-wrapper {
+                align-items: center;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-yui_3_17_2_1_1703881549797_13556 {
+                  grid-area: 13/2/15/7;
+                  z-index: 5;
+                }
+
+                .fe-block-yui_3_17_2_1_1703881549797_13556 .sqs-block {
+                  justify-content: center;
+                }
+
+                .fe-block-yui_3_17_2_1_1703881549797_13556 .sqs-block-alignment-wrapper {
                   align-items: center;
                 }
               }
             `}</style>
-            <div className="fluid-engine fe-65a1c9d0ac1b343be05159cc" id="yui_3_17_2_1_1771485953910_146">
-              <div className="fe-block fe-block-7b816d4d13531865e314" id="yui_3_17_2_1_1771485953910_145">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="117.61126270797615" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-7b816d4d13531865e314">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771485953910_144" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="7b816d4d13531865e314" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="true" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771485953910_143">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771485953910_142">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', WebkitMaskImage: '-webkit-radial-gradient(white, black)' } as any} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771485953910_141">
-                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771485953910_137">
-                            <Image 
-                              data-stretch="true" 
-                              crossOrigin=""
-                              src="/image-1.webp"
-                              alt="A family meal with various dishes including a large rectangular pizza with toppings, a slice of pepperoni pizza, fried chicken wings garnished with green onions, a bowl of salad with lettuce and cheese, a side of French fries, and glasses of pink and red drinks." 
-                              width={4996} 
-                              height={3331}
-                              sizes="100vw" 
-                              style={{ 
-                                display: 'block', 
-                                objectPosition: 'var(--image-component-focal-point)' as any, 
-                                objectFit: 'var(--image-component-object-fit)' as any 
-                              } as any}
-                              loading="lazy"
+            <div className="fluid-engine fe-658f2bce80842075444608ae" id="yui_3_17_2_1_1771487219329_176">
+              <div className="fe-block fe-block-41bcbba421979d3ae030" id="yui_3_17_2_1_1771487219329_175">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-41bcbba421979d3ae030">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771487219329_174" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="41bcbba421979d3ae030" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771487219329_173">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771487219329_172">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '524.081px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771487219329_171">
+                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771487219329_170">
+                            <img 
+                              data-stretch="false" 
+                              data-src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" 
+                              data-image="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" 
+                              data-image-dimensions="1047x913" 
+                              data-image-focal-point="0.5,0.5" 
+                              data-sqsp-image-block-image="" 
+                              alt="A black and white cartoon illustration of two anthropomorphic slices of pizza wearing sunglasses, sneakers, and caps, walking together in a friendly manner." 
+                              data-licensed-asset-preview="false" 
+                              data-load="false" 
+                              src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" 
+                              width="1047" 
+                              height="913" 
+                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw" 
+                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} 
+                              srcSet="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=2500w 2500w" 
+                              loading="lazy" 
+                              decoding="async" 
+                              data-loader="sqs" 
                             />
-                            <div className="imageEffectContainer"></div>
                             <div className="fluidImageOverlay"></div>
                           </div>
                         </div>
@@ -223,36 +261,68 @@ export default function Features() {
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-db73a2bc0e9f3fe93b8a" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-db73a2bc0e9f3fe93b8a">
+              <div className="fe-block fe-block-0b12b4954d7f2e3bf119" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-0b12b4954d7f2e3bf119">
                   <div className="sqs-block-content">
                     <div className="sqs-html-content" data-sqsp-text-block-content="">
-                      <h1 style={{ whiteSpace: 'pre-wrap' }}>On mondays we order the big box.</h1>
+                      <div className="sqsrte-scaled-text-container loaded">
+                        <span className="sqsrte-scaled-text" style={{ fontSize: '154.3px' }}>
+                          <h1 style={{ whiteSpace: 'pre-wrap' }}>Say Hi to </h1>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-42ea9b9c194822fa3437" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-42ea9b9c194822fa3437">
-                  <div className="sqs-block-content">
-                    <div className="sqs-html-content" data-sqsp-text-block-content="">
-                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>
-                        <strong>Don't you just hate Mondays? Well, we don't! On Mondays we order the Big Box and double our trouble.</strong>
-                      </p>
-                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>
-                        On Mondays and Mondays only, you'll find "The Big Box Deal" as a menu item (no promo code required). Select your first pizza, and then select your second pizza for $12.05.
-                      </p>
+              <div className="fe-block fe-block-f7a4c0cfa5d9377898d0" id="yui_3_17_2_1_1771487219329_189">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-f7a4c0cfa5d9377898d0">
+                  <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="f7a4c0cfa5d9377898d0" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '309.359px' }} data-sqsp-image-block-image-container="">
+                          <div className="js-content-mode-element content-fit">
+                            <img 
+                              data-stretch="false" 
+                              data-src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png" 
+                              data-image="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png" 
+                              data-image-dimensions="1226x1108" 
+                              data-image-focal-point="0.5,0.5" 
+                              data-sqsp-image-block-image="" 
+                              alt="A stylized cartoon logo featuring a person wearing a red hat and striped shirt, combined with the text 'APPLE HILL' in bold red letters and 'STATION' in black letters below." 
+                              data-licensed-asset-preview="false" 
+                              data-load="false" 
+                              src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png" 
+                              width="1226" 
+                              height="1108" 
+                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 41.666666666666664vw" 
+                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} 
+                              srcSet="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/6a8e6088-2b9a-4eb4-b4e1-ec8f0bd2e43c/AHS+Concorse+Static+Sign+-+Asset+8%402x.png?format=2500w 2500w" 
+                              loading="lazy" 
+                              decoding="async" 
+                              data-loader="sqs" 
+                            />
+                            <div className="fluidImageOverlay"></div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-3051c7258fdf7da45539">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block">
+              <div className="fe-block fe-block-yui_3_17_2_1_1704391605064_26992">
+                <div className="sqs-block html-block sqs-block-html" data-block-type="2" data-sqsp-block="text" id="block-yui_3_17_2_1_1704391605064_26992">
                   <div className="sqs-block-content">
-                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="primary">
-                      <a href="#" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-initialized="true">
-                        ORDER DELIVERY
-                      </a>
+                    <div className="sqs-html-content" data-sqsp-text-block-content="">
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>At Apple Hill Station, our story begins with three chefs driven by a common goal: to elevate the American food hall experience by showcasing the talents of Bay Area's immigrant-owned businesses.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-yui_3_17_2_1_1703881549797_13556">
+                <div className="sqs-block button-block sqs-block-button sqs-stretch" data-block-type="53" id="block-yui_3_17_2_1_1703881549797_13556">
+                  <div className="sqs-block-content">
+                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="small" data-button-type="primary">
+                      <a href="/about" className="sqs-block-button-element--small sqs-button-element--primary sqs-block-button-element" data-initialized="true">About us</a>
                     </div>
                   </div>
                 </div>
