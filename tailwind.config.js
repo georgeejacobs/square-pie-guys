@@ -7,10 +7,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "#1e3a8a",
-        secondary: "#ffffff",
-        accent: "#3b82f6",
+        secondary: "#3b82f6",
+        accent: "#f59e0b",
         background: "#ffffff",
-        foreground: "#000000",
+        foreground: "#1f2937",
       },
       fontFamily: {
         heading: ["var(--font-heading)"],

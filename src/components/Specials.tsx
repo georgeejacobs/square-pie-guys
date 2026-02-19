@@ -1,80 +1,100 @@
 export default function Specials() {
   return (
-    <section className="bg-background py-16 px-4">
+    <section className="bg-white py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
-          <div className="flex-1 max-w-2xl">
-            <p className="text-accent text-sm font-medium uppercase tracking-wider mb-4">
-              SKILL OVER HYPE
-            </p>
-            
-            <h2 className="text-accent text-4xl lg:text-6xl font-black mb-8 leading-tight">
-              TODAY'S DEAL<br />
-              IS WAITING...
-            </h2>
-            
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          {/* Left side */}
+          <div>
             <div className="mb-8">
-              <p className="text-text text-lg mb-4">
-                Our specialty pizzas showcase in town this month, and our seasonal partnerships from local makers will be featured throughout the month.
+              <p className="text-sm text-gray-600 mb-2" style={{ fontFamily: 'antique-olive-nord' }}>
+                DEALS OVER HERE
               </p>
-              
-              <p className="text-text text-lg mb-4">
-                Today's feature is either an announcement on — a new pizza idea that we test out and feature, and our feature items.
+              <h2 className="text-4xl lg:text-5xl font-black text-primary mb-8" style={{ fontFamily: 'degular' }}>
+                TODAY'S DEAL<br />
+                IS STARTING...
+              </h2>
+            </div>
+            
+            <div className="space-y-4 mb-8" style={{ fontFamily: 'antique-olive-nord' }}>
+              <p className="text-gray-700">
+                Our monthly deals calendar is here! To see the deals, just use the calendar to the right and select your date.
               </p>
-              
-              <p className="text-text text-lg">
-                We feature our PepSquare, CheeseSquare, and our BreadSquare. Look for special promos and partnerships all month long.
+              <p className="text-gray-700">
+                When ordering the deals we would recommend — if they offer pick up then choose that option, and if not, just order using delivery.
               </p>
             </div>
             
-            <button className="bg-accent text-background px-8 py-3 rounded font-medium hover:bg-primary transition-colors">
-              VIEW TODAY'S DEAL
+            <button className="bg-white border-2 border-primary text-primary px-6 py-3 font-medium hover:bg-primary hover:text-white transition-colors" style={{ fontFamily: 'degular' }}>
+              More Info
             </button>
           </div>
           
-          <div className="flex-shrink-0">
-            <div className="relative">
-              <svg width="300" height="240" viewBox="0 0 300 240" className="text-accent">
-                <rect x="40" y="40" width="220" height="160" rx="8" fill="none" stroke="currentColor" strokeWidth="2" />
-                <g className="text-sm">
-                  {/* Calendar grid */}
-                  {Array.from({ length: 7 }, (_, i) => (
-                    <line key={i} x1={40 + (i * 220/7)} y1="40" x2={40 + (i * 220/7)} y2="200" stroke="currentColor" strokeWidth="1" />
-                  ))}
-                  {Array.from({ length: 6 }, (_, i) => (
-                    <line key={i} x1="40" y1={40 + (i * 160/5)} x2="260" y2={40 + (i * 160/5)} stroke="currentColor" strokeWidth="1" />
-                  ))}
-                </g>
+          {/* Right side - Calendar */}
+          <div className="relative">
+            <div className="bg-blue-50 p-8 rounded-lg">
+              {/* Handwritten style text */}
+              <div className="text-right mb-4">
+                <p className="text-lg italic text-gray-600" style={{ fontFamily: 'antique-olive-nord' }}>
+                  For 26 Feb
+                </p>
+                <p className="text-lg italic text-gray-600" style={{ fontFamily: 'antique-olive-nord' }}>
+                  Only on PIE
+                </p>
+              </div>
+              
+              {/* Calendar header */}
+              <div className="text-right mb-6">
+                <h3 className="text-2xl font-bold text-primary" style={{ fontFamily: 'degular' }}>
+                  DEALS<br />
+                  CALENDAR
+                </h3>
+              </div>
+              
+              {/* Calendar grid */}
+              <div className="bg-white p-4 rounded border-2 border-gray-200">
+                <div className="grid grid-cols-7 gap-2 mb-4">
+                  <div className="text-xs font-medium text-gray-500 text-center p-2">SUN</div>
+                  <div className="text-xs font-medium text-gray-500 text-center p-2">MON</div>
+                  <div className="text-xs font-medium text-gray-500 text-center p-2">TUE</div>
+                  <div className="text-xs font-medium text-gray-500 text-center p-2">WED</div>
+                  <div className="text-xs font-medium text-gray-500 text-center p-2">THU</div>
+                  <div className="text-xs font-medium text-gray-500 text-center p-2">FRI</div>
+                  <div className="text-xs font-medium text-gray-500 text-center p-2">SAT</div>
+                </div>
                 
-                {/* Calendar numbers */}
-                <text x="55" y="75" className="fill-current text-xs">1</text>
-                <text x="85" y="75" className="fill-current text-xs">2</text>
-                <text x="115" y="75" className="fill-current text-xs">3</text>
-                <text x="145" y="75" className="fill-current text-xs">4</text>
-                <text x="175" y="75" className="fill-current text-xs">5</text>
-                <text x="205" y="75" className="fill-current text-xs">6</text>
-                <text x="235" y="75" className="fill-current text-xs">7</text>
-                
-                <text x="55" y="105" className="fill-current text-xs">8</text>
-                <text x="85" y="105" className="fill-current text-xs">9</text>
-                <text x="115" y="105" className="fill-current text-xs">10</text>
-                <text x="145" y="105" className="fill-current text-xs">11</text>
-                <text x="175" y="105" className="fill-current text-xs">12</text>
-                <text x="205" y="105" className="fill-current text-xs">13</text>
-                <text x="235" y="105" className="fill-current text-xs">14</text>
-                
-                {/* Handwritten style label */}
-                <text x="150" y="230" textAnchor="middle" className="fill-current text-lg font-medium">
-                  DEALS CALENDAR
-                </text>
-                
-                {/* Decorative underline */}
-                <path d="M80 235 Q150 240 220 235" fill="none" stroke="currentColor" strokeWidth="2" />
-              </svg>
+                <div className="grid grid-cols-7 gap-1">
+                  {/* Calendar days - simplified grid */}
+                  {Array.from({ length: 35 }, (_, i) => {
+                    const day = i - 3; // Offset for month start
+                    const isCurrentMonth = day > 0 && day <= 28;
+                    const isToday = day === 26;
+                    
+                    return (
+                      <div key={i} className={`
+                        h-8 w-8 flex items-center justify-center text-xs
+                        ${isCurrentMonth ? 'text-gray-700' : 'text-gray-300'}
+                        ${isToday ? 'bg-primary text-white rounded-full' : ''}
+                      `}>
+                        {isCurrentMonth ? day : ''}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+              
+              {/* Handwritten style notes */}
+              <div className="mt-4 text-right">
+                <p className="text-sm italic text-gray-600" style={{ fontFamily: 'antique-olive-nord' }}>
+                  daily
+                </p>
+                <p className="text-sm italic text-gray-600" style={{ fontFamily: 'antique-olive-nord' }}>
+                  specials!
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
