@@ -1,24 +1,26 @@
-import Marquee from "@/components/Marquee";
+import PromoBanner from "@/components/PromoBanner";
+import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Specials from "@/components/Specials";
 import Features from "@/components/Features";
-import Features2 from "@/components/Features2";
+import Features from "@/components/Features";
 import CallToAction from "@/components/CallToAction";
-import CallToAction2 from "@/components/CallToAction2";
+import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Marquee />
+      <PromoBanner />
+      <NavBar />
       <Hero />
       <About />
       <Specials />
       <Features />
-      <Features2 />
+      <Features />
       <CallToAction />
-      <CallToAction2 />
+      <CallToAction />
       <Footer />
     </main>
   );

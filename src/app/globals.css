@@ -1,61 +1,16 @@
-
-/* Downloaded font files */
-@font-face {
-  font-family: 'Antique Olive Nord';
-  src: url('/fonts/antique-olive-nord-400.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Antique Olive';
-  src: url('/fonts/antique-olive-std-j36jj4-950.ttf') format('truetype');
-  font-weight: 950;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Degular';
-  src: url('/fonts/degular-400.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Degular';
-  src: url('/fonts/degular-600.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Degular';
-  src: url('/fonts/degular-700.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Degular';
-  src: url('/fonts/degular-800.woff2') format('woff2');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --color-primary: #1630FF;
-  --color-secondary: #1630FF;
-  --color-accent: #FFFFFF;
-  --color-background: #1630FF;
-  --color-text: #FFFFFF;
+  --color-primary: #2C5AA0;
+  --color-secondary: #FFFFFF;
+  --color-accent: #2C5AA0;
+  --color-background: #FFFFFF;
+  --color-text: #000000;
 }
 
 body {
-  color: #FFFFFF;
-  background: #1630FF;
+  color: #000000;
+  background: #FFFFFF;
 }

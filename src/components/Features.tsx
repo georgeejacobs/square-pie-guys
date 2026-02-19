@@ -2,63 +2,26 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section className="w-full bg-[#1630FF] py-16 md:py-24">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-          <div className="text-white">
-            <h2 
-              className="text-4xl md:text-6xl lg:text-7xl font-bold uppercase leading-tight mb-6"
-              style={{fontFamily: 'Antique Olive'}}
-            >
-              MONDAY
-              <br />
-              BIG BOX
+    <section className="bg-white py-16 px-4 md:px-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center gap-8">
+          <div className="lg:w-1/2">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-primary leading-tight">
+              GET ZERO<br />
+              DELIVERY FEES +<br />
+              CASH-BACK<br />
+              REWARDS.
             </h2>
-            <p 
-              className="text-lg md:text-xl lg:text-2xl mb-8"
-              style={{fontFamily: 'Antique Olive Nord'}}
-            >
-              START YOUR WEEK RIGHT WITH OUR MASSIVE MONDAY SPECIAL. FOUR DETROIT-STYLE SQUARES PLUS SIDES THAT'LL KEEP YOU SATISFIED ALL DAY.
-            </p>
-            <div className="space-y-4">
-              <div 
-                className="text-base md:text-lg"
-                style={{fontFamily: 'Antique Olive Nord'}}
-              >
-                • 4 DETROIT-STYLE PIZZA SQUARES
-              </div>
-              <div 
-                className="text-base md:text-lg"
-                style={{fontFamily: 'Antique Olive Nord'}}
-              >
-                • CRISPY WINGS
-              </div>
-              <div 
-                className="text-base md:text-lg"
-                style={{fontFamily: 'Antique Olive Nord'}}
-              >
-                • LOADED FRIES
-              </div>
-              <div 
-                className="text-base md:text-lg"
-                style={{fontFamily: 'Antique Olive Nord'}}
-              >
-                • FRESH SALAD
-              </div>
-            </div>
-            <button 
-              className="bg-white text-[#1630FF] px-8 py-4 text-lg font-bold uppercase mt-8 hover:bg-gray-100 transition-colors"
-              style={{fontFamily: 'Antique Olive'}}
-            >
-              ORDER NOW
+            <button className="mt-8 border-2 border-primary text-primary px-8 py-3 text-lg font-bold hover:bg-primary hover:text-white transition-colors">
+              LEARN MORE
             </button>
           </div>
-          <div className="relative">
-            <Image
-              src="/logo-6.jpg"
-              alt="Monday Big Box meal spread with Detroit-style pizza, wings, fries, and salad"
-              width={375}
-              height={250}
+          <div className="lg:w-1/2">
+            <Image 
+              src="/image-2.webp" 
+              alt="Meal spread including pizza, lasagna, fried chicken with fries, tomato salad, bread with sauce, and various side dishes with drinks on a wooden table." 
+              width={720} 
+              height={480}
               className="w-full h-auto rounded-lg"
             />
           </div>
