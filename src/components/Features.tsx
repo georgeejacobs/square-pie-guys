@@ -4,57 +4,74 @@ import Image from "next/image"
 
 export default function Features() {
   return (
-    <section data-test="page-section" data-section-theme="white" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle has-background white" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771485672319_166">
-      <div className="section-border" style={{ clipPath: 'url(#section-divider-6585f6588bffa766875dc1bf)' }}>
+    <section data-test="page-section" data-section-theme="bright" className="page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      
+        section-height--custom
+      
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--middle
+    
+      
+    
+    
+    bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771485953910_150">
+      <div className="section-border">
         <div className="section-background">
-          <Image 
-            alt="" 
-            src="/image-5.webp"
-            width={2532} 
-            height={1404} 
-            sizes="(max-width: 799px) 200vw, 100vw" 
-            style={{ display: 'block', objectPosition: '50% 50%' }} 
-            loading="lazy" 
-          />
-          <div className="section-background-overlay" style={{ opacity: 0.15 }}></div>
+        
+          
+        
         </div>
       </div>
-      <div className="content-wrapper" id="yui_3_17_2_1_1771485672319_165">
-        <div className="content" id="yui_3_17_2_1_1771485672319_164">
-          <div data-fluid-engine="true" id="yui_3_17_2_1_1771485672319_163">
+      <div className="content-wrapper" style={{
+          paddingTop: 'calc(0vmax / 10)', 
+          paddingBottom: 'calc(0vmax / 10)'
+        }} id="yui_3_17_2_1_1771485953910_149">
+        <div className="content" id="yui_3_17_2_1_1771485953910_148">
+          
+          <div data-fluid-engine="true" id="yui_3_17_2_1_1771485953910_147">
             <style jsx>{`
-              .fe-6585f6588bffa766875dc1be {
-                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
-                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+              .fe-65a1c9d0ac1b343be05159cc {
+                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 0.0px);
+                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (8 - 1)) ) / 8 );
 
                 display: grid;
                 position: relative;
                 grid-area: 1/1/-1/-1;
-                grid-template-rows: repeat(21,minmax(24px, auto));
+                grid-template-rows: repeat(39,minmax(24px, auto));
                 grid-template-columns:
                   minmax(var(--grid-gutter), 1fr)
                   repeat(8, minmax(0, var(--cell-max-width)))
                   minmax(var(--grid-gutter), 1fr);
-                row-gap: 11.0px;
-                column-gap: 11.0px;
+                row-gap: 0.0px;
+                column-gap: 0.0px;
                 overflow-x: hidden;
                 overflow-x: clip;
               }
 
               @media (min-width: 768px) {
-                .background-width--inset .fe-6585f6588bffa766875dc1be {
+                .background-width--inset .fe-65a1c9d0ac1b343be05159cc {
                   --inset-padding: calc(var(--sqs-site-gutter) * 2);
                 }
 
-                .fe-6585f6588bffa766875dc1be {
-                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
-                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+                .fe-65a1c9d0ac1b343be05159cc {
+                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 0.0px);
+                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (24 - 1)) ) / 24 );
                   --inset-padding: 0vw;
 
                   --row-height-scaling-factor: 0.0215;
                   --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
 
-                  grid-template-rows: repeat(20,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+                  grid-template-rows: repeat(31,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
                   grid-template-columns:
                     minmax(var(--grid-gutter), 1fr)
                     repeat(24, minmax(0, var(--cell-max-width)))
@@ -62,141 +79,180 @@ export default function Features() {
                 }
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_87191 {
-                grid-area: 1/2/12/10;
-                z-index: 3;
+              .fe-block-7b816d4d13531865e314 {
+                grid-area: 1/1/25/11;
+                z-index: 0;
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_87191 .sqs-block {
+              .fe-block-7b816d4d13531865e314 .sqs-block {
                 justify-content: center;
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_87191 .sqs-block-alignment-wrapper {
+              .fe-block-7b816d4d13531865e314 .sqs-block-alignment-wrapper {
                 align-items: center;
               }
 
               @media (min-width: 768px) {
-                .fe-block-yui_3_17_2_1_1705085365777_87191 {
-                  grid-area: 1/14/21/26;
-                  z-index: 3;
+                .fe-block-7b816d4d13531865e314 {
+                  grid-area: 1/14/32/27;
+                  z-index: 1;
                 }
 
-                .fe-block-yui_3_17_2_1_1705085365777_87191 .sqs-block {
+                .fe-block-7b816d4d13531865e314 .sqs-block {
                   justify-content: center;
                 }
 
-                .fe-block-yui_3_17_2_1_1705085365777_87191 .sqs-block-alignment-wrapper {
+                .fe-block-7b816d4d13531865e314 .sqs-block-alignment-wrapper {
                   align-items: center;
                 }
               }
 
-              .fe-block-d5c56f40dea6490c6a02 {
-                grid-area: 13/2/22/10;
-                z-index: 2;
+              .fe-block-db73a2bc0e9f3fe93b8a {
+                grid-area: 15/2/23/10;
+                z-index: 1;
               }
 
-              .fe-block-d5c56f40dea6490c6a02 .sqs-block {
+              .fe-block-db73a2bc0e9f3fe93b8a .sqs-block {
                 justify-content: flex-start;
               }
 
-              .fe-block-d5c56f40dea6490c6a02 .sqs-block-alignment-wrapper {
+              .fe-block-db73a2bc0e9f3fe93b8a .sqs-block-alignment-wrapper {
                 align-items: flex-start;
               }
 
               @media (min-width: 768px) {
-                .fe-block-d5c56f40dea6490c6a02 {
-                  grid-area: 3/2/15/14;
+                .fe-block-db73a2bc0e9f3fe93b8a {
+                  grid-area: 6/2/17/13;
                   z-index: 2;
                 }
 
-                .fe-block-d5c56f40dea6490c6a02 .sqs-block {
-                  justify-content: center;
+                .fe-block-db73a2bc0e9f3fe93b8a .sqs-block {
+                  justify-content: flex-start;
                 }
 
-                .fe-block-d5c56f40dea6490c6a02 .sqs-block-alignment-wrapper {
-                  align-items: center;
+                .fe-block-db73a2bc0e9f3fe93b8a .sqs-block-alignment-wrapper {
+                  align-items: flex-start;
                 }
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_95078 {
-                grid-area: 20/2/22/10;
+              .fe-block-42ea9b9c194822fa3437 {
+                grid-area: 26/2/35/10;
                 z-index: 4;
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_95078 .sqs-block {
+              .fe-block-42ea9b9c194822fa3437 .sqs-block {
+                justify-content: flex-start;
+              }
+
+              .fe-block-42ea9b9c194822fa3437 .sqs-block-alignment-wrapper {
+                align-items: flex-start;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-42ea9b9c194822fa3437 {
+                  grid-area: 18/2/26/12;
+                  z-index: 4;
+                }
+
+                .fe-block-42ea9b9c194822fa3437 .sqs-block {
+                  justify-content: flex-start;
+                }
+
+                .fe-block-42ea9b9c194822fa3437 .sqs-block-alignment-wrapper {
+                  align-items: flex-start;
+                }
+              }
+
+              .fe-block-3051c7258fdf7da45539 {
+                grid-area: 36/2/38/10;
+                z-index: 3;
+              }
+
+              .fe-block-3051c7258fdf7da45539 .sqs-block {
                 justify-content: center;
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_95078 .sqs-block-alignment-wrapper {
+              .fe-block-3051c7258fdf7da45539 .sqs-block-alignment-wrapper {
                 align-items: center;
               }
 
               @media (min-width: 768px) {
-                .fe-block-yui_3_17_2_1_1705085365777_95078 {
-                  grid-area: 16/2/18/7;
-                  z-index: 4;
+                .fe-block-3051c7258fdf7da45539 {
+                  grid-area: 27/2/29/6;
+                  z-index: 3;
                 }
 
-                .fe-block-yui_3_17_2_1_1705085365777_95078 .sqs-block {
+                .fe-block-3051c7258fdf7da45539 .sqs-block {
                   justify-content: center;
                 }
 
-                .fe-block-yui_3_17_2_1_1705085365777_95078 .sqs-block-alignment-wrapper {
+                .fe-block-3051c7258fdf7da45539 .sqs-block-alignment-wrapper {
                   align-items: center;
                 }
               }
             `}</style>
-            <div className="fluid-engine fe-6585f6588bffa766875dc1be" id="yui_3_17_2_1_1771485672319_162">
-              <div className="fe-block fe-block-yui_3_17_2_1_1705085365777_87191" id="yui_3_17_2_1_1771485672319_161">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="100" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-yui_3_17_2_1_1705085365777_87191">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771485672319_160" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="yui_3_17_2_1_1705085365777_87191" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="true" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771485672319_159">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771485672319_158">
-                        <div className="fluid-image-container sqs-image-content js-image-container" data-shape-mask="eight-sided-shield" style={{ overflow: 'hidden', clipPath: 'url("#yui_3_17_2_1_1705085365777_87191")', width: '100%', height: '657px' }} id="yui_3_17_2_1_1771485672319_157">
-                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771485672319_154">
-                            <Image
-                              src="/image-2.webp"
-                              alt="Meal spread including pizza, lasagna, fried chicken with fries, tomato salad, bread with sauce, and various side dishes with drinks on a wooden table."
-                              width={5876}
-                              height={3917}
-                              sizes="100vw"
-                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
+            <div className="fluid-engine fe-65a1c9d0ac1b343be05159cc" id="yui_3_17_2_1_1771485953910_146">
+              <div className="fe-block fe-block-7b816d4d13531865e314" id="yui_3_17_2_1_1771485953910_145">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="117.61126270797615" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-7b816d4d13531865e314">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771485953910_144" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="7b816d4d13531865e314" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="true" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771485953910_143">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771485953910_142">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', WebkitMaskImage: '-webkit-radial-gradient(white, black)' } as any} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771485953910_141">
+                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771485953910_137">
+                            <Image 
+                              data-stretch="true" 
+                              crossOrigin=""
+                              src="/image-1.webp"
+                              alt="A family meal with various dishes including a large rectangular pizza with toppings, a slice of pepperoni pizza, fried chicken wings garnished with green onions, a bowl of salad with lettuce and cheese, a side of French fries, and glasses of pink and red drinks." 
+                              width={4996} 
+                              height={3331}
+                              sizes="100vw" 
+                              style={{ 
+                                display: 'block', 
+                                objectPosition: 'var(--image-component-focal-point)' as any, 
+                                objectFit: 'var(--image-component-object-fit)' as any 
+                              } as any}
                               loading="lazy"
                             />
+                            <div className="imageEffectContainer"></div>
                             <div className="fluidImageOverlay"></div>
                           </div>
                         </div>
-                        <svg data-image-mask-id="yui_3_17_2_1_1705085365777_87191" width="0" height="0" style={{ position: 'absolute' }}>
-                          <defs>
-                            <clipPath id="yui_3_17_2_1_1705085365777_87191" clipPathUnits="objectBoundingBox">
-                              <path d="M0.5,0 L0.957,0.065,1,0.5,0.957,0.935 L0.5,1,0.043,0.935,0,0.5,0.043,0.065,0.5,0"></path>
-                            </clipPath>
-                          </defs>
-                        </svg>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-d5c56f40dea6490c6a02" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-d5c56f40dea6490c6a02">
+              <div className="fe-block fe-block-db73a2bc0e9f3fe93b8a" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-db73a2bc0e9f3fe93b8a">
                   <div className="sqs-block-content">
-                    <div className="sqs-html-content">
-                      <h1 style={{ whiteSpace: 'pre-wrap' }}>
-                        <span className="sqsrte-text-color--accent">GET ZERO DELIVERY FEES + CASH-BACK REWARDS.</span>
-                      </h1>
-                      <p style={{ whiteSpace: 'pre-wrap' }}>
-                        Order from the Guys directly and <strong><em>earn BI!</em></strong>
+                    <div className="sqs-html-content" data-sqsp-text-block-content="">
+                      <h1 style={{ whiteSpace: 'pre-wrap' }}>On mondays we order the big box.</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-42ea9b9c194822fa3437" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-42ea9b9c194822fa3437">
+                  <div className="sqs-block-content">
+                    <div className="sqs-html-content" data-sqsp-text-block-content="">
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>
+                        <strong>Don't you just hate Mondays? Well, we don't! On Mondays we order the Big Box and double our trouble.</strong>
+                      </p>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>
+                        On Mondays and Mondays only, you'll find "The Big Box Deal" as a menu item (no promo code required). Select your first pizza, and then select your second pizza for $12.05.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-yui_3_17_2_1_1705085365777_95078">
-                <div className="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1705085365777_95078">
+              <div className="fe-block fe-block-3051c7258fdf7da45539">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block">
                   <div className="sqs-block-content">
                     <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="primary">
-                      <a href="/order" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element">Order Now</a>
+                      <a href="#" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-initialized="true">
+                        ORDER DELIVERY
+                      </a>
                     </div>
                   </div>
                 </div>
