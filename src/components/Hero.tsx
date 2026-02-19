@@ -4,50 +4,17 @@ import Image from "next/image"
 
 export default function Hero() {
   return (
-    <section data-test="page-section" data-section-theme="bright" className="page-section 
-    
-      full-bleed-section
-      layout-engine-section
-    
-    background-width--full-bleed
-    
-      
-        section-height--custom
-      
-    
-    
-      content-width--wide
-    
-    horizontal-alignment--center
-    vertical-alignment--middle
-    
-      
-    
-    
-    bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771487701253_100" data-active="true">
+    <section data-test="page-section" data-section-theme="bright" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771488503913_100" data-active="true">
       <div className="section-border">
         <div className="section-background">
-        
-          
-        
         </div>
       </div>
       <div className="content-wrapper" style={{
-          paddingTop: 'calc(0vmax / 10)', 
-          paddingBottom: 'calc(0vmax / 10)'
-        }} id="yui_3_17_2_1_1771487701253_99">
-        <div className="content" id="yui_3_17_2_1_1771487701253_98">
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <div data-fluid-engine="true" id="yui_3_17_2_1_1771487701253_97">
+        paddingTop: 'calc(0vmax / 10)',
+        paddingBottom: 'calc(0vmax / 10)'
+      }} id="yui_3_17_2_1_1771488503913_99">
+        <div className="content" id="yui_3_17_2_1_1771488503913_98">
+          <div data-fluid-engine="true" id="yui_3_17_2_1_1771488503913_97">
             <style jsx>{`
               .fe-698a0a3e60fce413c1f376a0 {
                 --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 0.0px);
@@ -91,6 +58,10 @@ export default function Hero() {
               .fe-block-285af37c613630428606 {
                 grid-area: 3/2/10/10;
                 z-index: 1;
+
+                @media (max-width: 767px) {
+                  
+                }
               }
 
               .fe-block-285af37c613630428606 .sqs-block {
@@ -119,6 +90,10 @@ export default function Hero() {
               .fe-block-c0ad296aeae3862dfb63 {
                 grid-area: 11/2/18/10;
                 z-index: 4;
+
+                @media (max-width: 767px) {
+                  
+                }
               }
 
               .fe-block-c0ad296aeae3862dfb63 .sqs-block {
@@ -147,10 +122,8 @@ export default function Hero() {
               .fe-block-b9aa47891e245e329759 {
                 grid-area: 11/4/17/9;
                 z-index: 5;
-              }
 
-              @media (max-width: 767px) {
-                .fe-block-b9aa47891e245e329759 {
+                @media (max-width: 767px) {
                   display: none;
                   visibility: hidden;
                 }
@@ -182,10 +155,8 @@ export default function Hero() {
               .fe-block-a705943738e3a5a1af83 {
                 grid-area: 16/2/22/10;
                 z-index: 6;
-              }
 
-              @media (max-width: 767px) {
-                .fe-block-a705943738e3a5a1af83 {
+                @media (max-width: 767px) {
                   display: none;
                   visibility: hidden;
                 }
@@ -217,6 +188,10 @@ export default function Hero() {
               .fe-block-97a7dc9199a5474f666d {
                 grid-area: 19/2/21/10;
                 z-index: 3;
+
+                @media (max-width: 767px) {
+                  
+                }
               }
 
               .fe-block-97a7dc9199a5474f666d .sqs-block {
@@ -242,9 +217,7 @@ export default function Hero() {
                 }
               }
             `}</style>
-            
-            <div className="fluid-engine fe-698a0a3e60fce413c1f376a0" id="yui_3_17_2_1_1771487701253_96">
-              
+            <div className="fluid-engine fe-698a0a3e60fce413c1f376a0" id="yui_3_17_2_1_1771488503913_96">
               <div className="fe-block fe-block-285af37c613630428606" style={{ mixBlendMode: 'normal' }}>
                 <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-285af37c613630428606">
                   <div className="sqs-block-content">
@@ -254,7 +227,6 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-              
               <div className="fe-block fe-block-c0ad296aeae3862dfb63" style={{ mixBlendMode: 'normal' }}>
                 <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-c0ad296aeae3862dfb63">
                   <div className="sqs-block-content">
@@ -265,17 +237,15 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-              
-              <div className="fe-block fe-block-b9aa47891e245e329759" id="yui_3_17_2_1_1771487701253_95">
+              <div className="fe-block fe-block-b9aa47891e245e329759" id="yui_3_17_2_1_1771488503913_95">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-b9aa47891e245e329759">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771487701253_94" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width animation-loaded" data-component-id="b9aa47891e245e329759" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771487701253_93">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771487701253_92">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', height: '100%', width: '228px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771487701253_91">
-                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771487701253_90">
-                            <Image 
-                              data-stretch="false" 
-                              src="/image-10.webp"
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771488503913_94" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width animation-loaded" data-component-id="b9aa47891e245e329759" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771488503913_93">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771488503913_92">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', height: '100%', width: '228px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771488503913_91">
+                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771488503913_90">
+                            <Image
+                              src="/image-10.png"
                               alt=""
                               width={500}
                               height={500}
@@ -286,8 +256,6 @@ export default function Hero() {
                                 objectFit: 'var(--image-component-object-fit)' as any
                               } as any}
                               loading="lazy"
-                              decoding="async"
-                              data-loader="sqs"
                             />
                             <div className="fluidImageOverlay"></div>
                           </div>
@@ -297,29 +265,25 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-              
-              <div className="fe-block fe-block-a705943738e3a5a1af83" id="yui_3_17_2_1_1771487701253_110">
+              <div className="fe-block fe-block-a705943738e3a5a1af83" id="yui_3_17_2_1_1771488503913_110">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-a705943738e3a5a1af83">
                   <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width animation-loaded" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width animation-loaded" data-component-id="a705943738e3a5a1af83" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
                       <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', height: '100%', width: '180px' }} data-sqsp-image-block-image-container="">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', height: '100%', width: '100%' }} data-sqsp-image-block-image-container="">
                           <div className="js-content-mode-element content-fit">
-                            <Image 
-                              data-stretch="false"
-                              src="/image-11.webp"
+                            <Image
+                              src="/image-11.png"
                               alt=""
                               width={500}
-                              height={600}
-                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 20vw, 12.5vw"
-                              style={{
+                              height={500}
+                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 33.33333333333333vw"
+                              style={{ 
                                 display: 'block',
                                 objectPosition: 'var(--image-component-focal-point)' as any,
                                 objectFit: 'var(--image-component-object-fit)' as any
                               } as any}
                               loading="lazy"
-                              decoding="async"
-                              data-loader="sqs"
                             />
                             <div className="fluidImageOverlay"></div>
                           </div>
@@ -329,19 +293,15 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-              
               <div className="fe-block fe-block-97a7dc9199a5474f666d">
                 <div className="sqs-block button-block sqs-block-button" data-block-type="53" id="block-97a7dc9199a5474f666d">
                   <div className="sqs-block-content">
-                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="">
-                      <a href="https://slice.squarepieghirardelli.com/" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-initialized="true">
-                        Order Online
-                      </a>
+                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="large" data-button-type="primary">
+                      <a href="/menu" className="sqs-block-button-element--large sqs-button-element--primary sqs-block-button-element" data-initialized="true">VIEW MENU</a>
                     </div>
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
