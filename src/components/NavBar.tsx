@@ -1,97 +1,214 @@
-"use client"
-
-import Image from "next/image"
-import { useState } from "react"
-
 export default function NavBar() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <Image 
-              src="/image-6.webp" 
-              alt="Square Pie Guys" 
-              width={200} 
-              height={26}
-              className="h-8 w-auto"
-            />
+    <header data-test="header" id="header" className="white header theme-col--primary" data-section-theme="white" data-controller="Header" data-current-styles="{
+                                                                                                                                                                                                            &quot;layout&quot;: &quot;brandingCenterNavCenter&quot;,
+                                                                                                                                                                                                            &quot;action&quot;: {
+                                                                                                                                                                                                              &quot;href&quot;: &quot;https://order.online/business/square-pie-guys-233210/?hideModal=true&amp;pickup=true&quot;,
+                                                                                                                                                                                                              &quot;buttonText&quot;: &quot;Order Now&quot;,
+                                                                                                                                                                                                              &quot;newWindow&quot;: true
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            &quot;showSocial&quot;: false,
+                                                                                                                                                                                                            &quot;socialOptions&quot;: {
+                                                                                                                                                                                                              &quot;socialBorderShape&quot;: &quot;none&quot;,
+                                                                                                                                                                                                              &quot;socialBorderStyle&quot;: &quot;outline&quot;,
+                                                                                                                                                                                                              &quot;socialBorderThickness&quot;: {
+                                                                                                                                                                                                                &quot;unit&quot;: &quot;px&quot;,
+                                                                                                                                                                                                                &quot;value&quot;: 1.0
+                                                                                                                                                                                                              }
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            &quot;sectionTheme&quot;: &quot;white&quot;,
+                                                                                                                                                                                                            &quot;menuOverlayTheme&quot;: &quot;bright&quot;,
+                                                                                                                                                                                                            &quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
+                                                                                                                                                                                                            &quot;cartStyle&quot;: &quot;cart&quot;,
+                                                                                                                                                                                                            &quot;cartText&quot;: &quot;Cart&quot;,
+                                                                                                                                                                                                            &quot;showEmptyCartState&quot;: false,
+                                                                                                                                                                                                            &quot;cartOptions&quot;: {
+                                                                                                                                                                                                              &quot;iconType&quot;: &quot;solid-2&quot;,
+                                                                                                                                                                                                              &quot;cartBorderShape&quot;: &quot;none&quot;,
+                                                                                                                                                                                                              &quot;cartBorderStyle&quot;: &quot;outline&quot;,
+                                                                                                                                                                                                              &quot;cartBorderThickness&quot;: {
+                                                                                                                                                                                                                &quot;unit&quot;: &quot;px&quot;,
+                                                                                                                                                                                                                &quot;value&quot;: 1.0
+                                                                                                                                                                                                              }
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            &quot;showButton&quot;: true,
+                                                                                                                                                                                                            &quot;showCart&quot;: true,
+                                                                                                                                                                                                            &quot;showAccountLogin&quot;: false,
+                                                                                                                                                                                                            &quot;headerStyle&quot;: &quot;solid&quot;,
+                                                                                                                                                                                                            &quot;languagePicker&quot;: {
+                                                                                                                                                                                                              &quot;enabled&quot;: false,
+                                                                                                                                                                                                              &quot;iconEnabled&quot;: false,
+                                                                                                                                                                                                              &quot;iconType&quot;: &quot;globe&quot;,
+                                                                                                                                                                                                              &quot;flagShape&quot;: &quot;shiny&quot;,
+                                                                                                                                                                                                              &quot;languageFlags&quot;: [ ]
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            &quot;iconOptions&quot;: {
+                                                                                                                                                                                                              &quot;desktopDropdownIconOptions&quot;: {
+                                                                                                                                                                                                                &quot;size&quot;: {
+                                                                                                                                                                                                                  &quot;unit&quot;: &quot;em&quot;,
+                                                                                                                                                                                                                  &quot;value&quot;: 1.0
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                &quot;iconSpacing&quot;: {
+                                                                                                                                                                                                                  &quot;unit&quot;: &quot;em&quot;,
+                                                                                                                                                                                                                  &quot;value&quot;: 0.35
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                &quot;strokeWidth&quot;: {
+                                                                                                                                                                                                                  &quot;unit&quot;: &quot;px&quot;,
+                                                                                                                                                                                                                  &quot;value&quot;: 1.0
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                &quot;endcapType&quot;: &quot;square&quot;,
+                                                                                                                                                                                                                &quot;folderDropdownIcon&quot;: &quot;none&quot;,
+                                                                                                                                                                                                                &quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
+                                                                                                                                                                                                              },
+                                                                                                                                                                                                              &quot;mobileDropdownIconOptions&quot;: {
+                                                                                                                                                                                                                &quot;size&quot;: {
+                                                                                                                                                                                                                  &quot;unit&quot;: &quot;em&quot;,
+                                                                                                                                                                                                                  &quot;value&quot;: 1.0
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                &quot;iconSpacing&quot;: {
+                                                                                                                                                                                                                  &quot;unit&quot;: &quot;em&quot;,
+                                                                                                                                                                                                                  &quot;value&quot;: 0.5
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                &quot;strokeWidth&quot;: {
+                                                                                                                                                                                                                  &quot;unit&quot;: &quot;px&quot;,
+                                                                                                                                                                                                                  &quot;value&quot;: 1.0
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                &quot;endcapType&quot;: &quot;square&quot;,
+                                                                                                                                                                                                                &quot;folderDropdownIcon&quot;: &quot;none&quot;,
+                                                                                                                                                                                                                &quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
+                                                                                                                                                                                                              }
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            &quot;titleFormat&quot;: &quot;capitalize&quot;
+                                                                                                                                                                                                          }">
+      
+      <div className="header-announcement-bar-wrapper">
+        
+      </div>
+
+      <div className="header-inner header-inner--top">
+        <div data-test="header-inner" className="header-inner-container">
+          <div className="header-mobile-actions header-mobile-actions--left" data-test="header-mobile-actions-left">
+            
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
-            <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">Menu</a>
-            <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">Locations</a>
-            <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">Catering</a>
-            <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">About</a>
-            <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">Contact</a>
-          </nav>
+          <div className="header-title-nav-wrapper">
+            
 
-          {/* Desktop CTA and Cart */}
-          <div className="hidden lg:flex items-center space-x-4">
-            <a 
-              href="https://order.online/business/square-pie-guys-233210/?hideModal=true&pickup=true"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
-            >
-              Order Now
-            </a>
-            <button className="flex items-center space-x-2 text-gray-900 hover:text-blue-600">
-              <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13v6a1 1 0 001 1h9a1 1 0 001-1v-6m-10 0h10" />
-              </svg>
-              <span className="font-medium">Cart</span>
+            <div className="header-nav">
+              <div className="header-nav-wrapper">
+                
+              </div>
+            </div>
+
+          </div>
+
+          <div className="header-actions header-actions--right" data-test="header-actions-right">
+            <div className="header-actions-action header-actions-action--cta">
+              <a href="https://order.online/business/square-pie-guys-233210/?hideModal=true&amp;pickup=true" target="_blank" rel="noopener" data-test="header-cta-button">
+                <div className="header-actions-action-text">Order Now</div>
+              </a>
+            </div>
+            <div className="header-actions-action header-actions-action--cart">
+              <a href="/cart" tabIndex={-1} data-test="header-cart">
+                <div>
+                  <div className="header-actions-action-cart-simple">
+                    <div className="icon icon--stroke icon--fill-empty icon--ui-cart icon--is-cart-empty header-actions-action-cart-simple-icon">
+                      <svg className="icon-cart-thin" viewBox="0 0 32 32">
+                        <g strokeWidth="2" fill="none" fillRule="evenodd">
+                          <path d="M3 6h3.82a1.33 1.33 0 0 1 1.28 1l2.18 8h12.43a1 1 0 0 0 .98-.77l1.64-8.25h-15"></path>
+                          <circle cx="11.5" cy="26.5" r="2.5"></circle>
+                          <circle cx="23.5" cy="26.5" r="2.5"></circle>
+                        </g>
+                      </svg>
+                    </div>
+                    <div className="header-actions-action-text">Cart</div>
+                  </div>
+                  <div className="header-actions-action-cart-counter" style={{ display: 'none' }}>0</div>
+                </div>
+              </a>
+            </div>
+            
+          </div>
+
+          <div className="header-mobile-actions header-mobile-actions--right" data-test="header-mobile-actions-right">
+            <div className="header-actions-action header-actions-action--cta">
+              <a href="https://order.online/business/square-pie-guys-233210/?hideModal=true&amp;pickup=true" target="_blank" rel="noopener" data-test="header-cta-button">
+                <div className="header-actions-action-text">Order Now</div>
+              </a>
+            </div>
+            
+          </div>
+
+          <div className="header-burger" data-test="header-burger">
+            <button className="header-burger-btn burger" data-test="header-burger-btn burger" aria-label="Open Menu">
+              <span className="burger-box">
+                <span className="burger-inner"></span>
+              </span>
             </button>
           </div>
 
-          {/* Mobile menu button */}
-          <button 
-            className="lg:hidden p-2"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {isMobileMenuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
-          </button>
         </div>
-
-        {/* Mobile Navigation */}
-        {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-gray-200">
-            <nav className="flex flex-col space-y-4">
-              <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">Menu</a>
-              <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">Locations</a>
-              <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">Catering</a>
-              <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">About</a>
-              <a href="#" className="text-gray-900 hover:text-blue-600 font-medium">Contact</a>
-              <div className="pt-4 border-t border-gray-200 flex flex-col space-y-3">
-                <a 
-                  href="https://order.online/business/square-pie-guys-233210/?hideModal=true&pickup=true"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium text-center hover:bg-blue-700 transition-colors"
-                >
-                  Order Now
-                </a>
-                <button className="flex items-center justify-center space-x-2 text-gray-900 hover:text-blue-600">
-                  <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13v6a1 1 0 001 1h9a1 1 0 001-1v-6m-10 0h10" />
-                  </svg>
-                  <span className="font-medium">Cart</span>
-                </button>
-              </div>
-            </nav>
-          </div>
-        )}
       </div>
+      
+      <div className="header-inner header-inner--bottom">
+        <div data-test="header-inner" className="header-inner-container">
+          <div className="header-title-nav-wrapper">
+            
+            <div className="header-title" data-test="header-title">
+              <h1 className="header-title-text">
+                <a href="/" rel="home">Square Pie Guys</a>
+              </h1>
+            </div>
+
+            <div className="header-nav">
+              <div className="header-nav-wrapper">
+                <nav className="header-nav-list">
+                  
+                  
+                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
+                      <a href="/about" data-test="template=collection" className="">About</a>
+                    </div>
+                  
+                  
+                  
+                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
+                      <a href="/menu" data-test="template=collection" className="">Menu</a>
+                    </div>
+                  
+                  
+                  
+                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
+                      <a href="/locations" data-test="template=collection" className="">Locations</a>
+                    </div>
+                  
+                  
+                  
+                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
+                      <a href="/franchise-inquiry" data-test="template=collection" className="">Franchise Inquiry</a>
+                    </div>
+                  
+                  
+                  
+                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
+                      <a href="/catering" data-test="template=collection" className="">Catering</a>
+                    </div>
+                  
+                  
+                  
+                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
+                      <a href="/shop" data-test="template=collection" className="">Shop</a>
+                    </div>
+                  
+                  
+                </nav>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      
     </header>
-  )
+  );
 }

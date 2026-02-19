@@ -1,17 +1,18 @@
 export default function CallToAction() {
   return (
-    <section className="bg-primary text-white py-16 px-4">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-6xl md:text-8xl font-black mb-8">
-          SAY HI TO
-        </h2>
-        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-          Square Pie Guys has expanded to Erie, and we wanted the Erie to experience just what our teammates in PA and around the US have.
-        </p>
-        <button className="bg-white text-primary px-8 py-3 text-lg font-bold rounded hover:bg-gray-100 transition-colors">
-          GET IN TOUCH WITH US
+    <section data-section-theme="white" aria-label="Cookie banner" className="gdpr-cookie-banner BOTTOM_LEFT white popup full-styling">
+      <p className="disclaimer-text sqs-cookie-banner-v2-text">By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.</p>
+      <div className="button-group sqs-cookie-banner-v2-cta-container">
+        <button className="accept sqs-button-element--primary sqs-cookie-banner-v2-accept sqs-cookie-banner-v2-cta">
+          <span>Accept</span>
+        </button>
+        <button className="decline sqs-button-element--secondary sqs-cookie-banner-v2-deny sqs-cookie-banner-v2-cta">
+          <span>Decline</span>
+        </button>
+        <button className="manage sqs-button-element--tertiary">
+          <span>Manage cookies</span>
         </button>
       </div>
     </section>
-  )
+  );
 }

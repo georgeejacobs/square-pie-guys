@@ -1,30 +1,17 @@
 export default function Features() {
   return (
-    <section className="bg-primary py-24 px-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-white text-6xl lg:text-8xl font-black leading-tight mb-8">
-              ON MONDAYS<br />
-              WE ORDER THE<br />
-              BIG BOX.
-            </h2>
-            <p className="text-white text-lg mb-8 max-w-md">
-              Don't you just have Monday's? Well, we don't! On 
-              Mondays, we order the big box and deliver our favourite 
-              day!
-            </p>
-            <p className="text-white text-lg mb-8 max-w-md">
-              Our Monday and Tuesday big pizza box brings our 
-              best pizza deals and offers to your door. It also makes 
-              us think about our delicious and fulfilling Square Pie 
-              experience!
-            </p>
-            <button className="bg-white text-primary px-8 py-3 rounded font-semibold hover:bg-gray-100 transition-colors">
-              MORE INFO
-            </button>
-          </div>
-        </div>
+    <section data-section-theme="white" aria-label="Cookie banner" className="gdpr-cookie-banner BOTTOM_LEFT white popup full-styling">
+      <p className="disclaimer-text sqs-cookie-banner-v2-text">By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.</p>
+      <div className="button-group sqs-cookie-banner-v2-cta-container">
+        <button className="accept sqs-button-element--primary sqs-cookie-banner-v2-accept sqs-cookie-banner-v2-cta">
+          <span>Accept</span>
+        </button>
+        <button className="decline sqs-button-element--secondary sqs-cookie-banner-v2-deny sqs-cookie-banner-v2-cta">
+          <span>Decline</span>
+        </button>
+        <button className="manage sqs-button-element--tertiary">
+          <span>Manage cookies</span>
+        </button>
       </div>
     </section>
   );

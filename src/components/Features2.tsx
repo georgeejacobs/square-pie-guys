@@ -1,28 +1,17 @@
-import Image from "next/image"
-
 export default function Features2() {
   return (
-    <section className="bg-white py-16 px-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-primary mb-8">
-              GET ZERO DELIVERY FEES + CASH-BACK REWARDS.
-            </h2>
-            <button className="bg-primary text-white px-8 py-3 rounded text-lg font-semibold hover:bg-opacity-90 transition-colors">
-              MORE INFORMATION
-            </button>
-          </div>
-          <div className="flex justify-center">
-            <Image 
-              src="/image-2.webp"
-              alt="Meal spread including pizza, lasagna, fried chicken with fries, tomato salad, bread with sauce, and various side dishes with drinks on a wooden table."
-              width={720}
-              height={480}
-              className="rounded-lg"
-            />
-          </div>
-        </div>
+    <section data-section-theme="white" aria-label="Cookie banner" className="gdpr-cookie-banner BOTTOM_LEFT white popup full-styling">
+      <p className="disclaimer-text sqs-cookie-banner-v2-text">By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.</p>
+      <div className="button-group sqs-cookie-banner-v2-cta-container">
+        <button className="accept sqs-button-element--primary sqs-cookie-banner-v2-accept sqs-cookie-banner-v2-cta">
+          <span>Accept</span>
+        </button>
+        <button className="decline sqs-button-element--secondary sqs-cookie-banner-v2-deny sqs-cookie-banner-v2-cta">
+          <span>Decline</span>
+        </button>
+        <button className="manage sqs-button-element--tertiary">
+          <span>Manage cookies</span>
+        </button>
       </div>
     </section>
   )
