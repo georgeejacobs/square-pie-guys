@@ -1,100 +1,300 @@
-"use client"
+import Image from "next/image";
 
 export default function NavBar() {
   return (
-    <main id="page" className="container" role="main">
-      <article className="sections" id="sections">
-        <section className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" style={{ minHeight: '1vh', paddingTop: '184px' }}>
-          <div className="section-border" style={{ clipPath: 'url(#section-divider-6930bd19e0cd98208c29ff2e)' }}>
-            <div className="section-background"></div>
-          </div>
-          <div className="content-wrapper" style={{ paddingTop: 'calc(1vmax / 10)', paddingBottom: 'calc(1vmax / 10)' }}>
-            <div className="content">
-              <div>
-                <style jsx>{`
-                  .fe-6930bd19e0cd98208c29ff2c {
-                    --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
-                    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+    <section data-test="page-section" data-section-theme="bright" className="page-section 
+      full-bleed-section
+      layout-engine-section
+      background-width--full-bleed
+      section-height--custom
+      content-width--wide
+      horizontal-alignment--center
+      vertical-alignment--middle
+      bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771485007623_100" data-active="true">
+      <div className="section-border">
+        <div className="section-background">
+        </div>
+      </div>
+      <div className="content-wrapper" style={{ paddingTop: 'calc(0vmax / 10)', paddingBottom: 'calc(0vmax / 10)' }} id="yui_3_17_2_1_1771485007623_99">
+        <div className="content" id="yui_3_17_2_1_1771485007623_98">
+          <div data-fluid-engine="true" id="yui_3_17_2_1_1771485007623_97">
+            <style jsx>{`
+              .fe-698a0a3e60fce413c1f376a0 {
+                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 0.0px);
+                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (8 - 1)) ) / 8 );
 
-                    display: grid;
-                    position: relative;
-                    grid-area: 1/1/-1/-1;
-                    grid-template-rows: repeat(2,minmax(24px, auto));
-                    grid-template-columns:
-                      minmax(var(--grid-gutter), 1fr)
-                      repeat(8, minmax(0, var(--cell-max-width)))
-                      minmax(var(--grid-gutter), 1fr);
-                    row-gap: 11.0px;
-                    column-gap: 11.0px;
-                    overflow-x: hidden;
-                    overflow-x: clip;
-                  }
+                display: grid;
+                position: relative;
+                grid-area: 1/1/-1/-1;
+                grid-template-rows: repeat(22,minmax(24px, auto));
+                grid-template-columns:
+                  minmax(var(--grid-gutter), 1fr)
+                  repeat(8, minmax(0, var(--cell-max-width)))
+                  minmax(var(--grid-gutter), 1fr);
+                row-gap: 0.0px;
+                column-gap: 0.0px;
+                overflow-x: hidden;
+                overflow-x: clip;
+              }
 
-                  @media (min-width: 768px) {
-                    .background-width--inset .fe-6930bd19e0cd98208c29ff2c {
-                      --inset-padding: calc(var(--sqs-site-gutter) * 2);
-                    }
+              @media (min-width: 768px) {
+                .background-width--inset .fe-698a0a3e60fce413c1f376a0 {
+                  --inset-padding: calc(var(--sqs-site-gutter) * 2);
+                }
 
-                    .fe-6930bd19e0cd98208c29ff2c {
-                      --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
-                      --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
-                      --inset-padding: 0vw;
+                .fe-698a0a3e60fce413c1f376a0 {
+                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 0.0px);
+                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (24 - 1)) ) / 24 );
+                  --inset-padding: 0vw;
 
-                      --row-height-scaling-factor: 0.0215;
-                      --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+                  --row-height-scaling-factor: 0.0215;
+                  --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
 
-                      grid-template-rows: repeat(2,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
-                      grid-template-columns:
-                        minmax(var(--grid-gutter), 1fr)
-                        repeat(24, minmax(0, var(--cell-max-width)))
-                        minmax(var(--grid-gutter), 1fr);
-                    }
-                  }
+                  grid-template-rows: repeat(22,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+                  grid-template-columns:
+                    minmax(var(--grid-gutter), 1fr)
+                    repeat(24, minmax(0, var(--cell-max-width)))
+                    minmax(var(--grid-gutter), 1fr);
+                }
+              }
 
-                  .fe-block-4ec6f7970b0f5f240202 {
-                    grid-area: 1/1/3/11;
-                    z-index: 2;
-                  }
+              .fe-block-285af37c613630428606 {
+                grid-area: 3/2/10/10;
+                z-index: 1;
+              }
 
-                  .fe-block-4ec6f7970b0f5f240202 .sqs-block {
-                    justify-content: center;
-                  }
+              .fe-block-285af37c613630428606 .sqs-block {
+                justify-content: flex-start;
+              }
 
-                  .fe-block-4ec6f7970b0f5f240202 .sqs-block-alignment-wrapper {
-                    align-items: center;
-                  }
+              .fe-block-285af37c613630428606 .sqs-block-alignment-wrapper {
+                align-items: flex-start;
+              }
 
-                  @media (min-width: 768px) {
-                    .fe-block-4ec6f7970b0f5f240202 {
-                      grid-area: 1/1/3/27;
-                      z-index: 2;
-                    }
+              @media (min-width: 768px) {
+                .fe-block-285af37c613630428606 {
+                  grid-area: 3/2/14/13;
+                  z-index: 1;
+                }
 
-                    .fe-block-4ec6f7970b0f5f240202 .sqs-block {
-                      justify-content: center;
-                    }
+                .fe-block-285af37c613630428606 .sqs-block {
+                  justify-content: flex-start;
+                }
 
-                    .fe-block-4ec6f7970b0f5f240202 .sqs-block-alignment-wrapper {
-                      align-items: center;
-                    }
-                  }
-                `}</style>
-                <div className="fluid-engine fe-6930bd19e0cd98208c29ff2c">
-                  <div className="fe-block fe-block-4ec6f7970b0f5f240202" style={{ mixBlendMode: 'normal' }}>
-                    <div className="sqs-block marquee-block sqs-block-marquee" id="block-4ec6f7970b0f5f240202">
-                      <div className="sqs-block-content">
-                        <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' }}>
-                          {/* Marquee content would go here */}
+                .fe-block-285af37c613630428606 .sqs-block-alignment-wrapper {
+                  align-items: flex-start;
+                }
+              }
+
+              .fe-block-c0ad296aeae3862dfb63 {
+                grid-area: 11/2/18/10;
+                z-index: 4;
+              }
+
+              .fe-block-c0ad296aeae3862dfb63 .sqs-block {
+                justify-content: flex-start;
+              }
+
+              .fe-block-c0ad296aeae3862dfb63 .sqs-block-alignment-wrapper {
+                align-items: flex-start;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-c0ad296aeae3862dfb63 {
+                  grid-area: 15/2/22/12;
+                  z-index: 4;
+                }
+
+                .fe-block-c0ad296aeae3862dfb63 .sqs-block {
+                  justify-content: flex-start;
+                }
+
+                .fe-block-c0ad296aeae3862dfb63 .sqs-block-alignment-wrapper {
+                  align-items: flex-start;
+                }
+              }
+
+              .fe-block-b9aa47891e245e329759 {
+                grid-area: 11/4/17/9;
+                z-index: 5;
+              }
+
+              @media (max-width: 767px) {
+                .fe-block-b9aa47891e245e329759 {
+                  display: none;
+                  visibility: hidden;
+                }
+              }
+
+              .fe-block-b9aa47891e245e329759 .sqs-block {
+                justify-content: center;
+              }
+
+              .fe-block-b9aa47891e245e329759 .sqs-block-alignment-wrapper {
+                align-items: center;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-b9aa47891e245e329759 {
+                  grid-area: 8/13/16/19;
+                  z-index: 5;
+                }
+
+                .fe-block-b9aa47891e245e329759 .sqs-block {
+                  justify-content: center;
+                }
+
+                .fe-block-b9aa47891e245e329759 .sqs-block-alignment-wrapper {
+                  align-items: center;
+                }
+              }
+
+              .fe-block-a705943738e3a5a1af83 {
+                grid-area: 16/2/22/10;
+                z-index: 6;
+              }
+
+              @media (max-width: 767px) {
+                .fe-block-a705943738e3a5a1af83 {
+                  display: none;
+                  visibility: hidden;
+                }
+              }
+
+              .fe-block-a705943738e3a5a1af83 .sqs-block {
+                justify-content: center;
+              }
+
+              .fe-block-a705943738e3a5a1af83 .sqs-block-alignment-wrapper {
+                align-items: center;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-a705943738e3a5a1af83 {
+                  grid-area: 6/18/18/26;
+                  z-index: 6;
+                }
+
+                .fe-block-a705943738e3a5a1af83 .sqs-block {
+                  justify-content: center;
+                }
+
+                .fe-block-a705943738e3a5a1af83 .sqs-block-alignment-wrapper {
+                  align-items: center;
+                }
+              }
+
+              .fe-block-97a7dc9199a5474f666d {
+                grid-area: 19/2/21/10;
+                z-index: 3;
+              }
+
+              .fe-block-97a7dc9199a5474f666d .sqs-block {
+                justify-content: center;
+              }
+
+              .fe-block-97a7dc9199a5474f666d .sqs-block-alignment-wrapper {
+                align-items: center;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-97a7dc9199a5474f666d {
+                  grid-area: 11/20/13/24;
+                  z-index: 2;
+                }
+
+                .fe-block-97a7dc9199a5474f666d .sqs-block {
+                  justify-content: center;
+                }
+
+                .fe-block-97a7dc9199a5474f666d .sqs-block-alignment-wrapper {
+                  align-items: center;
+                }
+              }
+            `}</style>
+            <div className="fluid-engine fe-698a0a3e60fce413c1f376a0" id="yui_3_17_2_1_1771485007623_96">
+              <div className="fe-block fe-block-285af37c613630428606" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-285af37c613630428606">
+                  <div className="sqs-block-content">
+                    <div className="sqs-html-content">
+                      <h1 style={{ whiteSpace: 'pre-wrap' }}>This is your sign to Order some pizza.</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-c0ad296aeae3862dfb63" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-c0ad296aeae3862dfb63">
+                  <div className="sqs-block-content">
+                    <div className="sqs-html-content">
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}><strong>You didn't come here just to come here — it's time to order some pizza </strong>😌.</p>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>Support local and order directly from us for better pricing, better pizza, and more of what you love!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-b9aa47891e245e329759" id="yui_3_17_2_1_1771485007623_95">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-b9aa47891e245e329759">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771485007623_94" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width animation-loaded" data-component-id="b9aa47891e245e329759" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771485007623_93">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771485007623_92">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', height: '100%', width: '228px' }} id="yui_3_17_2_1_1771485007623_91">
+                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771485007623_90">
+                            <Image
+                              src="/image-10.webp"
+                              alt=""
+                              width={500}
+                              height={500}
+                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 62.5vw, 25vw"
+                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)', objectFit: 'var(--image-component-object-fit)' }}
+                              loading="lazy"
+                            />
+                            <div className="fluidImageOverlay"></div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <div className="fe-block fe-block-a705943738e3a5a1af83" id="yui_3_17_2_1_1771485007623_110">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image">
+                  <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width animation-loaded" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', height: '100%', width: '384px' }}>
+                          <div className="js-content-mode-element content-fit">
+                            <Image
+                              src="/image-11.webp"
+                              alt=""
+                              width={1280}
+                              height={1280}
+                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 75vw, 32vw"
+                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)', objectFit: 'var(--image-component-object-fit)' }}
+                              loading="lazy"
+                            />
+                            <div className="fluidImageOverlay"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-97a7dc9199a5474f666d">
+                <div className="sqs-block button-block sqs-block-button" data-block-type="53" id="block-97a7dc9199a5474f666d">
+                  <div className="sqs-block-content">
+                    <div className="sqs-block-button-container sqs-block-button-container--center">
+                      <a href="https://www.toasttab.com/sopraffina-pizzeria-1560-n-sandburg-terrace/v3/" className="sqs-block-button-element--large sqs-block-button-element" target="_blank" rel="noopener">
+                        ORDER PIZZA ONLINE
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-      </article>
-    </main>
+        </div>
+      </div>
+    </section>
   );
 }

@@ -1,177 +1,111 @@
+"use client";
+
 export default function Footer() {
   return (
-    <section 
-      data-test="page-section" 
-      data-section-theme="dark" 
-      className="page-section 
-        full-bleed-section 
-        layout-engine-section 
-        background-width--full-bleed 
-        section-height--medium 
-        content-width--wide 
-        horizontal-alignment--center 
-        vertical-alignment--middle 
-        dark"
-      data-section-id="673b64e7b83dc54536fd22d9" 
-      data-page-sections="673b64e7b83dc54536fd22d9,6740c5b4f86a4b5b3c6dbd46,6740c65bf86a4b5b3c6dbe72,6740dba19d9db96f2a5f4fa0,6734baf6e13aa22d84a84aed,6740e0bb3c73c024fbc7ec52,6740e1713c73c024fbc7ee3a,6740e20b3c73c024fbc7ef5a,6742e0b1d3e9c951ca79b7c7,673b64e7b83dc54536fd22d9" 
-      style={{
-        '--section-minimum-height': '50vh', 
-        '--section-maximum-width': '1920px', 
-        '--section-inset': 'min(11vw, 164px)', 
-        '--section-background-color': '#1F1F1F'
-      }}
-    >
-      <div className="section-border">
-        <div className="section-background"></div>
+    <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" data-fluid-engine-section="" style={{ minHeight: '1vh', paddingTop: '184px' }} data-active="true">
+      <div className="section-border" style={{ clipPath: 'url(#section-divider-6930bd19e0cd98208c29ff2e)' }}>
+        <div className="section-background">
+        </div>
       </div>
-      <div 
-        className="content-wrapper" 
-        style={{
-          '--content-width': 'wide', 
-          '--horizontal-alignment': 'center', 
-          '--vertical-alignment': 'middle'
-        }}
-      >
+      <div className="content-wrapper" style={{ paddingTop: 'calc(1vmax / 10)', paddingBottom: 'calc(1vmax / 10)' }}>
         <div className="content">
-          <div 
-            data-fluid-engine="true"
-            className="fe-block fe-block-yui_3_17_2_1_1733335099695_57652"
-          >
-            <div 
-              className="fe-block fe-block-yui_3_17_2_1_1733335099695_57651"
-            >
-              <div 
-                className="sqs-block horizontalrule-block sqs-block-horizontalrule" 
-                data-block-type="47" 
-                id="block-yui_3_17_2_1_1733335099695_57650"
-              >
-                <div className="sqs-block-content">
-                  <hr />
-                </div>
-              </div>
-            </div>
-            <div 
-              className="fe-block fe-block-yui_3_17_2_1_1733335099695_21863"
-            >
-              <div 
-                className="sqs-block html-block sqs-block-html" 
-                data-block-type="2" 
-                id="block-yui_3_17_2_1_1733335099695_21862"
-              >
-                <div className="sqs-block-content">
-                  <div className="sqs-html-content">
-                    <p style={{textAlign: 'center'}}>
-                      <strong>
-                        <span style={{fontSize: '13px'}}>
-                          Follow us on social media for the latest news, discounts, and behind the scenes!
-                        </span>
-                      </strong>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div 
-              className="fe-block fe-block-yui_3_17_2_1_1733335099695_23394"
-            >
-              <div 
-                className="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" 
-                data-block-type="54" 
-                id="block-yui_3_17_2_1_1733335099695_23393"
-              >
-                <div className="sqs-block-content">
-                  <div 
-                    className="sqs-svg-icon--outer social-icon-alignment-center social-icons-color- social-icons-size-large social-icons-style-solid" 
-                    style={{
-                      '--social-icons-color': '#ffffff', 
-                      '--social-icons-size': '30px'
-                    }}
-                  >
-                    <nav className="sqs-svg-icon--list">
-                      <a 
-                        href="https://www.instagram.com/squarepieguys/" 
-                        target="_blank" 
-                        className="sqs-svg-icon--wrapper instagram-unauth" 
-                        aria-label="Instagram"
-                      >
-                        <div>
-                          <svg 
-                            className="sqs-svg-icon--social" 
-                            viewBox="0 0 64 64"
-                          >
-                            <use className="sqs-use--icon" xlinkHref="#instagram-unauth-icon"></use>
-                            <use className="sqs-use--mask" xlinkHref="#instagram-unauth-mask"></use>
-                          </svg>
+          <div data-fluid-engine="true">
+            <style jsx>{`
+              .fe-6930bd19e0cd98208c29ff2c {
+                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+                display: grid;
+                position: relative;
+                grid-area: 1/1/-1/-1;
+                grid-template-rows: repeat(2,minmax(24px, auto));
+                grid-template-columns:
+                  minmax(var(--grid-gutter), 1fr)
+                  repeat(8, minmax(0, var(--cell-max-width)))
+                  minmax(var(--grid-gutter), 1fr);
+                row-gap: 11.0px;
+                column-gap: 11.0px;
+                overflow-x: hidden;
+                overflow-x: clip;
+              }
+
+              @media (min-width: 768px) {
+                .background-width--inset .fe-6930bd19e0cd98208c29ff2c {
+                  --inset-padding: calc(var(--sqs-site-gutter) * 2);
+                }
+
+                .fe-6930bd19e0cd98208c29ff2c {
+                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+                  --inset-padding: 0vw;
+
+                  --row-height-scaling-factor: 0.0215;
+                  --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+                  grid-template-rows: repeat(2,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+                  grid-template-columns:
+                    minmax(var(--grid-gutter), 1fr)
+                    repeat(24, minmax(0, var(--cell-max-width)))
+                    minmax(var(--grid-gutter), 1fr);
+                }
+              }
+
+              .fe-block-4ec6f7970b0f5f240202 {
+                grid-area: 1/1/3/11;
+                z-index: 2;
+              }
+
+              .fe-block-4ec6f7970b0f5f240202 .sqs-block {
+                justify-content: center;
+              }
+
+              .fe-block-4ec6f7970b0f5f240202 .sqs-block-alignment-wrapper {
+                align-items: center;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-4ec6f7970b0f5f240202 {
+                  grid-area: 1/1/3/27;
+                  z-index: 2;
+                }
+
+                .fe-block-4ec6f7970b0f5f240202 .sqs-block {
+                  justify-content: center;
+                }
+
+                .fe-block-4ec6f7970b0f5f240202 .sqs-block-alignment-wrapper {
+                  align-items: center;
+                }
+              }
+            `}</style>
+            <div className="fluid-engine fe-6930bd19e0cd98208c29ff2c">
+              <div className="fe-block fe-block-4ec6f7970b0f5f240202" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" data-sqsp-block="scrolling" id="block-4ec6f7970b0f5f240202">
+                  <div className="sqs-block-content">
+                    <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' }} data-ready="true">
+                      <div className="Marquee-viewport">
+                        <div className="Marquee-track">
+                          <div className="Marquee-item">
+                            <span className="Marquee-text">YOU SAY PIZZA</span>
+                          </div>
+                          <div className="Marquee-item">
+                            <span className="Marquee-text">🍕</span>
+                          </div>
+                          <div className="Marquee-item">
+                            <span className="Marquee-text">WE SAY PIE</span>
+                          </div>
+                          <div className="Marquee-item">
+                            <span className="Marquee-text">🍕</span>
+                          </div>
+                          <div className="Marquee-item">
+                            <span className="Marquee-text">IT'S ALL YUM</span>
+                          </div>
+                          <div className="Marquee-item">
+                            <span className="Marquee-text">🍕</span>
+                          </div>
                         </div>
-                      </a>
-                      <a 
-                        href="https://www.facebook.com/SquarePieGuys/" 
-                        target="_blank" 
-                        className="sqs-svg-icon--wrapper facebook-unauth" 
-                        aria-label="Facebook"
-                      >
-                        <div>
-                          <svg 
-                            className="sqs-svg-icon--social" 
-                            viewBox="0 0 64 64"
-                          >
-                            <use className="sqs-use--icon" xlinkHref="#facebook-unauth-icon"></use>
-                            <use className="sqs-use--mask" xlinkHref="#facebook-unauth-mask"></use>
-                          </svg>
-                        </div>
-                      </a>
-                      <a 
-                        href="https://x.com/squarepieguys" 
-                        target="_blank" 
-                        className="sqs-svg-icon--wrapper twitter-unauth" 
-                        aria-label="Twitter"
-                      >
-                        <div>
-                          <svg 
-                            className="sqs-svg-icon--social" 
-                            viewBox="0 0 64 64"
-                          >
-                            <use className="sqs-use--icon" xlinkHref="#twitter-unauth-icon"></use>
-                            <use className="sqs-use--mask" xlinkHref="#twitter-unauth-mask"></use>
-                          </svg>
-                        </div>
-                      </a>
-                      <a 
-                        href="https://www.tiktok.com/@squarepieguys" 
-                        target="_blank" 
-                        className="sqs-svg-icon--wrapper tiktok-unauth" 
-                        aria-label="TikTok"
-                      >
-                        <div>
-                          <svg 
-                            className="sqs-svg-icon--social" 
-                            viewBox="0 0 64 64"
-                          >
-                            <use className="sqs-use--icon" xlinkHref="#tiktok-unauth-icon"></use>
-                            <use className="sqs-use--mask" xlinkHref="#tiktok-unauth-mask"></use>
-                          </svg>
-                        </div>
-                      </a>
-                    </nav>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div 
-              className="fe-block fe-block-yui_3_17_2_1_1733335099695_32336"
-            >
-              <div 
-                className="sqs-block html-block sqs-block-html" 
-                data-block-type="2" 
-                id="block-yui_3_17_2_1_1733335099695_32335"
-              >
-                <div className="sqs-block-content">
-                  <div className="sqs-html-content">
-                    <p style={{textAlign: 'center'}}>
-                      <span style={{fontSize: '13px'}}>
-                        Copyright 2024 Square Pie Guys, LLC. All Rights Reserved.
-                      </span>
-                    </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
