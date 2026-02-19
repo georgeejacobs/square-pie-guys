@@ -4,52 +4,24 @@ import Image from "next/image"
 
 export default function Specials() {
   return (
-    <section data-test="page-section" data-section-theme="bright" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771517851052_150">
+    <section data-test="page-section" data-section-theme="bright" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" id="yui_3_17_2_1_1771522505598_150">
       <div className="section-border">
         <div className="section-background">
         </div>
       </div>
-      <div className="content-wrapper" style={{ paddingTop: 'calc(0vmax / 10)', paddingBottom: 'calc(0vmax / 10)' }} id="yui_3_17_2_1_1771517851052_149">
-        <div className="content" id="yui_3_17_2_1_1771517851052_148">
-          <div data-fluid-engine="true" id="yui_3_17_2_1_1771517851052_147">
+      <div className="content-wrapper" style={{
+        paddingTop: 'calc(0vmax / 10)',
+        paddingBottom: 'calc(0vmax / 10)'
+      }} id="yui_3_17_2_1_1771522505598_149">
+        <div className="content" id="yui_3_17_2_1_1771522505598_148">
+          <div id="yui_3_17_2_1_1771522505598_147">
             <style jsx>{`
-              .fe-65a1c9d0ac1b343be05159cc {
-                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 0.0px);
-                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (8 - 1)) ) / 8 );
-
-                display: grid;
-                position: relative;
-                grid-area: 1/1/-1/-1;
-                grid-template-rows: repeat(39,minmax(24px, auto));
-                grid-template-columns:
-                  minmax(var(--grid-gutter), 1fr)
-                  repeat(8, minmax(0, var(--cell-max-width)))
-                  minmax(var(--grid-gutter), 1fr);
-                row-gap: 0.0px;
-                column-gap: 0.0px;
-                overflow-x: hidden;
-                overflow-x: clip;
-              }
+              
 
               @media (min-width: 768px) {
-                .background-width--inset .fe-65a1c9d0ac1b343be05159cc {
-                  --inset-padding: calc(var(--sqs-site-gutter) * 2);
-                }
+                .background-width--inset 
 
-                .fe-65a1c9d0ac1b343be05159cc {
-                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 0.0px);
-                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (24 - 1)) ) / 24 );
-                  --inset-padding: 0vw;
-
-                  --row-height-scaling-factor: 0.0215;
-                  --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
-
-                  grid-template-rows: repeat(31,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
-                  grid-template-columns:
-                    minmax(var(--grid-gutter), 1fr)
-                    repeat(24, minmax(0, var(--cell-max-width)))
-                    minmax(var(--grid-gutter), 1fr);
-                }
+                
               }
 
               .fe-block-7b816d4d13531865e314 {
@@ -164,32 +136,30 @@ export default function Specials() {
                 }
               }
             `}</style>
-            <div className="fluid-engine fe-65a1c9d0ac1b343be05159cc" id="yui_3_17_2_1_1771517851052_146">
-              <div className="fe-block fe-block-7b816d4d13531865e314" id="yui_3_17_2_1_1771517851052_145">
+            <div className="fluid-engine fe-65a1c9d0ac1b343be05159cc" id="yui_3_17_2_1_1771522505598_146">
+              <div className="fe-block fe-block-7b816d4d13531865e314" id="yui_3_17_2_1_1771522505598_145">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="117.61126270797615" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-7b816d4d13531865e314">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771517851052_144" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="7b816d4d13531865e314" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="true" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771517851052_143">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771517851052_142">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', WebkitMaskImage: '-webkit-radial-gradient(white, black)' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771517851052_141">
-                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771517851052_137">
-                            <Image 
-                              data-stretch="true" 
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771522505598_144" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="7b816d4d13531865e314" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="true" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771522505598_143">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771522505598_142">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', WebkitMaskImage: '-webkit-radial-gradient(white, black)' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771522505598_141">
+                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771522505598_137">
+                            <Image
+                              data-stretch="true"
                               crossOrigin=""
                               src="/image-1.webp"
-                              data-image="/image-1.webp"
-                              data-image-dimensions="4996x3331" 
-                              data-image-focal-point="0.5,0.5" 
-                              data-sqsp-image-block-image="" 
-                              alt="A family meal with various dishes including a large rectangular pizza with toppings, a slice of pepperoni pizza, fried chicken wings garnished with green onions, a bowl of salad with lettuce and cheese, a side of French fries, and glasses of pink and red drinks." 
-                              data-licensed-asset-preview="false" 
-                              data-load="false" 
-                              width={4996} 
-                              height={3331} 
-                              sizes="100vw" 
-                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
-                              loading="lazy" 
+                              alt="A family meal with various dishes including a large rectangular pizza with toppings, a slice of pepperoni pizza, fried chicken wings garnished with green onions, a bowl of salad with lettuce and cheese, a side of French fries, and glasses of pink and red drinks."
+                              width={4996}
+                              height={3331}
+                              sizes="100vw"
+                              style={{
+                                display: 'block',
+                                objectPosition: 'var(--image-component-focal-point)' as any,
+                                objectFit: 'var(--image-component-object-fit)' as any
+                              } as any}
+                              loading="lazy"
                             />
-                            <div className="imageEffectContainer"></div>
+                            <div className="imageEffectContainer" data-effect='{"type": "filmGrain", "intensity": 50, "shadow": 0, "speed": 100}'></div>
                             <div className="fluidImageOverlay"></div>
                           </div>
                         </div>
@@ -218,10 +188,12 @@ export default function Specials() {
                 </div>
               </div>
               <div className="fe-block fe-block-3051c7258fdf7da45539">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" id="block-3051c7258fdf7da45539">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-3051c7258fdf7da45539">
                   <div className="sqs-block-content">
-                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="primary">
-                      <a className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" href="/order" data-initialized="true">VIEW MENU</a>
+                    <div className="button-component-root" data-component-id="3051c7258fdf7da45539" data-text="" data-is-disabled="false" data-test="button-block-outer-wrapper">
+                      <div className="button-component-block-inner">
+                        <a className="button-component-button sqs-button-element--primary sqs-button-element" href="/order" data-animation-role="button">ORDER NOW</a>
+                      </div>
                     </div>
                   </div>
                 </div>

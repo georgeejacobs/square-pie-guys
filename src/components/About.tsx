@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 
-export default function Specials2() {
+export default function About() {
   return (
     <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider
     
@@ -22,7 +22,7 @@ export default function Specials2() {
       
     
     
-    bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771517851052_180">
+    bright" data-animation="none" id="yui_3_17_2_1_1771522505598_180">
       <div className="section-border" style={{ clipPath: 'url(#section-divider-658f2bce80842075444608af)' }}>
         <div className="section-background">
         
@@ -34,8 +34,8 @@ export default function Specials2() {
           
             
           
-        }} id="yui_3_17_2_1_1771517851052_179">
-        <div className="content" id="yui_3_17_2_1_1771517851052_178">
+        }} id="yui_3_17_2_1_1771522505598_179">
+        <div className="content" id="yui_3_17_2_1_1771522505598_178">
           
           
           
@@ -46,47 +46,14 @@ export default function Specials2() {
           
           
           
-          <div data-fluid-engine="true" id="yui_3_17_2_1_1771517851052_177">
+          <div id="yui_3_17_2_1_1771522505598_177">
             <style jsx>{`
-.fe-658f2bce80842075444608ae {
-  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
-  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
-
-  display: grid;
-  position: relative;
-  grid-area: 1/1/-1/-1;
-  grid-template-rows: repeat(19,minmax(24px, auto));
-  grid-template-columns:
-    minmax(var(--grid-gutter), 1fr)
-    repeat(8, minmax(0, var(--cell-max-width)))
-    minmax(var(--grid-gutter), 1fr);
-  row-gap: 11.0px;
-  column-gap: 11.0px;
-  overflow-x: hidden;
-  overflow-x: clip;
-}
 
 @media (min-width: 768px) {
-  .background-width--inset .fe-658f2bce80842075444608ae {
-    --inset-padding: calc(var(--sqs-site-gutter) * 2);
-  }
+  .background-width--inset 
 
-  .fe-658f2bce80842075444608ae {
-    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
-    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
-    --inset-padding: 0vw;
-
-    --row-height-scaling-factor: 0.0215;
-    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
-
-    grid-template-rows: repeat(15,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
-    grid-template-columns:
-      minmax(var(--grid-gutter), 1fr)
-      repeat(24, minmax(0, var(--cell-max-width)))
-      minmax(var(--grid-gutter), 1fr);
-  }
+  
 }
-
 
   .fe-block-41bcbba421979d3ae030 {
     grid-area: 3/2/12/10;
@@ -272,109 +239,137 @@ export default function Specials2() {
       align-items: center;
     }
   }
-            `}</style>
-            <div className="fluid-engine fe-658f2bce80842075444608ae" id="yui_3_17_2_1_1771517851052_176">
-              <div className="fe-block fe-block-41bcbba421979d3ae030" id="yui_3_17_2_1_1771517851052_175">
+
+`}</style>
+            <div className="fluid-engine fe-658f2bce80842075444608ae" id="yui_3_17_2_1_1771522505598_176">
+              <div className="fe-block fe-block-41bcbba421979d3ae030" id="yui_3_17_2_1_1771522505598_175">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-41bcbba421979d3ae030">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771517851052_174" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="41bcbba421979d3ae030" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771517851052_173">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771517851052_172">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '524.081px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771517851052_171">
-                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771517851052_170">
-                            <Image 
-                              data-stretch="false"
-                              data-src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png"
-                              data-image="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png"
-                              data-image-dimensions="1047x913"
-                              data-image-focal-point="0.5,0.5"
-                              data-sqsp-image-block-image=""
-                              alt="A black and white cartoon illustration of two anthropomorphic slices of pizza wearing sunglasses, sneakers, and caps, walking together in a friendly manner."
-                              data-licensed-asset-preview="false"
-                              data-load="false"
-                              src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png"
-                              width={1047}
-                              height={913}
-                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw"
-                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
-                              loading="lazy"
-                            />
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771522505598_174" style={{ height: '100%', width: '100%' }}>
+
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="41bcbba421979d3ae030" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771522505598_173">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771522505598_172">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '524.081px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771522505598_171">
+                          
+
+                          
+                          
+
+                          
+                            
+                              <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771522505598_170">
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" data-image="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" data-image-dimensions="1047x913" data-image-focal-point="0.5,0.5" data-sqsp-image-block-image="" alt="A black and white cartoon illustration of two anthropomorphic slices of pizza wearing sunglasses, sneakers, and caps, walking together in a friendly manner." data-licensed-asset-preview="false" data-load="false" src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" width="1047" height="913" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw" style={{ display:'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} srcSet="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs" />
+                            
+                              
+                            
                             <div className="fluidImageOverlay"></div>
-                          </div>
+                          
+                              </div>
+                            
+                          
+
                         </div>
+                        
+
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
               <div className="fe-block fe-block-0b12b4954d7f2e3bf119" style={{ mixBlendMode: 'normal' }}>
                 <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-0b12b4954d7f2e3bf119">
                   <div className="sqs-block-content">
-                    <div className="sqs-html-content" data-sqsp-text-block-content="">
+
+                    <div className="sqs-html-content">
                       <div className="sqsrte-scaled-text-container loaded">
                         <span className="sqsrte-scaled-text" style={{ fontSize: '154.3px' }}>
-                          <h1 style={{ whiteSpace: 'pre-wrap' }}>Say Hi to </h1>
+                          <h1 style={{ whiteSpace:'pre-wrap' }}>Say Hi to </h1>
                         </span>
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-f7a4c0cfa5d9377898d0" id="yui_3_17_2_1_1771517851052_189">
+              <div className="fe-block fe-block-f7a4c0cfa5d9377898d0" id="yui_3_17_2_1_1771522505598_189">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-f7a4c0cfa5d9377898d0">
                   <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
+
                     <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="f7a4c0cfa5d9377898d0" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
                       <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '211.4px' }} data-sqsp-image-block-image-container="">
-                          <div className="js-content-mode-element content-fit">
-                            <img 
-                              data-stretch="false"
-                              data-src="/image-10.webp"
-                              data-image="/image-10.webp"
-                              data-image-dimensions="1920x768"
-                              data-image-focal-point="0.5,0.5"
-                              data-sqsp-image-block-image=""
-                              alt=""
-                              data-licensed-asset-preview="false"
-                              data-load="false"
-                              src="/image-10.webp"
-                              width={1920}
-                              height={768}
-                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 41.666666666666664vw"
-                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
-                              loading="lazy"
-                            />
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '249.781px' }} data-sqsp-image-block-image-container="">
+                          
+
+                          
+                          
+
+                          
+                            
+                              <div className="js-content-mode-element content-fit">
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            <Image data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/d97b6a80-9c8e-4951-b0e4-0a68e5e5e066/Screenshot+2024-11-08+at+10.50.00%E2%80%AFAM.png" data-image="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/d97b6a80-9c8e-4951-b0e4-0a68e5e5e066/Screenshot+2024-11-08+at+10.50.00%E2%80%AFAM.png" data-image-dimensions="1300x606" data-image-focal-point="0.5,0.5" data-sqsp-image-block-image="" alt="Stylized illustration of an anthropomorphic pizza slice character with eyes, a mouth, arms, and legs in a chef's hat, surrounded by text and decorative elements in a playful cartoon style." data-licensed-asset-preview="false" data-load="false" src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/d97b6a80-9c8e-4951-b0e4-0a68e5e5e066/Screenshot+2024-11-08+at+10.50.00%E2%80%AFAM.png" width={1300} height={606} sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 41.66666666666666vw" style={{ display:'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} />
+                            
+                              
+                            
                             <div className="fluidImageOverlay"></div>
-                          </div>
+                          
+                              </div>
+                            
+                          
+
                         </div>
+                        
+
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
               <div className="fe-block fe-block-yui_3_17_2_1_1704391605064_26992">
                 <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-yui_3_17_2_1_1704391605064_26992">
                   <div className="sqs-block-content">
-                    <div className="sqs-html-content" data-sqsp-text-block-content="">
+
+                    <div className="sqs-html-content">
                       <div className="sqsrte-scaled-text-container loaded">
                         <span className="sqsrte-scaled-text" style={{ fontSize: '154.3px' }}>
-                          <h2 style={{ whiteSpace: 'pre-wrap' }}>Dang Good Pizza</h2>
+                          <h1 style={{ whiteSpace:'pre-wrap' }}>SLICE PREZ</h1>
                         </span>
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
               <div className="fe-block fe-block-yui_3_17_2_1_1703881549797_13556">
                 <div className="sqs-block button-block sqs-block-button sqs-text-ready" data-block-type="53" id="block-yui_3_17_2_1_1703881549797_13556">
                   <div className="sqs-block-content">
-                    <div className="sqs-block-button-container sqs-block-button-container--center" data-sqsp-animation-role="button" data-animation-role="button">
-                      <a href="/menu" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-initialized="true">VIEW MENU</a>
+
+                    <div className="sqs-block-button-container sqs-block-button-container--left" data-animation-role="button" data-alignment="left" data-button-size="medium" data-button-type="">
+                      <a href="/" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-initialized="true">
+                        VIEW MENU
+                      </a>
                     </div>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>

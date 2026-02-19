@@ -4,7 +4,25 @@ import Image from "next/image"
 
 export default function NavBar() {
   return (
-    <section data-test="page-section" data-section-theme="black-bold" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--large content-width--wide horizontal-alignment--center vertical-alignment--bottom has-background black-bold" data-animation="none" data-fluid-engine-section="" data-active="true">
+    <section data-test="page-section" data-section-theme="black-bold" className="page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--large
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--bottom
+    
+       has-background
+    
+    
+    black-bold" data-animation="none">
       <div className="section-border">
         <div className="section-background">
           <div className="section-background-content">
@@ -16,55 +34,24 @@ export default function NavBar() {
               height={1644} 
               sizes="(max-width: 799px) 200vw, 100vw" 
               className="background-image-fx" 
-              style={{ display: 'block', objectPosition: '50% 50%', visibility: 'visible' } as any}
-              loading="lazy"
+              style={{ display: 'block', objectPosition: '50% 50%', visibility: 'visible' }} 
+              loading="lazy" 
             />
             <div className="section-background-canvas background-fx-canvas"></div>
           </div>
-          <div className="section-background-overlay" style={{ opacity: '0.14' }}></div>
+          <div className="section-background-overlay" style={{ opacity: 0.14 }}></div>
         </div>
       </div>
-      <div className="content-wrapper" style={{}}>
+      <div className="content-wrapper">
         <div className="content">
-          <div data-fluid-engine="true">
+          <div>
             <style jsx>{`
-              .fe-697f96a8134cbc609c3273d3 {
-                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
-                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
-
-                display: grid;
-                position: relative;
-                grid-area: 1/1/-1/-1;
-                grid-template-rows: repeat(8,minmax(24px, auto));
-                grid-template-columns:
-                  minmax(var(--grid-gutter), 1fr)
-                  repeat(8, minmax(0, var(--cell-max-width)))
-                  minmax(var(--grid-gutter), 1fr);
-                row-gap: 11.0px;
-                column-gap: 11.0px;
-                overflow-x: hidden;
-                overflow-x: clip;
-              }
+              
 
               @media (min-width: 768px) {
-                .background-width--inset .fe-697f96a8134cbc609c3273d3 {
-                  --inset-padding: calc(var(--sqs-site-gutter) * 2);
-                }
+                .background-width--inset 
 
-                .fe-697f96a8134cbc609c3273d3 {
-                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
-                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
-                  --inset-padding: 0vw;
-
-                  --row-height-scaling-factor: 0.0215;
-                  --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
-
-                  grid-template-rows: repeat(8,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
-                  grid-template-columns:
-                    minmax(var(--grid-gutter), 1fr)
-                    repeat(24, minmax(0, var(--cell-max-width)))
-                    minmax(var(--grid-gutter), 1fr);
-                }
+                
               }
 
               .fe-block-5dacb88ca2ca00706e81 {
@@ -181,7 +168,7 @@ export default function NavBar() {
               <div className="fe-block fe-block-ae2cfd5144aff2bb1d2c">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-ae2cfd5144aff2bb1d2c">
                   <div className="sqs-block-content">
-                    <div className="sqs-block-button-container sqs-block-button-container--center sqs-stretched" data-animation-role="button" data-button-size="medium" data-button-type="primary"> 
+                    <div className="sqs-block-button-container  sqs-block-button-container--center sqs-stretched" data-animation-role="button" data-button-size="medium" data-button-type="primary"> 
                       <a href="/seasonalmenu" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-sqsp-button="" target="_blank" data-initialized="true">
                         MORE HERE!
                       </a>
