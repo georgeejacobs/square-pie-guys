@@ -6,7 +6,7 @@ import Specials from "@/components/Specials";
 import Features from "@/components/Features";
 import Features2 from "@/components/Features2";
 import CallToAction from "@/components/CallToAction";
-import CallToAction2 from "@/components/CallToAction2";
+import Features3 from "@/components/Features3";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
       <Features />
       <Features2 />
       <CallToAction />
-      <CallToAction2 />
+      <Features3 />
       <Footer />
     </main>
   );

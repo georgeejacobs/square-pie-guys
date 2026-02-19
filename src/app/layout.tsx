@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Square Pie Guys",
-  description: "Bold, playful, and community-focused with an emphasis on Detroit-style pizza excellence. The brand uses energetic language with phrases like 'THIS IS YOUR SIGN ",
+  description: "Bold and playful with a strong community focus. The brand uses confident language like 'This is your sign to order some pizza' and positions itself as award-win",
 };
 
 export default function RootLayout({

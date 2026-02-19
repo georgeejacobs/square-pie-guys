@@ -22,25 +22,32 @@ export default function About() {
        has-background
     
     
-    black-bold" data-animation="none" data-active="true">
+    black-bold" data-animation="none">
       <div className="section-border">
         <div className="section-background">
         
           
             
             
+              <div className="section-background-content">
               
+                <Image 
+                  alt="" 
+                  crossOrigin="" 
+                  src="/image-0.webp" 
+                  width={2220} 
+                  height={1644}
+                  sizes="(max-width: 799px) 200vw, 100vw" 
+                  className="background-image-fx" 
+                  style={{ display: 'block', objectPosition: '50% 50%', visibility: 'visible' }} 
+                  loading="lazy"
+                />
 
-          <div className="section-background-content">
-          
-
-            <Image alt="" crossOrigin="" src="/image-0.png" width={2220} height={1644} sizes="(max-width: 799px) 200vw, 100vw" className="background-image-fx" style={{ display: 'block', objectPosition: '50% 50%', visibility: 'visible' }} loading="lazy" />
-
-            <div className="section-background-canvas background-fx-canvas"></div>
-          </div>
+                <div className="section-background-canvas background-fx-canvas"></div>
+              </div>
 
             
-            <div className="section-background-overlay" style={{ opacity: '0.14' }}></div>
+            <div className="section-background-overlay" style={{ opacity: 0.14 }}></div>
           
         
         </div>
@@ -58,6 +65,12 @@ export default function About() {
           
           
           <div>
+            <style jsx>{`
+
+              #block-ae2cfd5144aff2bb1d2c {
+                --sqs-block-content-flex: 1;
+              }
+            `}</style>
             
             <div className="fluid-engine fe-697f96a8134cbc609c3273d3">
               <div className="fe-block fe-block-5dacb88ca2ca00706e81" style={{ mixBlendMode: 'normal' }}>
@@ -69,6 +82,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
+              
               <div className="fe-block fe-block-85141784fcf8b3d64446" style={{ mixBlendMode: 'normal' }}>
                 <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-85141784fcf8b3d64446">
                   <div className="sqs-block-content">
@@ -82,6 +96,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
+              
               <div className="fe-block fe-block-ae2cfd5144aff2bb1d2c">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-ae2cfd5144aff2bb1d2c">
                   <div className="sqs-block-content">
@@ -90,7 +105,6 @@ export default function About() {
                         MORE HERE!
                       </a>
                     </div>
-                    
                   </div>
                 </div>
               </div>
@@ -100,123 +114,6 @@ export default function About() {
       
       </div>
       
-    <style jsx>{`
-
-              .fe-block-5dacb88ca2ca00706e81 {
-                grid-area: 1/2/3/10;
-                z-index: 1;
-
-                @media (max-width: 767px) {
-                  
-                  
-                }
-              }
-
-              .fe-block-5dacb88ca2ca00706e81 .sqs-block {
-                justify-content: flex-end;
-              }
-
-              .fe-block-5dacb88ca2ca00706e81 .sqs-block-alignment-wrapper {
-                align-items: flex-end;
-              }
-
-              @media (min-width: 768px) {
-                .fe-block-5dacb88ca2ca00706e81 {
-                  grid-area: 1/2/3/14;
-                  z-index: 1;
-
-                  
-
-                  
-                }
-
-                .fe-block-5dacb88ca2ca00706e81 .sqs-block {
-                  justify-content: flex-start;
-                }
-
-                .fe-block-5dacb88ca2ca00706e81 .sqs-block-alignment-wrapper {
-                  align-items: flex-start;
-                }
-              }
-
-              .fe-block-85141784fcf8b3d64446 {
-                grid-area: 3/2/5/10;
-                z-index: 0;
-
-                @media (max-width: 767px) {
-                  
-                  
-                }
-              }
-
-              .fe-block-85141784fcf8b3d64446 .sqs-block {
-                justify-content: flex-start;
-              }
-
-              .fe-block-85141784fcf8b3d64446 .sqs-block-alignment-wrapper {
-                align-items: flex-start;
-              }
-
-              @media (min-width: 768px) {
-                .fe-block-85141784fcf8b3d64446 {
-                  grid-area: 2/2/6/21;
-                  z-index: 0;
-
-                  
-
-                  
-                }
-
-                .fe-block-85141784fcf8b3d64446 .sqs-block {
-                  justify-content: flex-start;
-                }
-
-                .fe-block-85141784fcf8b3d64446 .sqs-block-alignment-wrapper {
-                  align-items: flex-start;
-                }
-              }
-
-              .fe-block-ae2cfd5144aff2bb1d2c {
-                grid-area: 6/2/8/6;
-                z-index: 3;
-
-                @media (max-width: 767px) {
-                  
-                  
-                }
-              }
-
-              .fe-block-ae2cfd5144aff2bb1d2c .sqs-block {
-                justify-content: center;
-              }
-
-              .fe-block-ae2cfd5144aff2bb1d2c .sqs-block-alignment-wrapper {
-                align-items: center;
-              }
-
-              @media (min-width: 768px) {
-                .fe-block-ae2cfd5144aff2bb1d2c {
-                  grid-area: 7/3/9/8;
-                  z-index: 3;
-
-                  
-
-                  
-                }
-
-                .fe-block-ae2cfd5144aff2bb1d2c .sqs-block {
-                  justify-content: center;
-                }
-
-                .fe-block-ae2cfd5144aff2bb1d2c .sqs-block-alignment-wrapper {
-                  align-items: center;
-                }
-              }
-
-#block-ae2cfd5144aff2bb1d2c {
-                        --sqs-block-content-flex: 1;
-                      }
-`}</style>
-</section>
+    </section>
   )
 }
