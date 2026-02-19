@@ -4,14 +4,13 @@ export default function NavBar() {
   return (
     <main id="page" className="container" role="main">
       <article className="sections" id="sections">
-        <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" data-fluid-engine-section="" style={{ minHeight: '1vh', paddingTop: '184px' }}>
+        <section className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" style={{ minHeight: '1vh', paddingTop: '184px' }}>
           <div className="section-border" style={{ clipPath: 'url(#section-divider-6930bd19e0cd98208c29ff2e)' }}>
-            <div className="section-background">
-            </div>
+            <div className="section-background"></div>
           </div>
           <div className="content-wrapper" style={{ paddingTop: 'calc(1vmax / 10)', paddingBottom: 'calc(1vmax / 10)' }}>
             <div className="content">
-              <div data-fluid-engine="true">
+              <div>
                 <style jsx>{`
                   .fe-6930bd19e0cd98208c29ff2c {
                     --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
@@ -82,10 +81,10 @@ export default function NavBar() {
                 `}</style>
                 <div className="fluid-engine fe-6930bd19e0cd98208c29ff2c">
                   <div className="fe-block fe-block-4ec6f7970b0f5f240202" style={{ mixBlendMode: 'normal' }}>
-                    <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" data-sqsp-block="scrolling" id="block-4ec6f7970b0f5f240202">
+                    <div className="sqs-block marquee-block sqs-block-marquee" id="block-4ec6f7970b0f5f240202">
                       <div className="sqs-block-content">
-                        <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': 1.2 }} data-ready="true">
-                          {/* Marquee content would be rendered here based on the JSON props */}
+                        <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' }}>
+                          {/* Marquee content would go here */}
                         </div>
                       </div>
                     </div>
@@ -97,5 +96,5 @@ export default function NavBar() {
         </section>
       </article>
     </main>
-  )
+  );
 }
