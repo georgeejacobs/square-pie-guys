@@ -1,18 +1,7 @@
-export default function Specials() {
-  return (
-    <section data-section-theme="white" aria-label="Cookie banner" className="gdpr-cookie-banner BOTTOM_LEFT white popup full-styling">
-      <p className="disclaimer-text sqs-cookie-banner-v2-text">By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.</p>
-      <div className="button-group sqs-cookie-banner-v2-cta-container">
-        <button className="accept sqs-button-element--primary sqs-cookie-banner-v2-accept sqs-cookie-banner-v2-cta">
-          <span>Accept</span>
-        </button>
-        <button className="decline sqs-button-element--secondary sqs-cookie-banner-v2-deny sqs-cookie-banner-v2-cta">
-          <span>Decline</span>
-        </button>
-        <button className="manage sqs-button-element--tertiary">
-          <span>Manage cookies</span>
-        </button>
-      </div>
-    </section>
-  );
-}
+I cannot find a "Today's Deal Section" or section 5 of 10 in the provided HTML fragment. The HTML appears to be just the document head with meta tags, scripts, and stylesheets - it doesn't contain any body content or sections.
+
+To properly convert the "Today's Deal Section," I would need the actual HTML content that contains:
+- The section with class names, content, and structure
+- Any div elements, text content, images, or other HTML elements that make up this section
+
+Could you please provide the HTML content for the specific "Today's Deal Section" you'd like me to convert?

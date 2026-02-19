@@ -1,214 +1,101 @@
+"use client"
+
 export default function NavBar() {
   return (
-    <header data-test="header" id="header" className="white header theme-col--primary" data-section-theme="white" data-controller="Header" data-current-styles="{
-                                                                                                                                                                                                            &quot;layout&quot;: &quot;brandingCenterNavCenter&quot;,
-                                                                                                                                                                                                            &quot;action&quot;: {
-                                                                                                                                                                                                              &quot;href&quot;: &quot;https://order.online/business/square-pie-guys-233210/?hideModal=true&amp;pickup=true&quot;,
-                                                                                                                                                                                                              &quot;buttonText&quot;: &quot;Order Now&quot;,
-                                                                                                                                                                                                              &quot;newWindow&quot;: true
-                                                                                                                                                                                                            },
-                                                                                                                                                                                                            &quot;showSocial&quot;: false,
-                                                                                                                                                                                                            &quot;socialOptions&quot;: {
-                                                                                                                                                                                                              &quot;socialBorderShape&quot;: &quot;none&quot;,
-                                                                                                                                                                                                              &quot;socialBorderStyle&quot;: &quot;outline&quot;,
-                                                                                                                                                                                                              &quot;socialBorderThickness&quot;: {
-                                                                                                                                                                                                                &quot;unit&quot;: &quot;px&quot;,
-                                                                                                                                                                                                                &quot;value&quot;: 1.0
-                                                                                                                                                                                                              }
-                                                                                                                                                                                                            },
-                                                                                                                                                                                                            &quot;sectionTheme&quot;: &quot;white&quot;,
-                                                                                                                                                                                                            &quot;menuOverlayTheme&quot;: &quot;bright&quot;,
-                                                                                                                                                                                                            &quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
-                                                                                                                                                                                                            &quot;cartStyle&quot;: &quot;cart&quot;,
-                                                                                                                                                                                                            &quot;cartText&quot;: &quot;Cart&quot;,
-                                                                                                                                                                                                            &quot;showEmptyCartState&quot;: false,
-                                                                                                                                                                                                            &quot;cartOptions&quot;: {
-                                                                                                                                                                                                              &quot;iconType&quot;: &quot;solid-2&quot;,
-                                                                                                                                                                                                              &quot;cartBorderShape&quot;: &quot;none&quot;,
-                                                                                                                                                                                                              &quot;cartBorderStyle&quot;: &quot;outline&quot;,
-                                                                                                                                                                                                              &quot;cartBorderThickness&quot;: {
-                                                                                                                                                                                                                &quot;unit&quot;: &quot;px&quot;,
-                                                                                                                                                                                                                &quot;value&quot;: 1.0
-                                                                                                                                                                                                              }
-                                                                                                                                                                                                            },
-                                                                                                                                                                                                            &quot;showButton&quot;: true,
-                                                                                                                                                                                                            &quot;showCart&quot;: true,
-                                                                                                                                                                                                            &quot;showAccountLogin&quot;: false,
-                                                                                                                                                                                                            &quot;headerStyle&quot;: &quot;solid&quot;,
-                                                                                                                                                                                                            &quot;languagePicker&quot;: {
-                                                                                                                                                                                                              &quot;enabled&quot;: false,
-                                                                                                                                                                                                              &quot;iconEnabled&quot;: false,
-                                                                                                                                                                                                              &quot;iconType&quot;: &quot;globe&quot;,
-                                                                                                                                                                                                              &quot;flagShape&quot;: &quot;shiny&quot;,
-                                                                                                                                                                                                              &quot;languageFlags&quot;: [ ]
-                                                                                                                                                                                                            },
-                                                                                                                                                                                                            &quot;iconOptions&quot;: {
-                                                                                                                                                                                                              &quot;desktopDropdownIconOptions&quot;: {
-                                                                                                                                                                                                                &quot;size&quot;: {
-                                                                                                                                                                                                                  &quot;unit&quot;: &quot;em&quot;,
-                                                                                                                                                                                                                  &quot;value&quot;: 1.0
-                                                                                                                                                                                                                },
-                                                                                                                                                                                                                &quot;iconSpacing&quot;: {
-                                                                                                                                                                                                                  &quot;unit&quot;: &quot;em&quot;,
-                                                                                                                                                                                                                  &quot;value&quot;: 0.35
-                                                                                                                                                                                                                },
-                                                                                                                                                                                                                &quot;strokeWidth&quot;: {
-                                                                                                                                                                                                                  &quot;unit&quot;: &quot;px&quot;,
-                                                                                                                                                                                                                  &quot;value&quot;: 1.0
-                                                                                                                                                                                                                },
-                                                                                                                                                                                                                &quot;endcapType&quot;: &quot;square&quot;,
-                                                                                                                                                                                                                &quot;folderDropdownIcon&quot;: &quot;none&quot;,
-                                                                                                                                                                                                                &quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
-                                                                                                                                                                                                              },
-                                                                                                                                                                                                              &quot;mobileDropdownIconOptions&quot;: {
-                                                                                                                                                                                                                &quot;size&quot;: {
-                                                                                                                                                                                                                  &quot;unit&quot;: &quot;em&quot;,
-                                                                                                                                                                                                                  &quot;value&quot;: 1.0
-                                                                                                                                                                                                                },
-                                                                                                                                                                                                                &quot;iconSpacing&quot;: {
-                                                                                                                                                                                                                  &quot;unit&quot;: &quot;em&quot;,
-                                                                                                                                                                                                                  &quot;value&quot;: 0.5
-                                                                                                                                                                                                                },
-                                                                                                                                                                                                                &quot;strokeWidth&quot;: {
-                                                                                                                                                                                                                  &quot;unit&quot;: &quot;px&quot;,
-                                                                                                                                                                                                                  &quot;value&quot;: 1.0
-                                                                                                                                                                                                                },
-                                                                                                                                                                                                                &quot;endcapType&quot;: &quot;square&quot;,
-                                                                                                                                                                                                                &quot;folderDropdownIcon&quot;: &quot;none&quot;,
-                                                                                                                                                                                                                &quot;languagePickerIcon&quot;: &quot;openArrowHead&quot;
-                                                                                                                                                                                                              }
-                                                                                                                                                                                                            },
-                                                                                                                                                                                                            &quot;titleFormat&quot;: &quot;capitalize&quot;
-                                                                                                                                                                                                          }">
-      
-      <div className="header-announcement-bar-wrapper">
-        
-      </div>
-
-      <div className="header-inner header-inner--top">
-        <div data-test="header-inner" className="header-inner-container">
-          <div className="header-mobile-actions header-mobile-actions--left" data-test="header-mobile-actions-left">
-            
-          </div>
-
-          <div className="header-title-nav-wrapper">
-            
-
-            <div className="header-nav">
-              <div className="header-nav-wrapper">
-                
-              </div>
+    <main id="page" className="container" role="main">
+      <article className="sections" id="sections">
+        <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" data-fluid-engine-section="" style={{ minHeight: '1vh', paddingTop: '184px' }}>
+          <div className="section-border" style={{ clipPath: 'url(#section-divider-6930bd19e0cd98208c29ff2e)' }}>
+            <div className="section-background">
             </div>
-
           </div>
+          <div className="content-wrapper" style={{ paddingTop: 'calc(1vmax / 10)', paddingBottom: 'calc(1vmax / 10)' }}>
+            <div className="content">
+              <div data-fluid-engine="true">
+                <style jsx>{`
+                  .fe-6930bd19e0cd98208c29ff2c {
+                    --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+                    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
 
-          <div className="header-actions header-actions--right" data-test="header-actions-right">
-            <div className="header-actions-action header-actions-action--cta">
-              <a href="https://order.online/business/square-pie-guys-233210/?hideModal=true&amp;pickup=true" target="_blank" rel="noopener" data-test="header-cta-button">
-                <div className="header-actions-action-text">Order Now</div>
-              </a>
-            </div>
-            <div className="header-actions-action header-actions-action--cart">
-              <a href="/cart" tabIndex={-1} data-test="header-cart">
-                <div>
-                  <div className="header-actions-action-cart-simple">
-                    <div className="icon icon--stroke icon--fill-empty icon--ui-cart icon--is-cart-empty header-actions-action-cart-simple-icon">
-                      <svg className="icon-cart-thin" viewBox="0 0 32 32">
-                        <g strokeWidth="2" fill="none" fillRule="evenodd">
-                          <path d="M3 6h3.82a1.33 1.33 0 0 1 1.28 1l2.18 8h12.43a1 1 0 0 0 .98-.77l1.64-8.25h-15"></path>
-                          <circle cx="11.5" cy="26.5" r="2.5"></circle>
-                          <circle cx="23.5" cy="26.5" r="2.5"></circle>
-                        </g>
-                      </svg>
+                    display: grid;
+                    position: relative;
+                    grid-area: 1/1/-1/-1;
+                    grid-template-rows: repeat(2,minmax(24px, auto));
+                    grid-template-columns:
+                      minmax(var(--grid-gutter), 1fr)
+                      repeat(8, minmax(0, var(--cell-max-width)))
+                      minmax(var(--grid-gutter), 1fr);
+                    row-gap: 11.0px;
+                    column-gap: 11.0px;
+                    overflow-x: hidden;
+                    overflow-x: clip;
+                  }
+
+                  @media (min-width: 768px) {
+                    .background-width--inset .fe-6930bd19e0cd98208c29ff2c {
+                      --inset-padding: calc(var(--sqs-site-gutter) * 2);
+                    }
+
+                    .fe-6930bd19e0cd98208c29ff2c {
+                      --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+                      --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+                      --inset-padding: 0vw;
+
+                      --row-height-scaling-factor: 0.0215;
+                      --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+                      grid-template-rows: repeat(2,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+                      grid-template-columns:
+                        minmax(var(--grid-gutter), 1fr)
+                        repeat(24, minmax(0, var(--cell-max-width)))
+                        minmax(var(--grid-gutter), 1fr);
+                    }
+                  }
+
+                  .fe-block-4ec6f7970b0f5f240202 {
+                    grid-area: 1/1/3/11;
+                    z-index: 2;
+                  }
+
+                  .fe-block-4ec6f7970b0f5f240202 .sqs-block {
+                    justify-content: center;
+                  }
+
+                  .fe-block-4ec6f7970b0f5f240202 .sqs-block-alignment-wrapper {
+                    align-items: center;
+                  }
+
+                  @media (min-width: 768px) {
+                    .fe-block-4ec6f7970b0f5f240202 {
+                      grid-area: 1/1/3/27;
+                      z-index: 2;
+                    }
+
+                    .fe-block-4ec6f7970b0f5f240202 .sqs-block {
+                      justify-content: center;
+                    }
+
+                    .fe-block-4ec6f7970b0f5f240202 .sqs-block-alignment-wrapper {
+                      align-items: center;
+                    }
+                  }
+                `}</style>
+                <div className="fluid-engine fe-6930bd19e0cd98208c29ff2c">
+                  <div className="fe-block fe-block-4ec6f7970b0f5f240202" style={{ mixBlendMode: 'normal' }}>
+                    <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" data-sqsp-block="scrolling" id="block-4ec6f7970b0f5f240202">
+                      <div className="sqs-block-content">
+                        <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': 1.2 }} data-ready="true">
+                          {/* Marquee content would be rendered here based on the JSON props */}
+                        </div>
+                      </div>
                     </div>
-                    <div className="header-actions-action-text">Cart</div>
                   </div>
-                  <div className="header-actions-action-cart-counter" style={{ display: 'none' }}>0</div>
                 </div>
-              </a>
-            </div>
-            
-          </div>
-
-          <div className="header-mobile-actions header-mobile-actions--right" data-test="header-mobile-actions-right">
-            <div className="header-actions-action header-actions-action--cta">
-              <a href="https://order.online/business/square-pie-guys-233210/?hideModal=true&amp;pickup=true" target="_blank" rel="noopener" data-test="header-cta-button">
-                <div className="header-actions-action-text">Order Now</div>
-              </a>
-            </div>
-            
-          </div>
-
-          <div className="header-burger" data-test="header-burger">
-            <button className="header-burger-btn burger" data-test="header-burger-btn burger" aria-label="Open Menu">
-              <span className="burger-box">
-                <span className="burger-inner"></span>
-              </span>
-            </button>
-          </div>
-
-        </div>
-      </div>
-      
-      <div className="header-inner header-inner--bottom">
-        <div data-test="header-inner" className="header-inner-container">
-          <div className="header-title-nav-wrapper">
-            
-            <div className="header-title" data-test="header-title">
-              <h1 className="header-title-text">
-                <a href="/" rel="home">Square Pie Guys</a>
-              </h1>
-            </div>
-
-            <div className="header-nav">
-              <div className="header-nav-wrapper">
-                <nav className="header-nav-list">
-                  
-                  
-                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
-                      <a href="/about" data-test="template=collection" className="">About</a>
-                    </div>
-                  
-                  
-                  
-                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
-                      <a href="/menu" data-test="template=collection" className="">Menu</a>
-                    </div>
-                  
-                  
-                  
-                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
-                      <a href="/locations" data-test="template=collection" className="">Locations</a>
-                    </div>
-                  
-                  
-                  
-                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
-                      <a href="/franchise-inquiry" data-test="template=collection" className="">Franchise Inquiry</a>
-                    </div>
-                  
-                  
-                  
-                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
-                      <a href="/catering" data-test="template=collection" className="">Catering</a>
-                    </div>
-                  
-                  
-                  
-                    <div className="header-nav-item header-nav-item--collection" data-test="header-nav-item">
-                      <a href="/shop" data-test="template=collection" className="">Shop</a>
-                    </div>
-                  
-                  
-                </nav>
               </div>
             </div>
-
           </div>
-        </div>
-      </div>
-      
-      
-    </header>
-  );
+        </section>
+      </article>
+    </main>
+  )
 }

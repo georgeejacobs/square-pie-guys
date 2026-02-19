@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Square Pie Guys",
-  description: "Square Pie Guys embraces a bold, community-focused personality with passionate enthusiasm for Detroit-style pizza. The brand is playful yet confident, using cas",
+  description: "Square Pie Guys presents a bold, energetic personality that celebrates Detroit-style pizza culture with playful confidence. The brand voice is community-focused",
 };
 
 export default function RootLayout({

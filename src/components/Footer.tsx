@@ -1,18 +1,9 @@
-export default function Footer() {
-  return (
-    <section data-section-theme="white" aria-label="Cookie banner" className="gdpr-cookie-banner BOTTOM_LEFT white popup full-styling">
-      <p className="disclaimer-text sqs-cookie-banner-v2-text">By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.</p>
-      <div className="button-group sqs-cookie-banner-v2-cta-container">
-        <button className="accept sqs-button-element--primary sqs-cookie-banner-v2-accept sqs-cookie-banner-v2-cta">
-          <span>Accept</span>
-        </button>
-        <button className="decline sqs-button-element--secondary sqs-cookie-banner-v2-deny sqs-cookie-banner-v2-cta">
-          <span>Decline</span>
-        </button>
-        <button className="manage sqs-button-element--tertiary">
-          <span>Manage cookies</span>
-        </button>
-      </div>
-    </section>
-  )
-}
+Looking at the HTML, I cannot find a "Main Footer" section or any section 10 of 10 in the provided HTML content. The HTML appears to be incomplete and cuts off at the beginning with just the `<head>` section and some script tags. There is no `<body>` content or any footer sections visible in the provided HTML.
+
+The HTML ends abruptly with:
+
+```html
+"rollups":{"squarespace-announcement-bar":{"js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-caefb69de8707954-min.en-US
+```
+
+To convert the footer section, I would need the complete HTML that includes the actual footer content with its HTML structure, classes, and content. Could you please provide the complete HTML that includes the footer section you want converted?

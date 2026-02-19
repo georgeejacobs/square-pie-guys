@@ -1,18 +1,3 @@
-export default function CallToAction() {
-  return (
-    <section data-section-theme="white" aria-label="Cookie banner" className="gdpr-cookie-banner BOTTOM_LEFT white popup full-styling">
-      <p className="disclaimer-text sqs-cookie-banner-v2-text">By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.</p>
-      <div className="button-group sqs-cookie-banner-v2-cta-container">
-        <button className="accept sqs-button-element--primary sqs-cookie-banner-v2-accept sqs-cookie-banner-v2-cta">
-          <span>Accept</span>
-        </button>
-        <button className="decline sqs-button-element--secondary sqs-cookie-banner-v2-deny sqs-cookie-banner-v2-cta">
-          <span>Decline</span>
-        </button>
-        <button className="manage sqs-button-element--tertiary">
-          <span>Manage cookies</span>
-        </button>
-      </div>
-    </section>
-  );
-}
+I need to see the actual HTML content to identify and convert the "Community Engagement Section" (section 8 of 10). The HTML you provided appears to be cut off and only shows the head section with meta tags, scripts, and styles, but doesn't include the body content where the sections would be located.
+
+Could you please provide the complete HTML that includes the body content with the actual "Community Engagement Section"? I need to see the section structure and content to perform the conversion accurately.
