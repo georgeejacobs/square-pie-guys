@@ -1,196 +1,192 @@
 "use client"
+
 import Image from "next/image"
 
 export default function Features() {
   return (
-    <section data-test="page-section" data-section-theme="white" className="page-section has-section-divider
+    <section data-test="page-section" data-section-theme="black-bold" className="page-section 
     
       full-bleed-section
       layout-engine-section
     
     background-width--full-bleed
     
-      section-height--medium
+      section-height--large
     
     
       content-width--wide
     
     horizontal-alignment--center
-    vertical-alignment--middle
+    vertical-alignment--bottom
     
        has-background
     
     
-    white" data-animation="none" id="yui_3_17_2_1_1771522505598_166">
-      <div className="section-border" style={{ clipPath: 'url(#section-divider-6585f6588bffa766875dc1bf)' }}>
+    black-bold" data-animation="none" data-active="true">
+      <div className="section-border">
         <div className="section-background">
-          <img alt="" data-src="/image-5.webp" data-image="/image-5.webp" data-image-dimensions="2532x1404" data-image-focal-point="0.5,0.5" data-load="false" src="/image-5.webp" width="2532" height="1404" sizes="(max-width: 799px) 200vw, 100vw" style={{ display: 'block', objectPosition: '50% 50%' }} srcSet="/image-5.webp?format=100w 100w, /image-5.webp?format=300w 300w, /image-5.webp?format=500w 500w, /image-5.webp?format=750w 750w, /image-5.webp?format=1000w 1000w, /image-5.webp?format=1500w 1500w, /image-5.webp?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs" />
-          <div className="section-background-overlay" style={{ opacity: 0.15 }}></div>
+        
+          
+            
+            
+              
+              <div className="section-background-content">
+              
+                <Image 
+                  alt="" 
+                  crossOrigin="" 
+                  src="/image-0.png" 
+                  width={2220} 
+                  height={1644} 
+                  sizes="(max-width: 799px) 200vw, 100vw" 
+                  className="background-image-fx" 
+                  style={{ display: 'block', objectPosition: '50% 50%', visibility: 'visible' }}
+                  priority={false}
+                  loading="lazy"
+                />
+
+                <div className="section-background-canvas background-fx-canvas"></div>
+              </div>
+
+            
+            <div className="section-background-overlay" style={{ opacity: '0.14' }}></div>
+          
+        
         </div>
       </div>
-      <div className="content-wrapper" style={{}} id="yui_3_17_2_1_1771522505598_165">
-        <div className="content" id="yui_3_17_2_1_1771522505598_164">
-          <div id="yui_3_17_2_1_1771522505598_163">
+      <div className="content-wrapper" style={{}}>
+        <div className="content">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div>
             <style jsx>{`
-              
 
-              @media (min-width: 768px) {
-                .background-width--inset 
-
-                
+              .fe-block-5dacb88ca2ca00706e81 {
+                grid-area: 1/2/3/10;
+                z-index: 1;
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_87191 {
-                grid-area: 1/2/12/10;
-                z-index: 3;
+              .fe-block-5dacb88ca2ca00706e81 .sqs-block {
+                justify-content: flex-end;
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_87191 .sqs-block {
-                justify-content: center;
-              }
-
-              .fe-block-yui_3_17_2_1_1705085365777_87191 .sqs-block-alignment-wrapper {
-                align-items: center;
+              .fe-block-5dacb88ca2ca00706e81 .sqs-block-alignment-wrapper {
+                align-items: flex-end;
               }
 
               @media (min-width: 768px) {
-                .fe-block-yui_3_17_2_1_1705085365777_87191 {
-                  grid-area: 1/14/21/26;
-                  z-index: 3;
+                .fe-block-5dacb88ca2ca00706e81 {
+                  grid-area: 1/2/3/14;
+                  z-index: 1;
                 }
 
-                .fe-block-yui_3_17_2_1_1705085365777_87191 .sqs-block {
-                  justify-content: center;
+                .fe-block-5dacb88ca2ca00706e81 .sqs-block {
+                  justify-content: flex-start;
                 }
 
-                .fe-block-yui_3_17_2_1_1705085365777_87191 .sqs-block-alignment-wrapper {
-                  align-items: center;
+                .fe-block-5dacb88ca2ca00706e81 .sqs-block-alignment-wrapper {
+                  align-items: flex-start;
                 }
               }
 
-              .fe-block-d5c56f40dea6490c6a02 {
-                grid-area: 13/2/22/10;
-                z-index: 2;
+              .fe-block-85141784fcf8b3d64446 {
+                grid-area: 3/2/5/10;
+                z-index: 0;
               }
 
-              .fe-block-d5c56f40dea6490c6a02 .sqs-block {
+              .fe-block-85141784fcf8b3d64446 .sqs-block {
                 justify-content: flex-start;
               }
 
-              .fe-block-d5c56f40dea6490c6a02 .sqs-block-alignment-wrapper {
+              .fe-block-85141784fcf8b3d64446 .sqs-block-alignment-wrapper {
                 align-items: flex-start;
               }
 
               @media (min-width: 768px) {
-                .fe-block-d5c56f40dea6490c6a02 {
-                  grid-area: 3/2/15/14;
-                  z-index: 2;
+                .fe-block-85141784fcf8b3d64446 {
+                  grid-area: 2/2/6/21;
+                  z-index: 0;
                 }
 
-                .fe-block-d5c56f40dea6490c6a02 .sqs-block {
-                  justify-content: center;
+                .fe-block-85141784fcf8b3d64446 .sqs-block {
+                  justify-content: flex-start;
                 }
 
-                .fe-block-d5c56f40dea6490c6a02 .sqs-block-alignment-wrapper {
-                  align-items: center;
+                .fe-block-85141784fcf8b3d64446 .sqs-block-alignment-wrapper {
+                  align-items: flex-start;
                 }
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_95078 {
-                grid-area: 20/2/22/10;
-                z-index: 4;
+              .fe-block-ae2cfd5144aff2bb1d2c {
+                grid-area: 6/2/8/6;
+                z-index: 3;
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_95078 .sqs-block {
+              .fe-block-ae2cfd5144aff2bb1d2c .sqs-block {
                 justify-content: center;
               }
 
-              .fe-block-yui_3_17_2_1_1705085365777_95078 .sqs-block-alignment-wrapper {
+              .fe-block-ae2cfd5144aff2bb1d2c .sqs-block-alignment-wrapper {
                 align-items: center;
               }
 
               @media (min-width: 768px) {
-                .fe-block-yui_3_17_2_1_1705085365777_95078 {
-                  grid-area: 16/2/18/7;
-                  z-index: 4;
+                .fe-block-ae2cfd5144aff2bb1d2c {
+                  grid-area: 7/3/9/8;
+                  z-index: 3;
                 }
 
-                .fe-block-yui_3_17_2_1_1705085365777_95078 .sqs-block {
+                .fe-block-ae2cfd5144aff2bb1d2c .sqs-block {
                   justify-content: center;
                 }
 
-                .fe-block-yui_3_17_2_1_1705085365777_95078 .sqs-block-alignment-wrapper {
+                .fe-block-ae2cfd5144aff2bb1d2c .sqs-block-alignment-wrapper {
                   align-items: center;
                 }
               }
+
+              #block-ae2cfd5144aff2bb1d2c {
+                --sqs-block-content-flex: 1;
+              }
             `}</style>
-            <div className="fluid-engine fe-6585f6588bffa766875dc1be" id="yui_3_17_2_1_1771522505598_162">
-              <div className="fe-block fe-block-yui_3_17_2_1_1705085365777_87191" id="yui_3_17_2_1_1771522505598_161">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="100" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-yui_3_17_2_1_1705085365777_87191">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771522505598_160" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="yui_3_17_2_1_1705085365777_87191" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="true" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771522505598_159">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771522505598_158">
-                        <div className="fluid-image-container sqs-image-content js-image-container" data-shape-mask="eight-sided-shield" style={{ overflow: 'hidden', clipPath: 'url("#yui_3_17_2_1_1705085365777_87191")', width: '100%', height: '657px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771522505598_157">
-                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771522505598_154">
-                            <Image 
-                              data-stretch="false" 
-                              data-src="/image-2.webp" 
-                              data-image="/image-2.webp" 
-                              data-image-dimensions="5876x3917" 
-                              data-image-focal-point="0.5,0.5" 
-                              data-sqsp-image-block-image="" 
-                              alt="Meal spread including pizza, lasagna, fried chicken with fries, tomato salad, bread with sauce, and various side dishes with drinks on a wooden table." 
-                              data-licensed-asset-preview="false" 
-                              data-load="false" 
-                              src="/image-2.webp" 
-                              width={5876} 
-                              height={3917} 
-                              sizes="100vw" 
-                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
-                              loading="lazy" 
-                            />
-                            <div className="fluidImageOverlay"></div>
-                          </div>
-                        </div>
-                        <svg data-image-mask-id="yui_3_17_2_1_1705085365777_87191" width="0" height="0" style={{ position: 'absolute' }}>
-                          <defs>
-                            <clipPath id="yui_3_17_2_1_1705085365777_87191" clipPathUnits="objectBoundingBox">
-                              <path d="M0.5,0 L0.957,0.065,1,0.5,0.957,0.935 L0.5,1,0.043,0.935,0,0.5,0.043,0.065,0.5,0"></path>
-                            </clipPath>
-                          </defs>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="fe-block fe-block-d5c56f40dea6490c6a02" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-d5c56f40dea6490c6a02">
+            <div className="fluid-engine fe-697f96a8134cbc609c3273d3">
+              <div className="fe-block fe-block-5dacb88ca2ca00706e81" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-5dacb88ca2ca00706e81">
                   <div className="sqs-block-content">
                     <div className="sqs-html-content" data-sqsp-text-block-content="">
-                      <h1 style={{ whiteSpace: 'pre-wrap' }}>
-                        <span className="sqsrte-text-color--accent">GET ZERO DELIVERY FEES + CASH-BACK REWARDS.</span>
-                      </h1>
-                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>
-                        Order from the Guys directly and <strong><em>earn BI!</em></strong>
-                      </p>
+                      <pre><code>P-lo PiE</code></pre>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-yui_3_17_2_1_1705085365777_95078">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block sqs-text-ready" data-aspect-ratio="NaN" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-yui_3_17_2_1_1705085365777_95078">
-                  <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
-                    <div className="button-component-root">
-                      <div className="button-layout-wrapper">
-                        <div className="button-alignment-wrapper">
-                          <a className="sqs-button-element--primary sqs-button-element" href="#" target="">
-                            <div className="button-text-wrapper">
-                              <div className="button-text">DOWNLOAD APP</div>
-                            </div>
-                          </a>
-                        </div>
+              <div className="fe-block fe-block-85141784fcf8b3d64446" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-85141784fcf8b3d64446">
+                  <div className="sqs-block-content">
+                    <div className="sqs-html-content" data-sqsp-text-block-content="">
+                      <div className="sqsrte-scaled-text-container loaded">
+                        <span className="sqsrte-scaled-text" style={{ fontSize: '131.7px' }}>
+                          <h1 style={{ whiteSpace: 'pre-wrap' }}>THE P-LO PIE IS HERe. </h1>
+                        </span>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-ae2cfd5144aff2bb1d2c">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-ae2cfd5144aff2bb1d2c">
+                  <div className="sqs-block-content">
+                    <div className="sqs-block-button-container  sqs-block-button-container--center sqs-stretched" data-animation-role="button" data-button-size="medium" data-button-type="primary"> 
+                      <a href="/seasonalmenu" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-sqsp-button="" target="_blank" data-initialized="true">
+                        MORE HERE!
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -198,7 +194,9 @@ export default function Features() {
             </div>
           </div>
         </div>
+      
       </div>
+      
     </section>
   )
 }
