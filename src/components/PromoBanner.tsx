@@ -77,14 +77,19 @@ export default function PromoBanner() {
 
       <div className="sqs-announcement-bar-dropzone">
         <div className="sqs-announcement-bar-custom-location">
-          <div id="yui_3_17_2_1_1771530578935_284" className="yui3-widget sqs-widget sqs-announcement-bar">
-            <div id="yui_3_17_2_1_1771530578935_286" className="sqs-announcement-bar-content">
+          <div id="yui_3_17_2_1_1771535657305_284" className="yui3-widget sqs-widget sqs-announcement-bar">
+            <div id="yui_3_17_2_1_1771535657305_286" className="sqs-announcement-bar-content">
               <a className="sqs-announcement-bar-url" target="_blank" href="https://opnl.co/squarepieguys-app" aria-labelledby="announcement-bar-text-inner-id"></a>
 
               <div className="sqs-announcement-bar-text">
                 <span className="sqs-announcement-bar-close" tabIndex={0} role="button" aria-label="Close Announcement"></span>
                 <div id="announcement-bar-text-inner-id" className="sqs-announcement-bar-text-inner">
-                  <p data-rte-preserve-empty="true" style={{ whiteSpace: 'pre-wrap' }}><strong>Did you know we're rated the top 3 Detroit-style pizzas in the whole country? </strong></p><p data-rte-preserve-empty="true" style={{ whiteSpace: 'pre-wrap' }}><strong>Order Here!</strong></p>
+                  <p data-rte-preserve-empty="true" style={{ whiteSpace: 'pre-wrap' }}>
+                    <strong>Did you know we're rated the top 3 Detroit-style pizzas in the whole country? </strong>
+                  </p>
+                  <p data-rte-preserve-empty="true" style={{ whiteSpace: 'pre-wrap' }}>
+                    <strong>Order Here!</strong>
+                  </p>
                 </div>
               </div>
             </div>
@@ -97,22 +102,28 @@ export default function PromoBanner() {
         <a href="#page" className="header-skip-link sqs-button-element--primary">
           Skip to Content
         </a>
+        
 
         
 
         <div className="header-border" data-header-style="solid" data-header-border="false" data-test="header-border" style={{}}></div>
         <div className="header-dropshadow" data-header-style="solid" data-header-dropshadow="false" data-test="header-dropshadow" style={{}}></div>
         
+        
         <div>
           <div className="header-background-solid" data-header-style="solid" data-test="header-background-solid" style={{ opacity: 'calc(100 * .01)' }}></div>
         </div>
+        
 
         <div className="header-inner container--fluid header-layout--with-commerce header-mobile-layout-logo-left-nav-right header-layout-branding-center-nav-center" data-test="header-inner">
+          {/* Background */}
           <div className="header-background theme-bg--primary"></div>
 
           <div className="header-display-desktop" data-content-field="site-title">
+
             
 
+            {/* Burger */}
             <div className="header-burger menu-overlay-has-visible-non-navigation-items" data-animation-role="header-element">
               <button className="header-burger-btn burger" data-test="header-burger">
                 <span className="js-header-burger-open-title visually-hidden">Open Menu</span>
@@ -126,26 +137,54 @@ export default function PromoBanner() {
                 </div>
               </button>
             </div>
+
             
+            {/* Social */}
+            
+            
+            {/* Title and nav wrapper */}
             <div className="header-title-nav-wrapper">
-              <div className="header-title" data-animation-role="header-element">
-                <div className="header-title-logo">
-                  <a href="/" data-animation-role="header-element">
-                    <img src="/image-7.webp" alt="Square Pie Guys" style={{ display: 'block' }} loading="eager" decoding="async" data-loader="raw" />
-                  </a>
-                </div>
-              </div>
+              
+
+              
+
+              
                 
-              <div className="header-nav">
-                <div className="header-nav-wrapper">
-                  <nav className="header-nav-list">
-                    <div className="header-nav-item header-nav-item--folder">
-                      <button className="header-nav-folder-title" data-href="/menu-1" data-animation-role="header-element" aria-expanded="false" aria-controls="menu">
-                        <span className="header-nav-folder-title-text">
-                          Menu
-                        </span>
-                      </button>
-                      <div className="header-nav-folder-content" id="menu">
+                {/* Title */}
+                
+                <div className="header-title" data-animation-role="header-element">
+                  
+                  <div className="header-title-logo">
+                    <a href="/" data-animation-role="header-element">
+                    
+                      <img src="/image-7.webp" alt="Square Pie Guys" style={{ display: 'block' }} loading="eager" decoding="async" data-loader="raw" />
+
+                    </a>
+                  </div>
+
+                  
+                  
+                </div>
+                
+              
+                
+                {/* Nav */}
+                <div className="header-nav">
+                  <div className="header-nav-wrapper">
+                    <nav className="header-nav-list">
+                      
+
+
+              
+                <div className="header-nav-item header-nav-item--folder">
+                  <button className="header-nav-folder-title" data-href="/menu-1" data-animation-role="header-element" aria-expanded="false" aria-controls="menu">
+                  <span className="header-nav-folder-title-text">
+                    Menu
+                  </span>
+                  </button>
+                  <div className="header-nav-folder-content" id="menu">
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/menu">
                             <span className="header-nav-folder-item-content">
@@ -153,7 +192,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/seasonalmenu">
                             <span className="header-nav-folder-item-content">
@@ -161,16 +203,25 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                      </div>
-                    </div>
+                      
+                      
+                    
+                  </div>
+                </div>
+              
+              
 
-                    <div className="header-nav-item header-nav-item--folder">
-                      <button className="header-nav-folder-title" data-href="/the-mission" data-animation-role="header-element" aria-expanded="false" aria-controls="about">
-                        <span className="header-nav-folder-title-text">
-                          About
-                        </span>
-                      </button>
-                      <div className="header-nav-folder-content" id="about">
+
+              
+                <div className="header-nav-item header-nav-item--folder">
+                  <button className="header-nav-folder-title" data-href="/the-mission" data-animation-role="header-element" aria-expanded="false" aria-controls="about">
+                  <span className="header-nav-folder-title-text">
+                    About
+                  </span>
+                  </button>
+                  <div className="header-nav-folder-content" id="about">
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/community">
                             <span className="header-nav-folder-item-content">
@@ -178,7 +229,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/squarepiehub">
                             <span className="header-nav-folder-item-content">
@@ -186,7 +240,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/team-1">
                             <span className="header-nav-folder-item-content">
@@ -194,7 +251,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/press">
                             <span className="header-nav-folder-item-content">
@@ -202,7 +262,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/blog">
                             <span className="header-nav-folder-item-content">
@@ -210,16 +273,25 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                      </div>
-                    </div>
+                      
+                      
+                    
+                  </div>
+                </div>
+              
+              
 
-                    <div className="header-nav-item header-nav-item--folder">
-                      <button className="header-nav-folder-title" data-href="/locationss" data-animation-role="header-element" aria-expanded="false" aria-controls="locations">
-                        <span className="header-nav-folder-title-text">
-                          Locations
-                        </span>
-                      </button>
-                      <div className="header-nav-folder-content" id="locations">
+
+              
+                <div className="header-nav-item header-nav-item--folder">
+                  <button className="header-nav-folder-title" data-href="/locationss" data-animation-role="header-element" aria-expanded="false" aria-controls="locations">
+                  <span className="header-nav-folder-title-text">
+                    Locations
+                  </span>
+                  </button>
+                  <div className="header-nav-folder-content" id="locations">
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/currentlocations">
                             <span className="header-nav-folder-item-content">
@@ -227,7 +299,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/newlocations">
                             <span className="header-nav-folder-item-content">
@@ -235,22 +310,36 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                      </div>
-                    </div>
+                      
+                      
+                    
+                  </div>
+                </div>
+              
+              
 
-                    <div className="header-nav-item header-nav-item--collection">
-                      <a href="/catering" data-animation-role="header-element">
-                        Catering
-                      </a>
-                    </div>
 
-                    <div className="header-nav-item header-nav-item--folder">
-                      <button className="header-nav-folder-title" data-href="/faq-1" data-animation-role="header-element" aria-expanded="false" aria-controls="faq">
-                        <span className="header-nav-folder-title-text">
-                          FAQ
-                        </span>
-                      </button>
-                      <div className="header-nav-folder-content" id="faq">
+              
+                <div className="header-nav-item header-nav-item--collection">
+                  <a href="/catering" data-animation-role="header-element">
+                    Catering
+                  </a>
+                </div>
+              
+              
+              
+
+
+              
+                <div className="header-nav-item header-nav-item--folder">
+                  <button className="header-nav-folder-title" data-href="/faq-1" data-animation-role="header-element" aria-expanded="false" aria-controls="faq">
+                  <span className="header-nav-folder-title-text">
+                    FAQ
+                  </span>
+                  </button>
+                  <div className="header-nav-folder-content" id="faq">
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/faq">
                             <span className="header-nav-folder-item-content">
@@ -258,7 +347,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/allergiess">
                             <span className="header-nav-folder-item-content">
@@ -266,7 +358,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/nutritioninfo">
                             <span className="header-nav-folder-item-content">
@@ -274,7 +369,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/spgappterms">
                             <span className="header-nav-folder-item-content">
@@ -282,16 +380,25 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                      </div>
-                    </div>
+                      
+                      
+                    
+                  </div>
+                </div>
+              
+              
 
-                    <div className="header-nav-item header-nav-item--folder">
-                      <button className="header-nav-folder-title" data-href="/join-rewards" data-animation-role="header-element" aria-expanded="false" aria-controls="discounts">
-                        <span className="header-nav-folder-title-text">
-                          Discounts
-                        </span>
-                      </button>
-                      <div className="header-nav-folder-content" id="discounts">
+
+              
+                <div className="header-nav-item header-nav-item--folder">
+                  <button className="header-nav-folder-title" data-href="/join-rewards" data-animation-role="header-element" aria-expanded="false" aria-controls="discounts">
+                  <span className="header-nav-folder-title-text">
+                    Discounts
+                  </span>
+                  </button>
+                  <div className="header-nav-folder-content" id="discounts">
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/discounts-deals">
                             <span className="header-nav-folder-item-content">
@@ -299,7 +406,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/rewards">
                             <span className="header-nav-folder-item-content">
@@ -307,7 +417,10 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                        
+                      
+                      
+                    
+                      
                         <div className="header-nav-folder-item">
                           <a href="/giftcards">
                             <span className="header-nav-folder-item-content">
@@ -315,13 +428,24 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
-                      </div>
-                    </div>
-                  </nav>
+                      
+                      
+                    
+                  </div>
                 </div>
-              </div>
+              
+              
+
+                    </nav>
+                  </div>
+                </div>
+                
+              
+
             </div>
+
           </div>
+
         </div>
       </div>
     <style jsx>{`
@@ -339,5 +463,5 @@ export default function PromoBanner() {
               }
 `}</style>
 </header>
-  )
+  );
 }

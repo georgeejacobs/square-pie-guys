@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 export default function NavBar() {
   return (
@@ -7,10 +7,7 @@ export default function NavBar() {
         <div className="section-background">
         </div>
       </div>
-      <div className="content-wrapper" style={{
-        paddingTop: 'calc(1vmax / 10)',
-        paddingBottom: 'calc(1vmax / 10)'
-      }}>
+      <div className="content-wrapper" style={{ paddingTop: 'calc(1vmax / 10)', paddingBottom: 'calc(1vmax / 10)' }}>
         <div className="content">
           <div>
             <style jsx>{`
@@ -75,10 +72,10 @@ export default function NavBar() {
                         <h1 style={{ fontSize: '1.2rem', '--marquee-font-size-value': 1.2 } as any}>
                           <svg className="Marquee-svg" fill="currentColor" aria-hidden="true" style={{ height: '26px', transform: 'translateY(2.6px)', overflow: 'visible' }}>
                             <g className="Marquee-path-group" transform="translate(0, 1.3)">
-                              <path className="Marquee-path" fill="none" stroke="transparent" strokeWidth="0" d="M-550,17.212  L-550,17.212 S-183.15,17.212 0,17.212 S366.85,17.212 550,17.212 S916.85,17.212 1100,17.212 S1466.85,17.212 1650,17.212 S2016.85,17.212 2200,17.212" strokeDasharray="99 9.228 21 9.228 77 9.228 21 9.228 89 9.228 21 9.228 " id="4ec6f7970b0f5f240202" strokeDashoffset="316"></path>
+                              <path className="Marquee-path" fill="none" stroke="transparent" strokeWidth="0" d="M-550,17.212  L-550,17.212 S-183.15,17.212 0,17.212 S366.85,17.212 550,17.212 S916.85,17.212 1100,17.212 S1466.85,17.212 1650,17.212 S2016.85,17.212 2200,17.212" strokeDasharray="99 9.228 21 9.228 77 9.228 21 9.228 89 9.228 21 9.228 " id="4ec6f7970b0f5f240202" strokeDashoffset="37" />
                             </g>
                             <text>
-                              <textPath className="Marquee-svg-text" href="#4ec6f7970b0f5f240202" startOffset="-316">
+                              <textPath className="Marquee-svg-text" href="#4ec6f7970b0f5f240202" startOffset="-37">
                                 <tspan className="Marquee-svg-text" x="0" style={{ display: 'none' }}>YOU SAY PIZZA</tspan>
                                 <tspan className="Marquee-svg-text" x="108.228" style={{ display: 'none' }}>🍕</tspan>
                                 <tspan className="Marquee-svg-text" x="138.456" style={{ display: 'none' }}>WE SAY PIE</tspan>
@@ -87,11 +84,11 @@ export default function NavBar() {
                                 <tspan className="Marquee-svg-text" x="353.14" style={{ display: 'none' }}>🍕</tspan>
                                 <tspan className="Marquee-svg-text" x="383.368" style={{ display: 'none' }}>YOU SAY PIZZA</tspan>
                                 <tspan className="Marquee-svg-text" x="491.596" style={{ display: 'none' }}>🍕</tspan>
-                                <tspan className="Marquee-svg-text" x="521.824" style={{ display: 'none' }}>WE SAY PIE</tspan>
-                                <tspan className="Marquee-svg-text" x="608.0519999999999" style={{ display: 'none' }}>🍕</tspan>
-                                <tspan className="Marquee-svg-text" x="638.2799999999999" style={{ display: 'none' }}>IT'S ALL YUM</tspan>
-                                <tspan className="Marquee-svg-text" x="736.5079999999998" style={{ display: 'none' }}>🍕</tspan>
-                                <tspan className="Marquee-svg-text" x="766.7359999999998" style={{ display: 'none' }}>YOU SAY PIZZA</tspan>
+                                <tspan className="Marquee-svg-text" x="521.824" style={{ display: 'block' }}>WE SAY PIE</tspan>
+                                <tspan className="Marquee-svg-text" x="608.0519999999999" style={{ display: 'block' }}>🍕</tspan>
+                                <tspan className="Marquee-svg-text" x="638.2799999999999" style={{ display: 'block' }}>IT'S ALL YUM</tspan>
+                                <tspan className="Marquee-svg-text" x="736.5079999999998" style={{ display: 'block' }}>🍕</tspan>
+                                <tspan className="Marquee-svg-text" x="766.7359999999998" style={{ display: 'block' }}>YOU SAY PIZZA</tspan>
                                 <tspan className="Marquee-svg-text" x="874.9639999999997" style={{ display: 'block' }}>🍕</tspan>
                                 <tspan className="Marquee-svg-text" x="905.1919999999997">WE SAY PIE</tspan>
                                 <tspan className="Marquee-svg-text" x="991.4199999999996">🍕</tspan>
@@ -115,11 +112,11 @@ export default function NavBar() {
                                 <tspan className="Marquee-svg-text" x="2141.5240000000003">🍕</tspan>
                                 <tspan className="Marquee-svg-text" x="2171.7520000000004">IT'S ALL YUM</tspan>
                                 <tspan className="Marquee-svg-text" x="2269.9800000000005" style={{ display: 'block' }}>🍕</tspan>
-                                <tspan className="Marquee-svg-text" x="2300.2080000000005" style={{ display: 'block' }}>YOU SAY PIZZA</tspan>
-                                <tspan className="Marquee-svg-text" x="2408.4360000000006" style={{ display: 'block' }}>🍕</tspan>
-                                <tspan className="Marquee-svg-text" x="2438.6640000000007" style={{ display: 'block' }}>WE SAY PIE</tspan>
-                                <tspan className="Marquee-svg-text" x="2524.8920000000007" style={{ display: 'block' }}>🍕</tspan>
-                                <tspan className="Marquee-svg-text" x="2555.120000000001" style={{ display: 'block' }}>IT'S ALL YUM</tspan>
+                                <tspan className="Marquee-svg-text" x="2300.2080000000005" style={{ display: 'none' }}>YOU SAY PIZZA</tspan>
+                                <tspan className="Marquee-svg-text" x="2408.4360000000006" style={{ display: 'none' }}>🍕</tspan>
+                                <tspan className="Marquee-svg-text" x="2438.6640000000007" style={{ display: 'none' }}>WE SAY PIE</tspan>
+                                <tspan className="Marquee-svg-text" x="2524.8920000000007" style={{ display: 'none' }}>🍕</tspan>
+                                <tspan className="Marquee-svg-text" x="2555.120000000001" style={{ display: 'none' }}>IT'S ALL YUM</tspan>
                                 <tspan className="Marquee-svg-text" x="2653.348000000001" style={{ display: 'none' }}>🍕</tspan>
                                 <tspan className="Marquee-svg-text" x="2683.576000000001" style={{ display: 'none' }}>YOU SAY PIZZA</tspan>
                                 <tspan className="Marquee-svg-text" x="2791.804000000001" style={{ display: 'none' }}>🍕</tspan>
@@ -147,13 +144,8 @@ export default function NavBar() {
                             </text>
                             <g className="Marquee-hitbox" data-hitbox="" aria-labelledby="ariaLabel4ec6f7970b0f5f240202">
                               <g className="Marquee-path-hitbox-group" transform="translate(0, -4.303000000000001)">
-                                <path className="Marquee-path-hitbox" fill="none" stroke="transparent" d="M-550,17.212  L-550,17.212 S-183.15,17.212 0,17.212 S366.85,17.212 550,17.212 S916.85,17.212 1100,17.212 S1466.85,17.212 1650,17.212 S2016.85,17.212 2200,17.212" id="4ec6f7970b0f5f240202" strokeWidth="26"></path>
-                                <path className="Marquee-path-hitbox-focus-outline" fill="none" stroke="transparent" strokeWidth="2px" d="
-      M-550,26
-       L-550,23.4 S-183.15,23.4 0,23.4 S366.85,23.4 550,23.4 S916.85,23.4 1100,23.4 S1466.85,23.4 1650,23.4 S2016.85,23.4 2200,23.4
-      M-550,2.6
-       L-550,2.6 S-183.15,2.6 0,2.6 S366.85,2.6 550,2.6 S916.85,2.6 1100,2.6 S1466.85,2.6 1650,2.6 S2016.85,2.6 2200,2.6
-    " style={{ transform: 'translateY(2.6px)' }}></path>
+                                <path className="Marquee-path-hitbox" fill="none" stroke="transparent" d="M-550,17.212  L-550,17.212 S-183.15,17.212 0,17.212 S366.85,17.212 550,17.212 S916.85,17.212 1100,17.212 S1466.85,17.212 1650,17.212 S2016.85,17.212 2200,17.212" id="4ec6f7970b0f5f240202" strokeWidth="26" />
+                                <path className="Marquee-path-hitbox-focus-outline" fill="none" stroke="transparent" strokeWidth="2px" d="M-550,26 L-550,23.4 S-183.15,23.4 0,23.4 S366.85,23.4 550,23.4 S916.85,23.4 1100,23.4 S1466.85,23.4 1650,23.4 S2016.85,23.4 2200,23.4 M-550,2.6 L-550,2.6 S-183.15,2.6 0,2.6 S366.85,2.6 550,2.6 S916.85,2.6 1100,2.6 S1466.85,2.6 1650,2.6 S2016.85,2.6 2200,2.6" style={{ transform: 'translateY(2.6px)' }} />
                               </g>
                             </g>
                           </svg>

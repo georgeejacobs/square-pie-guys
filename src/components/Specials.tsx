@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Specials() {
   return (
-    <section data-test="page-section" data-section-theme="white" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle has-background white" data-animation="none" id="yui_3_17_2_1_1771530578935_124">
+    <section data-test="page-section" data-section-theme="white" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle has-background white" data-animation="none" id="yui_3_17_2_1_1771535657305_124">
       <div className="section-border">
         <div className="section-background">
           <Image 
@@ -13,54 +13,63 @@ export default function Specials() {
             width={2532} 
             height={1404} 
             sizes="(max-width: 799px) 200vw, 100vw" 
-            style={{ display: 'block', objectPosition: '38.47645429362881% 0%' }} 
+            style={{ display: 'block', objectPosition: '38.47645429362881% 0%' } as any}
             loading="lazy" 
           />
-          <div className="section-background-overlay" style={{ opacity: '0.15' }}></div>
+          <div className="section-background-overlay" style={{ opacity: 0.15 }}></div>
         </div>
       </div>
-      <div className="content-wrapper" id="yui_3_17_2_1_1771530578935_123">
-        <div className="content" id="yui_3_17_2_1_1771530578935_122">
-          <div id="yui_3_17_2_1_1771530578935_121">
+      <div className="content-wrapper" id="yui_3_17_2_1_1771535657305_123">
+        <div className="content" id="yui_3_17_2_1_1771535657305_122">
+          <div id="yui_3_17_2_1_1771535657305_121">
             
-            <div className="fluid-engine fe-6930a01a962bd378892a6ff4" id="yui_3_17_2_1_1771530578935_120">
+            <div className="fluid-engine fe-6930a01a962bd378892a6ff4" id="yui_3_17_2_1_1771535657305_120">
               <div className="fe-block fe-block-cd38c0ea7873e4e1ded0" style={{ mixBlendMode: 'normal' }}>
                 <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-cd38c0ea7873e4e1ded0">
                   <div className="sqs-block-content">
-                    <div className="sqs-html-content">
+                    <div className="sqs-html-content" data-sqsp-text-block-content="">
                       <h3 style={{ whiteSpace: 'pre-wrap' }}>DeALS EVERY WEEK</h3>
-                      <h1 style={{ whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--darkAccent">Today's Deal Is Waiting…</span></h1>
-                      <p className="" style={{ whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--black"><strong>Our monthly deals calendar is here! You asked, and we listened! We're talking <em>$16 pies, bundle deals and so much more!</em></strong></span></p>
-                      <p className="" style={{ whiteSpace: 'pre-wrap' }}><span className="sqsrte-text-color--black">No more waiting for surprise announcements — now you can plan ahead. Check your location's discounts and start saving. </span></p>
+                      <h1 style={{ whiteSpace: 'pre-wrap' }}>
+                        <span className="sqsrte-text-color--darkAccent">Today's Deal Is Waiting…</span>
+                      </h1>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>
+                        <span className="sqsrte-text-color--black">
+                          <strong>Our monthly deals calendar is here! You asked, and we listened! We're talking <em>$16 pies, bundle deals and so much more!</em></strong>
+                        </span>
+                      </p>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>
+                        <span className="sqsrte-text-color--black">No more waiting for surprise announcements — now you can plan ahead. Check your location's discounts and start saving. </span>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="fe-block fe-block-yui_3_17_2_1_1764794358184_9218">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-yui_3_17_2_1_1764794358184_9218">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771530578935_229">
-                    <div className="sqs-block-button-container sqs-block-button-container--center sqs-stretched" data-animation-role="button" data-button-size="medium" data-button-type="primary" id="yui_3_17_2_1_1771530578935_228"> 
-                      <a href="/discounts-deals" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" target="_blank">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771535657305_229">
+                    <div className="sqs-block-button-container sqs-block-button-container--center sqs-stretched" data-animation-role="button" data-button-size="medium" data-button-type="primary" id="yui_3_17_2_1_1771535657305_228"> 
+                      <a href="/discounts-deals" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-sqsp-button="" target="_blank" data-initialized="true">
                         DEALS HERE!
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-d45d97061647687db19c" id="yui_3_17_2_1_1771530578935_119">
+              <div className="fe-block fe-block-d45d97061647687db19c" id="yui_3_17_2_1_1771535657305_119">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-d45d97061647687db19c">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771530578935_118" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width" data-component-id="d45d97061647687db19c" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771530578935_117">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771530578935_116">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '101.188px' }} id="yui_3_17_2_1_1771530578935_115">
-                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771530578935_114">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771535657305_118" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width" data-component-id="d45d97061647687db19c" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771535657305_117">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771535657305_116">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '101.188px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771535657305_115">
+                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771535657305_114">
                             <Image 
+                              data-stretch="false" 
                               src="/image-11.webp"
-                              alt=""
+                              alt="" 
+                              data-licensed-asset-preview="false" 
                               width={1251} 
                               height={334} 
                               sizes="(max-width: 640px) 100vw, (max-width: 767px) 75vw, 29.166666666666668vw" 
-                              loading="lazy"
                             />
                           </div>
                         </div>
@@ -72,17 +81,18 @@ export default function Specials() {
               <div className="fe-block fe-block-yui_3_17_2_1_1764794357165_38882">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-yui_3_17_2_1_1764794357165_38882">
                   <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width" data-component-id="yui_3_17_2_1_1764794357165_38882" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default">
                       <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '238.069px' }}>
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '212.625px' }}>
                           <div className="js-content-mode-element content-fit">
                             <Image 
-                              src="/image-10.webp"
-                              alt=""
-                              width={1600} 
-                              height={1600} 
-                              sizes="(max-width: 640px) 100vw, 50vw" 
-                              loading="lazy"
+                              data-stretch="false" 
+                              src="/image-9.webp"
+                              alt="" 
+                              data-licensed-asset-preview="false" 
+                              width={850} 
+                              height={567} 
+                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 75vw, 50vw" 
                             />
                           </div>
                         </div>
