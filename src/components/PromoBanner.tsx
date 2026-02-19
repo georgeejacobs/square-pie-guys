@@ -1,8 +1,10 @@
 "use client"
 
+import Image from "next/image"
+
 export default function PromoBanner() {
   return (
-    <header data-test="header" id="header" className="white header theme-col--primary" data-section-theme="white" data-header-style="solid" data-first-focusable-element="" tabIndex={-1}>
+    <header data-test="header" id="header" className="white header theme-col--primary" data-section-theme="white" data-header-style="solid" tabIndex={-1}>
       <svg style={{display:'none'}} viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
         <symbol id="circle">
           <path d="M11.5 17C14.5376 17 17 14.5376 17 11.5C17 8.46243 14.5376 6 11.5 6C8.46243 6 6 8.46243 6 11.5C6 14.5376 8.46243 17 11.5 17Z" fill="none"></path>
@@ -74,11 +76,11 @@ export default function PromoBanner() {
           <path d="M11.05 7.1591C7.04096 5.60456 1.05005 4.95001 1.05005 4.95001C6.20459 7.89547 9.41368 10.4318 11.05 16.4864C12.6864 10.35 15.8955 7.81365 21.05 4.95001C21.05 4.95001 15.0591 5.60456 11.05 7.1591Z"></path>
         </symbol>
       </svg>
-      
+          
       <div className="sqs-announcement-bar-dropzone">
         <div className="sqs-announcement-bar-custom-location">
-          <div id="yui_3_17_2_1_1771526982979_284" className="yui3-widget sqs-widget sqs-announcement-bar">
-            <div id="yui_3_17_2_1_1771526982979_286" className="sqs-announcement-bar-content">
+          <div id="yui_3_17_2_1_1771527860063_284" className="yui3-widget sqs-widget sqs-announcement-bar">
+            <div id="yui_3_17_2_1_1771527860063_286" className="sqs-announcement-bar-content">
               <a className="sqs-announcement-bar-url" target="_blank" href="https://opnl.co/squarepieguys-app" aria-labelledby="announcement-bar-text-inner-id"></a>
 
               <div className="sqs-announcement-bar-text">
@@ -107,7 +109,7 @@ export default function PromoBanner() {
         
         
           <div>
-            <div className="header-background-solid" data-header-style="solid" data-test="header-background-solid" style={{opacity: 'calc(100 * .01)'}}></div>
+            <div className="header-background-solid" data-header-style="solid" data-test="header-background-solid" style={{opacity: 'calc(100 * .01)' as any}}></div>
           </div>
         
 
@@ -116,6 +118,7 @@ export default function PromoBanner() {
           <div className="header-background theme-bg--primary"></div>
 
           <div className="header-display-desktop" data-content-field="site-title">
+            
 
             
 
@@ -133,215 +136,234 @@ export default function PromoBanner() {
                 </div>
               </button>
             </div>
-            
-            {/* Title and nav wrapper */}
-            <div className="header-title-nav-wrapper">
+
               
-                {/* Title */}
-                <div className="header-title" data-animation-role="header-element">
-                  <div className="header-title-logo">
-                    <a href="/" data-animation-role="header-element">
-                      <img src="/image-7.webp" alt="Square Pie Guys" style={{display:'block'}} loading="eager" decoding="async" data-loader="raw" />
-                    </a>
+              {/* Title and nav wrapper */}
+              <div className="header-title-nav-wrapper">
+                
+                  {/* Title */}
+                  <div className="header-title" data-animation-role="header-element">
+                    
+                      <div className="header-title-logo">
+                        <a href="/" data-animation-role="header-element">
+                        
+                          <img src="/image-7.webp" alt="Square Pie Guys" style={{display:'block'}} loading="eager" decoding="async" data-loader="raw" />
+
+                        </a>
+                      </div>
+
                   </div>
-                </div>
-              
-                {/* Nav */}
-                <div className="header-nav">
-                  <div className="header-nav-wrapper">
-                    <nav className="header-nav-list">
-                      
-                      <div className="header-nav-item header-nav-item--folder">
-                        <button className="header-nav-folder-title" data-href="/menu-1" data-animation-role="header-element" aria-expanded="false" aria-controls="menu">
+                
+                  {/* Nav */}
+                  <div className="header-nav">
+                    <div className="header-nav-wrapper">
+                      <nav className="header-nav-list">
+                        
+                        <div className="header-nav-item header-nav-item--folder">
+                          <button className="header-nav-folder-title" data-href="/menu-1" data-animation-role="header-element" aria-expanded="false" aria-controls="menu">
                           <span className="header-nav-folder-title-text">
                             Menu
                           </span>
-                        </button>
-                        <div className="header-nav-folder-content" id="menu">
-                          <div className="header-nav-folder-item">
-                            <a href="/menu">
-                              <span className="header-nav-folder-item-content">
-                                Current Menu 
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/seasonalmenu">
-                              <span className="header-nav-folder-item-content">
-                                Seasonal Menu
-                              </span>
-                            </a>
+                          </button>
+                          <div className="header-nav-folder-content" id="menu">
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/menu">
+                                  <span className="header-nav-folder-item-content">
+                                    Current Menu 
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/seasonalmenu">
+                                  <span className="header-nav-folder-item-content">
+                                    Seasonal Menu
+                                  </span>
+                                </a>
+                              </div>
+                            
                           </div>
                         </div>
-                      </div>
                       
-                      <div className="header-nav-item header-nav-item--folder">
-                        <button className="header-nav-folder-title" data-href="/the-mission" data-animation-role="header-element" aria-expanded="false" aria-controls="about">
+                        <div className="header-nav-item header-nav-item--folder">
+                          <button className="header-nav-folder-title" data-href="/the-mission" data-animation-role="header-element" aria-expanded="false" aria-controls="about">
                           <span className="header-nav-folder-title-text">
                             About
                           </span>
-                        </button>
-                        <div className="header-nav-folder-content" id="about">
-                          <div className="header-nav-folder-item">
-                            <a href="/community">
-                              <span className="header-nav-folder-item-content">
-                                The Mission 
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/squarepiehub">
-                              <span className="header-nav-folder-item-content">
-                                The Hub
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/team-1">
-                              <span className="header-nav-folder-item-content">
-                                The Team + Careers
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/press">
-                              <span className="header-nav-folder-item-content">
-                                Press
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/blog">
-                              <span className="header-nav-folder-item-content">
-                                Square Pie Guys Blog
-                              </span>
-                            </a>
+                          </button>
+                          <div className="header-nav-folder-content" id="about">
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/community">
+                                  <span className="header-nav-folder-item-content">
+                                    The Mission 
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/squarepiehub">
+                                  <span className="header-nav-folder-item-content">
+                                    The Hub
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/team-1">
+                                  <span className="header-nav-folder-item-content">
+                                    The Team + Careers
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/press">
+                                  <span className="header-nav-folder-item-content">
+                                    Press
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/blog">
+                                  <span className="header-nav-folder-item-content">
+                                    Square Pie Guys Blog
+                                  </span>
+                                </a>
+                              </div>
+                            
                           </div>
                         </div>
-                      </div>
                       
-                      <div className="header-nav-item header-nav-item--folder">
-                        <button className="header-nav-folder-title" data-href="/locationss" data-animation-role="header-element" aria-expanded="false" aria-controls="locations">
+                        <div className="header-nav-item header-nav-item--folder">
+                          <button className="header-nav-folder-title" data-href="/locationss" data-animation-role="header-element" aria-expanded="false" aria-controls="locations">
                           <span className="header-nav-folder-title-text">
                             Locations
                           </span>
-                        </button>
-                        <div className="header-nav-folder-content" id="locations">
-                          <div className="header-nav-folder-item">
-                            <a href="/currentlocations">
-                              <span className="header-nav-folder-item-content">
-                                Locations
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/newlocations">
-                              <span className="header-nav-folder-item-content">
-                                Coming Soon
-                              </span>
-                            </a>
+                          </button>
+                          <div className="header-nav-folder-content" id="locations">
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/currentlocations">
+                                  <span className="header-nav-folder-item-content">
+                                    Locations
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/newlocations">
+                                  <span className="header-nav-folder-item-content">
+                                    Coming Soon
+                                  </span>
+                                </a>
+                              </div>
+                            
                           </div>
                         </div>
-                      </div>
                       
-                      <div className="header-nav-item header-nav-item--collection">
-                        <a href="/catering" data-animation-role="header-element">
-                          Catering
-                        </a>
-                      </div>
+                        <div className="header-nav-item header-nav-item--collection">
+                          <a href="/catering" data-animation-role="header-element">
+                            Catering
+                          </a>
+                        </div>
                       
-                      <div className="header-nav-item header-nav-item--folder">
-                        <button className="header-nav-folder-title" data-href="/faq-1" data-animation-role="header-element" aria-expanded="false" aria-controls="faq">
+                        <div className="header-nav-item header-nav-item--folder">
+                          <button className="header-nav-folder-title" data-href="/faq-1" data-animation-role="header-element" aria-expanded="false" aria-controls="faq">
                           <span className="header-nav-folder-title-text">
                             FAQ
                           </span>
-                        </button>
-                        <div className="header-nav-folder-content" id="faq">
-                          <div className="header-nav-folder-item">
-                            <a href="/faq">
-                              <span className="header-nav-folder-item-content">
-                                Frequently Asked Questions
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/allergiess">
-                              <span className="header-nav-folder-item-content">
-                                Allergies Info 
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/nutritioninfo">
-                              <span className="header-nav-folder-item-content">
-                                Nutrition Info 
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/spgappterms">
-                              <span className="header-nav-folder-item-content">
-                                SPG App Terms + Conditions
-                              </span>
-                            </a>
+                          </button>
+                          <div className="header-nav-folder-content" id="faq">
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/faq">
+                                  <span className="header-nav-folder-item-content">
+                                    Frequently Asked Questions
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/allergiess">
+                                  <span className="header-nav-folder-item-content">
+                                    Allergies Info 
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/nutritioninfo">
+                                  <span className="header-nav-folder-item-content">
+                                    Nutrition Info 
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/spgappterms">
+                                  <span className="header-nav-folder-item-content">
+                                    SPG App Terms + Conditions
+                                  </span>
+                                </a>
+                              </div>
+                            
                           </div>
                         </div>
-                      </div>
                       
-                      <div className="header-nav-item header-nav-item--folder">
-                        <button className="header-nav-folder-title" data-href="/join-rewards" data-animation-role="header-element" aria-expanded="false" aria-controls="discounts">
+                        <div className="header-nav-item header-nav-item--folder">
+                          <button className="header-nav-folder-title" data-href="/join-rewards" data-animation-role="header-element" aria-expanded="false" aria-controls="discounts">
                           <span className="header-nav-folder-title-text">
                             Discounts
                           </span>
-                        </button>
-                        <div className="header-nav-folder-content" id="discounts">
-                          <div className="header-nav-folder-item">
-                            <a href="/discounts-deals">
-                              <span className="header-nav-folder-item-content">
-                                Discounts + Deals
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/rewards">
-                              <span className="header-nav-folder-item-content">
-                                Rewards
-                              </span>
-                            </a>
-                          </div>
-                          
-                          <div className="header-nav-folder-item">
-                            <a href="/giftcards">
-                              <span className="header-nav-folder-item-content">
-                                Gift Cards
-                              </span>
-                            </a>
+                          </button>
+                          <div className="header-nav-folder-content" id="discounts">
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/discounts-deals">
+                                  <span className="header-nav-folder-item-content">
+                                    Discounts + Deals
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/rewards">
+                                  <span className="header-nav-folder-item-content">
+                                    Rewards
+                                  </span>
+                                </a>
+                              </div>
+                            
+                              <div className="header-nav-folder-item">
+                                <a href="/giftcards">
+                                  <span className="header-nav-folder-item-content">
+                                    Gift Cards
+                                  </span>
+                                </a>
+                              </div>
+                            
                           </div>
                         </div>
-                      </div>
-                    </nav>
+
+                      </nav>
+                    </div>
                   </div>
-                </div>
+                
               </div>
-            </div>
+            
           </div>
+
         </div>
-      <style jsx>{`
+      </div>
+    <style jsx>{`
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-            .header-blur-background {
-              -webkit-backdrop-filter: blur(12px);
-              backdrop-filter: blur(12px);
-            }
+              .header-blur-background {
+                  -webkit-backdrop-filter: blur(12px);
+                  backdrop-filter: blur(12px);
+              }
           }
 
 .top-bun, 
@@ -351,5 +373,5 @@ export default function PromoBanner() {
               }
 `}</style>
 </header>
-    );
-  }
+  )
+}
