@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#2C5AA0",
+        primary: "#2E3AA1",
         secondary: "#FFFFFF",
-        accent: "#2C5AA0",
-        background: "#FFFFFF",
-        foreground: "#000000",
+        accent: "#2E3AA1",
+        background: "#2E3AA1",
+        foreground: "#FFFFFF",
       },
       fontFamily: {
         heading: ["var(--font-heading)"],

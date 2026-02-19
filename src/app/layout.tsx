@@ -2,21 +2,12 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
-const degular = Inter({
-  subsets: ['latin'],
-  variable: '--font-heading',
-  display: 'swap',
-})
-
-const antiqueOliveNord = Inter({
-  subsets: ['latin'],
-  variable: '--font-body',
-  display: 'swap',
-})
+const inter = Inter({ subsets: ['latin'], variable: '--font-heading' })
+const interBody = Inter({ subsets: ['latin'], variable: '--font-body' })
 
 export const metadata: Metadata = {
   title: 'Square Pie Guys',
-  description: 'Square Pie Guys embodies a bold, community-focused personality with playful confidence and authentic Detroit-style pizza pride. We speak with enthusiasm about quality ingredients and unforgettable experiences while maintaining approachable, down-to-earth messaging that celebrates both food and friendship.',
+  description: 'Square Pie Guys brings you authentic Detroit-style pizza with an energetic, community-focused approach. We\'re square in all the right ways - celebrating local connections, high-quality ingredients, and that perfect crispy, cheesy edge that makes our pizza unforgettable.',
 }
 
 export default function RootLayout({
@@ -26,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${degular.variable} ${antiqueOliveNord.variable} font-body antialiased`}>
+      <body className={`${inter.variable} ${interBody.variable} font-body antialiased`}>
         {children}
       </body>
     </html>
