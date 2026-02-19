@@ -1,7 +1,7 @@
 import PromoBanner from "@/components/PromoBanner";
 import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
+import Team from "@/components/Team";
 import Specials from "@/components/Specials";
 import Features from "@/components/Features";
 import Features2 from "@/components/Features2";
@@ -15,7 +15,7 @@ export default function Home() {
       <PromoBanner />
       <NavBar />
       <Hero />
-      <About />
+      <Team />
       <Specials />
       <Features />
       <Features2 />

@@ -2,13 +2,23 @@
 
 export default function CallToAction2() {
   return (
-    <footer className="sections" id="footer-sections">
-      <section className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-section-id="658f00a2f272f378735b0764" data-animation="none" data-fluid-engine-section="" style={{ minHeight: '7vh' }}>
+    <footer className="sections" id="footer-sections" data-footer-sections="">
+      <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider
+        full-bleed-section
+        layout-engine-section
+      background-width--full-bleed
+        section-height--custom
+      content-width--wide
+      horizontal-alignment--center
+      vertical-alignment--middle
+      bright" data-section-id="658f00a2f272f378735b0764" data-animation="none" data-fluid-engine-section="" style={{ minHeight: '7vh' }}>
         <div className="section-border" style={{ clipPath: 'url(#section-divider-658f00a2f272f378735b0764)' }}>
           <div className="section-background">
           </div>
         </div>
-        <div className="content-wrapper" style={{ paddingTop: 'calc(7vmax / 10)', paddingBottom: 'calc(7vmax / 10)' }}>
+        <div className="content-wrapper" style={{
+          paddingTop: 'calc(7vmax / 10)', paddingBottom: 'calc(7vmax / 10)'
+        }}>
           <div className="content">
             <div data-fluid-engine="true">
               <style jsx>{`
@@ -83,69 +93,17 @@ export default function CallToAction2() {
                 <div className="fe-block fe-block-78d5c65ecdc06f397a7d" style={{ mixBlendMode: 'normal' }}>
                   <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" data-sqsp-block="scrolling" id="block-78d5c65ecdc06f397a7d">
                     <div className="sqs-block-content">
-                      <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' }} data-ready="true">
-                        <div className="Marquee-wrapper Marquee-wrapper--small" data-animation-direction="left">
-                          <div className="Marquee-items Marquee-items--0">
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">You Say Pizza</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">🍕</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">We Say Pie</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">🍕</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">It's All Yum</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">🍕</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="Marquee-items Marquee-items--1">
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">You Say Pizza</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">🍕</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">We Say Pie</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">🍕</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">It's All Yum</p>
-                              </div>
-                            </div>
-                            <div className="Marquee-item">
-                              <div className="Marquee-content">
-                                <p className="heading-1">🍕</p>
+                      <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' } as any} data-ready="true">
+                        <div className="marquee-display-container">
+                          <div className="marquee-display">
+                            <div className="marquee-render-container">
+                              <div className="marquee-content-container">
+                                <div className="marquee-text heading-1" data-text="You Say Pizza">You Say Pizza</div>
+                                <div className="marquee-text heading-1" data-text="🍕">🍕</div>
+                                <div className="marquee-text heading-1" data-text="We Say Pie">We Say Pie</div>
+                                <div className="marquee-text heading-1" data-text="🍕">🍕</div>
+                                <div className="marquee-text heading-1" data-text="It's All Yum">It's All Yum</div>
+                                <div className="marquee-text heading-1" data-text="🍕">🍕</div>
                               </div>
                             </div>
                           </div>

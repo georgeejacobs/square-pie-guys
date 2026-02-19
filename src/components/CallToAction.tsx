@@ -1,4 +1,6 @@
-import Image from "next/image";
+"use client"
+
+import Image from "next/image"
 
 export default function CallToAction() {
   return (
@@ -20,25 +22,24 @@ export default function CallToAction() {
        has-background
     
     
-    white" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771485007623_205">
+    white" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771485672319_205">
       <div className="section-border">
         <div className="section-background">
           <Image 
             alt="" 
-            src="/image-5.webp"
+            src="/image-5.webp" 
             width={2532} 
             height={1404} 
             sizes="(max-width: 799px) 200vw, 100vw" 
-            style={{display:'block',objectPosition: '50% 50%'}}
-            fetchPriority="low" 
-            loading="lazy"
+            style={{ display: 'block', objectPosition: '50% 50%' }} 
+            loading="lazy" 
           />
-          <div className="section-background-overlay" style={{ opacity: '0.15' }}></div>
+          <div className="section-background-overlay" style={{ opacity: 0.15 }}></div>
         </div>
       </div>
-      <div className="content-wrapper" style={{}} id="yui_3_17_2_1_1771485007623_204">
-        <div className="content" id="yui_3_17_2_1_1771485007623_203">
-          <div data-fluid-engine="true" id="yui_3_17_2_1_1771485007623_202">
+      <div className="content-wrapper" style={{}} id="yui_3_17_2_1_1771485672319_204">
+        <div className="content" id="yui_3_17_2_1_1771485672319_203">
+          <div data-fluid-engine="true" id="yui_3_17_2_1_1771485672319_202">
             <style jsx>{`
               .fe-6596f6510337c27da4828ba5 {
                 --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
@@ -163,15 +164,15 @@ export default function CallToAction() {
                 }
               }
             `}</style>
-            <div className="fluid-engine fe-6596f6510337c27da4828ba5" id="yui_3_17_2_1_1771485007623_201">
-              <div className="fe-block fe-block-1ef399867fe80a1a9b64" id="yui_3_17_2_1_1771485007623_200">
+            <div className="fluid-engine fe-6596f6510337c27da4828ba5" id="yui_3_17_2_1_1771485672319_201">
+              <div className="fe-block fe-block-1ef399867fe80a1a9b64" id="yui_3_17_2_1_1771485672319_200">
                 <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="100" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-1ef399867fe80a1a9b64">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771485007623_199" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="1ef399867fe80a1a9b64" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="true" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771485007623_198">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771485007623_197">
-                        <div className="fluid-image-container sqs-image-content js-image-container" data-shape-mask="eight-sided-shield" style={{ overflow: 'hidden', clipPath: 'url("#1ef399867fe80a1a9b64")', width: '100%', height: '657px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771485007623_196">
-                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771485007623_193">
-                            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg" data-image="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg" data-image-dimensions="5397x3598" data-image-focal-point="0.5,0.5" data-sqsp-image-block-image="" alt="Top-down view of various bowls and plates with salad, fried chicken, pasta salad, and chicken wings, on a wooden table." data-licensed-asset-preview="false" data-load="false" elementTiming="system-image-block" src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg" width="5397" height="3598" sizes="100vw" style={{display:'block',objectPosition: 'var(--image-component-focal-point)',objectFit: 'var(--image-component-object-fit)'}} srcSet="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs" />
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771485672319_199" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="1ef399867fe80a1a9b64" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="true" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771485672319_198">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771485672319_197">
+                        <div className="fluid-image-container sqs-image-content js-image-container" data-shape-mask="eight-sided-shield" style={{ overflow: 'hidden', clipPath: 'url("#1ef399867fe80a1a9b64")', width: '100%', height: '657px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771485672319_196">
+                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771485672319_193">
+                            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg" data-image="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg" data-image-dimensions="5397x3598" data-image-focal-point="0.5,0.5" data-sqsp-image-block-image="" alt="Top-down view of various bowls and plates with salad, fried chicken, pasta salad, and chicken wings, on a wooden table." data-licensed-asset-preview="false" data-load="false" src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg" width="5397" height="3598" sizes="100vw" style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} srcSet="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs" />
                             <div className="fluidImageOverlay"></div>
                           </div>
                         </div>
@@ -198,12 +199,8 @@ export default function CallToAction() {
                 </div>
               </div>
               <div className="fe-block fe-block-yui_3_17_2_1_1706211787573_32812">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="11">
-                  <div className="sqs-block-content">
-                    <a href="https://squareup.com/gift/RFD48AKQB49KA/order" target="_blank" className="sqs-block-button-element--medium sqs-button-element--tertiary sqs-block-button-element">
-                      Purchase Gift Card
-                    </a>
-                  </div>
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block">
+                  {/* Button content would go here */}
                 </div>
               </div>
             </div>
@@ -211,5 +208,5 @@ export default function CallToAction() {
         </div>
       </div>
     </section>
-  );
+  )
 }
