@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Square Pie Guys",
-  description: "Square Pie Guys embodies a bold, energetic personality with a strong community focus and playful confidence. Their tone is friendly yet assertive, celebrating t",
+  description: "Square Pie Guys has a bold, energetic brand voice that emphasizes fun, community, and authenticity. The tone is casual and approachable while maintaining confid",
 };
 
 export default function RootLayout({

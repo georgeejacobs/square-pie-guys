@@ -4,153 +4,87 @@ import Image from "next/image"
 
 export default function Hero() {
   return (
-    <section data-test="page-section" data-section-theme="bright" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" id="yui_3_17_2_1_1771527860063_100" data-active="true">
+    <section data-test="page-section" data-section-theme="bright" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" id="yui_3_17_2_1_1771528130738_150">
       <div className="section-border">
         <div className="section-background">
-        
-          
-        
         </div>
       </div>
       <div className="content-wrapper" style={{
-          
+        paddingTop: 'calc(0vmax / 10)',
+        paddingBottom: 'calc(0vmax / 10)'
+      }} id="yui_3_17_2_1_1771528130738_149">
+        <div className="content" id="yui_3_17_2_1_1771528130738_148">
+          <div id="yui_3_17_2_1_1771528130738_147">
             
-              
-              
-              paddingTop: 'calc(0vmax / 10)', 
-              paddingBottom: 'calc(0vmax / 10)',
-            
-          
-        } as any} id="yui_3_17_2_1_1771527860063_99">
-        <div className="content" id="yui_3_17_2_1_1771527860063_98">
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <div id="yui_3_17_2_1_1771527860063_97">
-            
-            <div className="fluid-engine fe-698a0a3e60fce413c1f376a0" id="yui_3_17_2_1_1771527860063_96">
-              <div className="fe-block fe-block-285af37c613630428606" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-285af37c613630428606">
-                  <div className="sqs-block-content">
-
-                    <div className="sqs-html-content" data-sqsp-text-block-content="">
-                      <h1 style={{ whiteSpace: 'pre-wrap' }}>This is your sign to Order some pizza.</h1>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div className="fe-block fe-block-c0ad296aeae3862dfb63" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-c0ad296aeae3862dfb63">
-                  <div className="sqs-block-content">
-
-                    <div className="sqs-html-content" data-sqsp-text-block-content="">
-                      <p className="" style={{ whiteSpace: 'pre-wrap' }}><strong>You didn't come here just to come here — it's time to order some pizza </strong>😌.</p>
-                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>Support local and order directly from us for better pricing, better pizza, and more of what you love!</p>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div className="fe-block fe-block-b9aa47891e245e329759" id="yui_3_17_2_1_1771527860063_95">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-b9aa47891e245e329759">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771527860063_94" style={{ height: '100%', width: '100%' }}>
-
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width animation-loaded" data-component-id="b9aa47891e245e329759" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771527860063_93">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771527860063_92">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', height: '100%', width: '228px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771527860063_91">
-                          
-                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771527860063_90">
-                            
-                            <Image 
-                              src="/image-10.png" 
-                              alt="" 
-                              width={500} 
-                              height={500}
-                              data-stretch="false"
-                              data-image-dimensions="500x500"
+            <div className="fluid-engine fe-65a1c9d0ac1b343be05159cc" id="yui_3_17_2_1_1771528130738_146">
+              <div className="fe-block fe-block-7b816d4d13531865e314" id="yui_3_17_2_1_1771528130738_145">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="117.61126270797615" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-7b816d4d13531865e314">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771528130738_144" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="7b816d4d13531865e314" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="true" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771528130738_143">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771528130738_142">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', WebkitMaskImage: '-webkit-radial-gradient(white, black)' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771528130738_141">
+                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771528130738_137">
+                            <Image
+                              data-stretch="true"
+                              crossOrigin="anonymous"                               data-src="/image-1.jpg"
+                              data-image="/image-1.jpg"
+                              data-image-dimensions="4996x3331"
                               data-image-focal-point="0.5,0.5"
                               data-sqsp-image-block-image=""
+                              alt="A family meal with various dishes including a large rectangular pizza with toppings, a slice of pepperoni pizza, fried chicken wings garnished with green onions, a bowl of salad with lettuce and cheese, a side of French fries, and glasses of pink and red drinks."
                               data-licensed-asset-preview="false"
                               data-load="false"
-                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 62.5vw, 25vw"
+                              src="/image-1.jpg"
+                              width={4996}
+                              height={3331}
+                              sizes="100vw"
                               style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
                               loading="lazy"
+                              data-loader="sqs"
                             />
-                            
+                            <div className="imageEffectContainer" data-effect='{"type": "filmGrain", "intensity": 50, "shadow": 0, "speed": 100}'></div>
                             <div className="fluidImageOverlay"></div>
-                          
                           </div>
-
                         </div>
-
                       </div>
                     </div>
-
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-a705943738e3a5a1af83" id="yui_3_17_2_1_1771527860063_110">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-a705943738e3a5a1af83">
-                  <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
-
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default sqs-narrow-width animation-loaded" data-component-id="a705943738e3a5a1af83" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', height: '100%', width: '286px' }} data-sqsp-image-block-image-container="">
-                          
-                          <div className="js-content-mode-element content-fit">
-                            
-                            <Image 
-                              src="/image-11.png" 
-                              alt="" 
-                              width={500} 
-                              height={500}
-                              data-stretch="false"
-                              data-image-dimensions="500x500"
-                              data-image-focal-point="0.5,0.5"
-                              data-sqsp-image-block-image=""
-                              data-licensed-asset-preview="false"
-                              data-load="false"
-                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 62.5vw, 30vw"
-                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
-                              loading="lazy"
-                            />
-                            
-                            <div className="fluidImageOverlay"></div>
-                          
-                          </div>
-
-                        </div>
-
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div className="fe-block fe-block-97a7dc9199a5474f666d">
-                <div className="sqs-block button-block sqs-block-button" data-block-type="53" id="block-97a7dc9199a5474f666d">
+              <div className="fe-block fe-block-db73a2bc0e9f3fe93b8a" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-db73a2bc0e9f3fe93b8a">
                   <div className="sqs-block-content">
-
-                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="primary">
-                      <a href="/order" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element">
-                        ORDER NOW
-                      </a>
+                    <div className="sqs-html-content" data-sqsp-text-block-content="">
+                      <h1 style={{ whiteSpace: 'pre-wrap' }}>On mondays we order the big box.</h1>
                     </div>
-
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-42ea9b9c194822fa3437" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-42ea9b9c194822fa3437">
+                  <div className="sqs-block-content">
+                    <div className="sqs-html-content" data-sqsp-text-block-content="">
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}><strong>Don't you just hate Mondays? Well, we don't! On Mondays we order the Big Box and double our trouble.</strong></p>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>On Mondays and Mondays only, you'll find "The Big Box Deal" as a menu item (no promo code required). Select your first pizza, and then select your second pizza for $12.05.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-3051c7258fdf7da45539">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-3051c7258fdf7da45539">
+                  <div className="sqs-block-content">
+                    <div className="button-component-container website-button-component-root" data-component-id="3051c7258fdf7da45539" data-test="button-block-wrapper">
+                      <div className="button-component-wrapper">
+                        <a href="/menu" className="button-component sqs-button-element--primary" data-animation-role="button">
+                          <div className="button-component-content">VIEW MENU</div>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
