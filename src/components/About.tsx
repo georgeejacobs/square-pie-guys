@@ -7,15 +7,17 @@ export default function About() {
     <section data-test="page-section" data-section-theme="black-bold" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--large content-width--wide horizontal-alignment--center vertical-alignment--bottom has-background black-bold" data-animation="none">
       <div className="section-border">
         <div className="section-background">
+        
+          
+            
+            
+              
+
           <div className="section-background-content">
+          
+
             <Image 
               alt="" 
-              data-image-focal-point="0.5,0.5" 
-              crossOrigin="anonymous" 
-              data-src="/image-0.webp" 
-              data-image="/image-0.webp" 
-              data-image-dimensions="2220x1644" 
-              data-load="false" 
               src="/image-0.webp" 
               width={2220} 
               height={1644} 
@@ -23,15 +25,29 @@ export default function About() {
               className="background-image-fx" 
               style={{ display: 'block', objectPosition: '50% 50%', visibility: 'visible' }} 
               loading="lazy" 
-              data-loader="sqs" 
             />
+
             <div className="section-background-canvas background-fx-canvas"></div>
           </div>
-          <div className="section-background-overlay" style={{ opacity: 0.14 }}></div>
+
+            
+            <div className="section-background-overlay" style={{ opacity: 0.14 }}></div>
+          
+        
         </div>
       </div>
       <div className="content-wrapper" style={{}}>
         <div className="content">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
           <div>
             <style jsx>{`
 
@@ -76,7 +92,9 @@ export default function About() {
             </div>
           </div>
         </div>
+      
       </div>
+      
     </section>
   )
 }
