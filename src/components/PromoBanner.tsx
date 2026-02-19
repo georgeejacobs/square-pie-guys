@@ -1,24 +1,8 @@
 "use client"
 
-import Image from "next/image"
-
 export default function PromoBanner() {
   return (
-    <header data-test="header" id="header" className="white header theme-col--primary" data-section-theme="white" data-header-style="solid" data-first-focusable-element="" tabIndex={-1}>
-      <style jsx>{`
-        @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-          .header-blur-background {
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-          }
-        }
-        .top-bun, 
-        .patty, 
-        .bottom-bun {
-          height: 3px;
-        }
-      `}</style>
-      
+    <header data-test="header" id="header" className="white header theme-col--primary" data-section-theme="white" tabIndex={-1}>
       <svg style={{display:'none'}} viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
         <symbol id="circle">
           <path d="M11.5 17C14.5376 17 17 14.5376 17 11.5C17 8.46243 14.5376 6 11.5 6C8.46243 6 6 8.46243 6 11.5C6 14.5376 8.46243 17 11.5 17Z" fill="none"></path>
@@ -89,11 +73,11 @@ export default function PromoBanner() {
           <path d="M11.05 7.1591C7.04096 5.60456 1.05005 4.95001 1.05005 4.95001C6.20459 7.89547 9.41368 10.4318 11.05 16.4864C12.6864 10.35 15.8955 7.81365 21.05 4.95001C21.05 4.95001 15.0591 5.60456 11.05 7.1591Z"></path>
         </symbol>
       </svg>
-      
+
       <div className="sqs-announcement-bar-dropzone">
         <div className="sqs-announcement-bar-custom-location">
-          <div id="yui_3_17_2_1_1771488503913_284" className="yui3-widget sqs-widget sqs-announcement-bar">
-            <div id="yui_3_17_2_1_1771488503913_286" className="sqs-announcement-bar-content">
+          <div className="yui3-widget sqs-widget sqs-announcement-bar">
+            <div className="sqs-announcement-bar-content">
               <a className="sqs-announcement-bar-url" target="_blank" href="https://opnl.co/squarepieguys-app" aria-labelledby="announcement-bar-text-inner-id"></a>
 
               <div className="sqs-announcement-bar-text">
@@ -114,6 +98,8 @@ export default function PromoBanner() {
           Skip to Content
         </a>
 
+        
+
         <div className="header-border" data-header-style="solid" data-header-border="false" data-test="header-border"></div>
         <div className="header-dropshadow" data-header-style="solid" data-header-dropshadow="false" data-test="header-dropshadow"></div>
         
@@ -125,6 +111,8 @@ export default function PromoBanner() {
           <div className="header-background theme-bg--primary"></div>
 
           <div className="header-display-desktop" data-content-field="site-title">
+            
+
             <div className="header-burger menu-overlay-has-visible-non-navigation-items" data-animation-role="header-element">
               <button className="header-burger-btn burger" data-test="header-burger">
                 <span className="js-header-burger-open-title visually-hidden">Open Menu</span>
@@ -143,7 +131,7 @@ export default function PromoBanner() {
               <div className="header-title" data-animation-role="header-element">
                 <div className="header-title-logo">
                   <a href="/" data-animation-role="header-element">
-                    <Image src="/image-7.webp" alt="Square Pie Guys" style={{display:'block'}} width={1500} height={400} priority />
+                    <img src="/image-7.webp" alt="Square Pie Guys" style={{display:'block'}} loading="eager" decoding="async" data-loader="raw" />
                   </a>
                 </div>
               </div>
@@ -165,6 +153,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/seasonalmenu">
                             <span className="header-nav-folder-item-content">
@@ -189,6 +178,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/squarepiehub">
                             <span className="header-nav-folder-item-content">
@@ -196,6 +186,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/team-1">
                             <span className="header-nav-folder-item-content">
@@ -203,6 +194,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/press">
                             <span className="header-nav-folder-item-content">
@@ -210,6 +202,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/blog">
                             <span className="header-nav-folder-item-content">
@@ -234,6 +227,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/newlocations">
                             <span className="header-nav-folder-item-content">
@@ -264,6 +258,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/allergiess">
                             <span className="header-nav-folder-item-content">
@@ -271,6 +266,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/nutritioninfo">
                             <span className="header-nav-folder-item-content">
@@ -278,6 +274,7 @@ export default function PromoBanner() {
                             </span>
                           </a>
                         </div>
+                        
                         <div className="header-nav-folder-item">
                           <a href="/spgappterms">
                             <span className="header-nav-folder-item-content">
@@ -294,6 +291,20 @@ export default function PromoBanner() {
           </div>
         </div>
       </div>
-    </header>
+    <style jsx>{`
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+            .header-blur-background {
+              -webkit-backdrop-filter: blur(12px);
+              backdrop-filter: blur(12px);
+            }
+          }
+
+.top-bun, 
+              .patty, 
+              .bottom-bun {
+                height: 3px;
+              }
+`}</style>
+</header>
   )
 }

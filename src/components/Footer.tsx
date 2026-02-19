@@ -6,13 +6,13 @@ export default function Footer() {
       <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider
         full-bleed-section
         layout-engine-section
-        background-width--full-bleed
+      background-width--full-bleed
         section-height--custom
-        content-width--wide
-        horizontal-alignment--center
-        vertical-alignment--middle
-        bright" data-section-id="658f00a2f272f378735b0764" data-animation="none" data-fluid-engine-section="" style={{ minHeight: '7vh' }} data-controllers-bound="SectionWrapperController">
-        <div className="section-border" style={{ clipPath: 'url(#section-divider-658f00a2f272f378735b0764)' }} data-controllers-bound="SectionDivider">
+      content-width--wide
+      horizontal-alignment--center
+      vertical-alignment--middle
+      bright" data-animation="none" data-fluid-engine-section="" style={{ minHeight: '7vh' }}>
+        <div className="section-border" style={{ clipPath: 'url(#section-divider-658f00a2f272f378735b0764)' }}>
           <div className="section-background">
           </div>
         </div>
@@ -95,22 +95,26 @@ export default function Footer() {
                   <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" data-sqsp-block="scrolling" id="block-78d5c65ecdc06f397a7d">
                     <div className="sqs-block-content">
                       <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' } as any} data-ready="true">
-                        <div className="Marquee-items-container">
-                          <div className="Marquee-items">
-                            <div className="Marquee-item heading-1">You Say Pizza</div>
-                            <div className="Marquee-item heading-1">🍕</div>
-                            <div className="Marquee-item heading-1">We Say Pie</div>
-                            <div className="Marquee-item heading-1">🍕</div>
-                            <div className="Marquee-item heading-1">It's All Yum</div>
-                            <div className="Marquee-item heading-1">🍕</div>
-                          </div>
-                          <div className="Marquee-items" aria-hidden="true">
-                            <div className="Marquee-item heading-1">You Say Pizza</div>
-                            <div className="Marquee-item heading-1">🍕</div>
-                            <div className="Marquee-item heading-1">We Say Pie</div>
-                            <div className="Marquee-item heading-1">🍕</div>
-                            <div className="Marquee-item heading-1">It's All Yum</div>
-                            <div className="Marquee-item heading-1">🍕</div>
+                        <div className="Marquee-content" data-animation-role="text">
+                          <div className="Marquee-track" data-marquee-track="">
+                            <div className="Marquee-item Marquee-item--text" data-marquee-item="">
+                              <div className="heading-1">You Say Pizza</div>
+                            </div>
+                            <div className="Marquee-item Marquee-item--text" data-marquee-item="">
+                              <div className="heading-1">🍕</div>
+                            </div>
+                            <div className="Marquee-item Marquee-item--text" data-marquee-item="">
+                              <div className="heading-1">We Say Pie</div>
+                            </div>
+                            <div className="Marquee-item Marquee-item--text" data-marquee-item="">
+                              <div className="heading-1">🍕</div>
+                            </div>
+                            <div className="Marquee-item Marquee-item--text" data-marquee-item="">
+                              <div className="heading-1">It's All Yum</div>
+                            </div>
+                            <div className="Marquee-item Marquee-item--text" data-marquee-item="">
+                              <div className="heading-1">🍕</div>
+                            </div>
                           </div>
                         </div>
                       </div>
