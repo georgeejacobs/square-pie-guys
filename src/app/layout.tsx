@@ -4,12 +4,13 @@ import './globals.css'
 
 const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-heading',
+  display: 'swap',
+  variable: '--font-body',
 })
 
 export const metadata: Metadata = {
   title: 'Square Pie Guys',
-  description: 'Award-winning pizza with a bold, confident personality. Quality ingredients, community-focused dining, and the best square pies around. This is your sign to order some pizza!',
+  description: 'Bold, playful Detroit-style pizza joint bringing unforgettable food experiences to our community. THIS IS YOUR SIGN TO ORDER SOME PIZZA! Experience THE P-LO PIES HERE with our passionate, confident approach to square pizza perfection.',
 }
 
 export default function RootLayout({
@@ -19,7 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-body antialiased`} style={{'--font-heading': 'var(--font-heading)', '--font-body': 'var(--font-heading)'} as React.CSSProperties}>
+      <body 
+        className={`${inter.variable} font-body antialiased`}
+        style={{
+          '--font-heading': 'antique-olive-std-j36jj4, serif',
+          '--font-body': 'degular, sans-serif'
+        } as React.CSSProperties}
+      >
         {children}
       </body>
     </html>
