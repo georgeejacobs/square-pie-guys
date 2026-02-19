@@ -1,17 +1,11 @@
 export default function PromoBanner() {
   return (
-    <div className="bg-primary text-white py-2 px-4">
-      <div className="text-center">
-        <p className="inline">
-          <strong>$29 OG Bundle Deal is Here!</strong>
-        </p>
-        <p className="inline ml-4">
-          <em>1 pep + 1 cheese pizza = $29</em>
-        </p>
-        <p className="inline ml-4">
-          <strong>Order Here!</strong>
-        </p>
-      </div>
+    <div className="bg-primary text-secondary text-center py-2 px-4">
+      <p className="text-sm md:text-base">
+        <span className="font-bold">$29 OG Bundle Deal is Here!</span>{' '}
+        <span className="italic">1 pep + 1 cheese pizza = $29</span>{' '}
+        <span className="font-bold">Order Here!</span>
+      </p>
     </div>
-  )
+  );
 }

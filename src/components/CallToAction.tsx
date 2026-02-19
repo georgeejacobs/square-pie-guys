@@ -1,14 +1,17 @@
 export default function CallToAction() {
   return (
-    <section className="bg-[#2E3AA1] py-24 px-4">
+    <section className="bg-[#1440a0] py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-6xl md:text-8xl font-black text-white mb-8 tracking-tight">
+        <h2 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight">
           SAY HI TO
-        </h1>
-        <p className="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
-          Square Pie Guys has expanded all the way around the Bay and we're excited that we're continuing on our path all around the Bay Area!
+        </h2>
+        <p className="text-lg md:text-xl text-white mb-12 max-w-3xl mx-auto leading-relaxed">
+          Square Pie Guys is Cleveland-born and Bay Area-rooted, emphasizing community and you can taste the difference in our perfectly crafted, quality pizza.
         </p>
+        <button className="bg-white text-[#1440a0] px-8 py-3 rounded font-bold text-lg hover:bg-gray-100 transition-colors">
+          Get in Touch
+        </button>
       </div>
     </section>
-  );
+  )
 }

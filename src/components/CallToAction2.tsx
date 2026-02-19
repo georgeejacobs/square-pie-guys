@@ -1,16 +1,25 @@
 export default function CallToAction2() {
   return (
-    <section className="bg-[#F5F5F5] py-20 px-4">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-6xl md:text-8xl font-black text-[#2E3AA1] mb-8 uppercase tracking-tight">
-          GIVE THE<br />GIFT OF PIE
-        </h2>
-        <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-2xl mx-auto">
-          Got a gift to give? Want to share the pizza love with someone you love too?
-        </p>
-        <button className="bg-[#2E3AA1] text-white px-8 py-4 text-lg font-bold uppercase tracking-wide border-2 border-[#2E3AA1] hover:bg-white hover:text-[#2E3AA1] transition-colors">
-          SHOP GIFT CARDS
-        </button>
+    <section className="bg-gray-100 py-16 px-4">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 className="text-4xl lg:text-5xl font-bold text-[#1440a0] mb-6">
+              GIVE THE<br />
+              GIFT OF PIE
+            </h2>
+            <p className="text-lg text-gray-700 mb-8">
+              Give a gift even better to share the eating than with<br />
+              all the people you love.
+            </p>
+            <button className="bg-[#1440a0] text-white px-8 py-3 font-semibold hover:bg-blue-700 transition-colors">
+              SHOP GIFT CARDS
+            </button>
+          </div>
+          <div>
+            {/* Gift card visual would go here if there was an image in the HTML */}
+          </div>
+        </div>
       </div>
     </section>
   )
