@@ -2,15 +2,26 @@
 
 export default function CallToAction2() {
   return (
-    <footer className="sections" id="footer-sections">
-      <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" style={{ minHeight: '7vh' }}>
+    <footer className="sections" id="footer-sections" data-footer-sections="">
+      <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider
+        full-bleed-section
+        layout-engine-section
+      background-width--full-bleed
+        section-height--custom
+      content-width--wide
+      horizontal-alignment--center
+      vertical-alignment--middle
+      bright" data-animation="none" data-fluid-engine-section="" style={{ minHeight: '7vh' }}>
         <div className="section-border" style={{ clipPath: 'url(#section-divider-658f00a2f272f378735b0764)' }}>
           <div className="section-background">
           </div>
         </div>
-        <div className="content-wrapper" style={{ paddingTop: 'calc(7vmax / 10)', paddingBottom: 'calc(7vmax / 10)' }}>
+        <div className="content-wrapper" style={{
+          paddingTop: 'calc(7vmax / 10)',
+          paddingBottom: 'calc(7vmax / 10)'
+        }}>
           <div className="content">
-            <div>
+            <div data-fluid-engine="true">
               <style jsx>{`
                 .fe-658f00a2f272f378735b0763 {
                   --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
@@ -84,7 +95,14 @@ export default function CallToAction2() {
                   <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" id="block-78d5c65ecdc06f397a7d">
                     <div className="sqs-block-content">
                       <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' } as any} data-ready="true">
-                        {/* Marquee content would go here - scripts removed */}
+                        <div className="Marquee-items">
+                          <span className="Marquee-item">You Say Pizza</span>
+                          <span className="Marquee-item">🍕</span>
+                          <span className="Marquee-item">We Say Pie</span>
+                          <span className="Marquee-item">🍕</span>
+                          <span className="Marquee-item">It's All Yum</span>
+                          <span className="Marquee-item">🍕</span>
+                        </div>
                       </div>
                     </div>
                   </div>
