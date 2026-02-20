@@ -1,12 +1,11 @@
 import PromoBanner from "@/components/PromoBanner";
 import NavBar from "@/components/NavBar";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
+import Team from "@/components/Team";
 import Specials from "@/components/Specials";
+import Hero from "@/components/Hero";
 import Features from "@/components/Features";
-import Features2 from "@/components/Features2";
+import Promo from "@/components/Promo";
 import CallToAction from "@/components/CallToAction";
-import CallToAction2 from "@/components/CallToAction2";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -14,13 +13,12 @@ export default function Home() {
     <main>
       <PromoBanner />
       <NavBar />
-      <Hero />
-      <About />
+      <Team />
       <Specials />
+      <Hero />
       <Features />
-      <Features2 />
+      <Promo />
       <CallToAction />
-      <CallToAction2 />
       <Footer />
     </main>
   );
