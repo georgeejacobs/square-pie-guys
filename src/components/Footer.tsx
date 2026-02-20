@@ -3,21 +3,19 @@
 export default function Footer() {
   return (
     <footer className="sections" id="footer-sections">
-      
-      
-      <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" style={{ minHeight: '7vh' } as any}>
+      <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-section-id="658f00a2f272f378735b0764" data-animation="none" style={{ minHeight: '7vh' }}>
         <div className="section-border" style={{ clipPath: 'url(#section-divider-658f00a2f272f378735b0764)' }}>
-          <div className="section-background">
-          </div>
+          <div className="section-background"></div>
         </div>
         <div className="content-wrapper" style={{ paddingTop: 'calc(7vmax / 10)', paddingBottom: 'calc(7vmax / 10)' }}>
           <div className="content">
             <div>
+              
               <div className="fluid-engine fe-658f00a2f272f378735b0763">
                 <div className="fe-block fe-block-78d5c65ecdc06f397a7d" style={{ mixBlendMode: 'normal' }}>
-                  <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" id="block-78d5c65ecdc06f397a7d">
+                  <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" data-sqsp-block="scrolling" id="block-78d5c65ecdc06f397a7d">
                     <div className="sqs-block-content">
-                      <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': 1.2 } as any} data-ready="true">
+                      <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' } as any} data-ready="true">
                         <div className="Marquee-display ">
                           <div className="Marquee-measure">
                             <h1 className="Marquee-item Marquee-item--text" style={{ marginRight: '0.5em', fontSize: '1.2rem' }}>
@@ -40,7 +38,7 @@ export default function Footer() {
                             </h1>
                           </div>
 
-                          <h1 style={{ fontSize: '1.2rem', '--marquee-font-size-value': 1.2 } as any}>
+                          <h1 style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' } as any}>
                             <svg className="Marquee-svg" fill="currentColor" aria-hidden="true" style={{ height: '26px', transform: 'translateY(2.6px)', overflow: 'visible' }}>
                               <g className="Marquee-path-group" transform="translate(0, 1.3)">
                                 <path className="Marquee-path" fill="none" stroke="transparent" strokeWidth="0" d="M-550,17.212  L-550,17.212 S-183.15,17.212 0,17.212 S366.85,17.212 550,17.212 S916.85,17.212 1100,17.212 S1466.85,17.212 1650,17.212 S2016.85,17.212 2200,17.212" strokeDasharray="99 9.228 21 9.228 77 9.228 21 9.228 89 9.228 21 9.228 " id="78d5c65ecdc06f397a7d"></path>
@@ -152,36 +150,36 @@ export default function Footer() {
       </section>
     <style jsx>{`
 
-        .has-section-divider[data-section-id="658f00a2f272f378735b0764"] {
-          padding-bottom: var(--divider-height);
-          z-index: var(--z-index);
-        }
+.has-section-divider[data-section-id="658f00a2f272f378735b0764"] {
+              padding-bottom: var(--divider-height);
+              z-index: var(--z-index);
+            }
 
-        .has-section-divider[data-section-id="658f00a2f272f378735b0764"] .background-pause-button {
-          bottom: calc(14px + var(--divider-height));
-        }
+            .has-section-divider[data-section-id="658f00a2f272f378735b0764"] .background-pause-button {
+              bottom: calc(14px + var(--divider-height));
+            }
 
-        .has-section-divider[data-section-id="658f00a2f272f378735b0764"] .section-divider-svg-clip {
-          display: none;
-        }
+            .has-section-divider[data-section-id="658f00a2f272f378735b0764"] .section-divider-svg-clip {
+              display: none;
+            }
 
-        .has-section-divider[data-section-id="658f00a2f272f378735b0764"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
-          padding-bottom: calc(var(--sqs-site-gutter) + var(--divider-height));
-        }
+            .has-section-divider[data-section-id="658f00a2f272f378735b0764"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
+              padding-bottom: calc(var(--sqs-site-gutter) + var(--divider-height));
+            }
 
-        .has-section-divider[data-section-id="658f00a2f272f378735b0764"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) .section-background {
-          bottom: calc(var(--sqs-site-gutter) + var(--divider-height));
-        }
+            .has-section-divider[data-section-id="658f00a2f272f378735b0764"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) .section-background {
+              bottom: calc(var(--sqs-site-gutter) + var(--divider-height));
+            }
 
-        .has-section-divider[data-section-id="658f00a2f272f378735b0764"] .section-divider-block {
-          height: var(--divider-height);
-        }
+            .has-section-divider[data-section-id="658f00a2f272f378735b0764"] .section-divider-block {
+              height: var(--divider-height);
+            }
 
-[data-section-id="658f00a2f272f378735b0764"] { 
+            [data-section-id="658f00a2f272f378735b0764"] { 
               --divider-height: 0px; 
               --z-index: 2;
             }
-          
+        
             [data-section-id="6585c397f5242d589388e6ee"] {
               --previous-section-divider-offset: 0px;
             }

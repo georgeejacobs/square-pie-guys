@@ -184,6 +184,66 @@
   display: none;
 }
 
+/* --- Mobile header hidden on desktop --- */
+.header-display-mobile {
+  display: none;
+}
+@media only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px) {
+  .header-display-mobile {
+    display: flex;
+  }
+  .header-display-desktop {
+    display: none;
+  }
+}
+
+/* --- Logo sizing --- */
+.header-title-logo {
+  width: auto;
+  font-size: 0;
+}
+.header-title-logo a {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 30px;
+}
+.header-title-logo img {
+  width: auto;
+  max-width: 100%;
+  max-height: 30px;
+}
+
+/* --- Header layout structure --- */
+.header-inner {
+  display: flex;
+  flex-direction: row;
+}
+.header-title-nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header-nav {
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: center;
+}
+
+/* --- Nav item spacing --- */
+.header-nav-item {
+  margin: 0 0.8em;
+}
+
+/* --- Content wrapper (section padding) --- */
+.content-wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  box-sizing: content-box;
+}
+
 /* --- Button style fixes --- */
 .sqs-button-element--primary,
 .sqs-block-button-element {
