@@ -4,38 +4,19 @@ import Image from "next/image"
 
 export default function About() {
   return (
-    <section data-test="page-section" data-section-theme="black-bold" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--large content-width--wide horizontal-alignment--center vertical-alignment--bottom has-background black-bold" data-animation="none" data-active="true">
+    <section data-test="page-section" data-section-theme="bright" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" id="yui_3_17_2_1_1771649929298_150">
       <div className="section-border">
         <div className="section-background">
         
           
-            
-            
-              
-
-          <div className="section-background-content">
-            <Image 
-              alt=""
-              src="/image-0.png"
-              width={2220}
-              height={1644}
-              sizes="(max-width: 799px) 200vw, 100vw"
-              className="background-image-fx"
-              style={{ display: 'block', objectPosition: '50% 50%', visibility: 'visible' }}
-              loading="lazy"
-            />
-
-            <div className="section-background-canvas background-fx-canvas"></div>
-          </div>
-
-            
-            <div className="section-background-overlay" style={{ opacity: '0.14' }}></div>
-          
         
         </div>
       </div>
-      <div className="content-wrapper" style={{}}>
-        <div className="content">
+      <div className="content-wrapper" style={{
+          paddingTop: 'calc(0vmax / 10)', 
+          paddingBottom: 'calc(0vmax / 10)'
+        }} id="yui_3_17_2_1_1771649929298_149">
+        <div className="content" id="yui_3_17_2_1_1771649929298_148">
           
           
           
@@ -46,43 +27,68 @@ export default function About() {
           
           
           
-          <div>
-            <style jsx>{`
-
-              #block-ae2cfd5144aff2bb1d2c {
-                --sqs-block-content-flex: 1;
-              }
-            `}</style>
-            <div className="fluid-engine fe-697f96a8134cbc609c3273d3">
-              <div className="fe-block fe-block-5dacb88ca2ca00706e81" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-5dacb88ca2ca00706e81">
-                  <div className="sqs-block-content">
-                    <div className="sqs-html-content" data-sqsp-text-block-content="">
-                      <pre><code>P-lo PiE</code></pre>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="fe-block fe-block-85141784fcf8b3d64446" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-85141784fcf8b3d64446">
-                  <div className="sqs-block-content">
-                    <div className="sqs-html-content" data-sqsp-text-block-content="">
-                      <div className="sqsrte-scaled-text-container loaded">
-                        <span className="sqsrte-scaled-text" style={{ fontSize: '131.7px' }}>
-                          <h1 style={{ whiteSpace: 'pre-wrap' }}>THE P-LO PIE IS HERe. </h1>
-                        </span>
+          <div id="yui_3_17_2_1_1771649929298_147">
+            
+            <div className="fluid-engine fe-65a1c9d0ac1b343be05159cc" id="yui_3_17_2_1_1771649929298_146">
+              <div className="fe-block fe-block-7b816d4d13531865e314" id="yui_3_17_2_1_1771649929298_145">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="117.61126270797615" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-7b816d4d13531865e314">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771649929298_144" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="7b816d4d13531865e314" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="true" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771649929298_143">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771649929298_142">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', WebkitMaskImage: '-webkit-radial-gradient(white, black)' }} id="yui_3_17_2_1_1771649929298_141">
+                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771649929298_137">
+                            <Image 
+                              data-stretch="true" 
+                              crossOrigin="anonymous" 
+                              src="/image-1.webp"
+                              alt="A family meal with various dishes including a large rectangular pizza with toppings, a slice of pepperoni pizza, fried chicken wings garnished with green onions, a bowl of salad with lettuce and cheese, a side of French fries, and glasses of pink and red drinks." 
+                              width={4996} 
+                              height={3331}
+                              sizes="100vw" 
+                              style={{ 
+                                display: 'block',
+                                objectPosition: 'var(--image-component-focal-point)' as any,
+                                objectFit: 'var(--image-component-object-fit)' as any
+                              } as any}
+                              loading="lazy" 
+                            />
+                            <div className="imageEffectContainer"></div>
+                            <div className="fluidImageOverlay"></div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-ae2cfd5144aff2bb1d2c">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-ae2cfd5144aff2bb1d2c">
+              <div className="fe-block fe-block-db73a2bc0e9f3fe93b8a" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-db73a2bc0e9f3fe93b8a">
                   <div className="sqs-block-content">
-                    <div className="sqs-block-button-container  sqs-block-button-container--center sqs-stretched" data-animation-role="button" data-button-size="medium" data-button-type="primary"> 
-                      <a href="/seasonalmenu" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" target="_blank" data-initialized="true">
-                        MORE HERE!
-                      </a>
+                    <div className="sqs-html-content">
+                      <h1 style={{ whiteSpace: 'pre-wrap' }}>On mondays we order the big box.</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-42ea9b9c194822fa3437" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-42ea9b9c194822fa3437">
+                  <div className="sqs-block-content">
+                    <div className="sqs-html-content">
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}><strong>Don't you just hate Mondays? Well, we don't! On Mondays we order the Big Box and double our trouble.</strong></p>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>On Mondays and Mondays only, you'll find "The Big Box Deal" as a menu item (no promo code required). Select your first pizza, and then select your second pizza for $12.05. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-3051c7258fdf7da45539">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-block-type="1337" data-definition-name="website.components.button" data-sqsp-block="button" id="block-3051c7258fdf7da45539">
+                  <div className="sqs-block-content">
+                    <div className="button-component-root button-block-outer-wrapper design-layout-button-plain" data-test="button-block-fluid-outer-wrapper">
+                      <div className="button-animation-wrapper">
+                        <a className="button-component" href="#" target="_self" data-test="button-block-button" data-element-style-preset="button-style-1">
+                          <div className="button-text-wrapper">VIEW MENU</div>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -90,9 +96,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      
       </div>
-      
     </section>
   )
 }
