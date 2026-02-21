@@ -4,95 +4,103 @@ import Image from "next/image"
 
 export default function CallToAction() {
   return (
-    <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" id="yui_3_17_2_1_1771706185849_180">
-      <div className="section-border" style={{ clipPath: 'url(#section-divider-658f2bce80842075444608af)' as any }}>
-        <div className="section-background"></div>
+    <section data-test="page-section" data-section-theme="bright" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771707202716_150">
+      <div className="section-border">
+        <div className="section-background">
+        
+          
+        
+        </div>
       </div>
-      <div className="content-wrapper" id="yui_3_17_2_1_1771706185849_179">
-        <div className="content" id="yui_3_17_2_1_1771706185849_178">
-          <div id="yui_3_17_2_1_1771706185849_177">
+      <div className="content-wrapper" style={{
+          
             
-            <div className="fluid-engine fe-658f2bce80842075444608ae" id="yui_3_17_2_1_1771706185849_176">
-              <div className="fe-block fe-block-41bcbba421979d3ae030" id="yui_3_17_2_1_1771706185849_175">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-41bcbba421979d3ae030">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771706185849_174" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="41bcbba421979d3ae030" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771706185849_173">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771706185849_172">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '524.081px' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771706185849_171">
-                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771706185849_170">
-                            <Image
-                              data-stretch="false"
-                              src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png"
-                              alt="A black and white cartoon illustration of two anthropomorphic slices of pizza wearing sunglasses, sneakers, and caps, walking together in a friendly manner."
-                              width={1047}
-                              height={913}
-                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw"
-                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
-                              loading="lazy"
+              
+              
+              paddingTop: 'calc(0vmax / 10)', paddingBottom: 'calc(0vmax / 10)'
+            
+          
+        } as any} id="yui_3_17_2_1_1771707202716_149">
+        <div className="content" id="yui_3_17_2_1_1771707202716_148">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <div data-fluid-engine="true" id="yui_3_17_2_1_1771707202716_147">
+            
+            <div className="fluid-engine fe-65a1c9d0ac1b343be05159cc" id="yui_3_17_2_1_1771707202716_146">
+              <div className="fe-block fe-block-7b816d4d13531865e314" id="yui_3_17_2_1_1771707202716_145">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="117.61126270797615" data-definition-name="website.components.imageFluid" id="block-7b816d4d13531865e314">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771707202716_144" style={{ height: '100%', width: '100%' }}>
+
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="7b816d4d13531865e314" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="true" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" style={{ '--image-component-focal-point': '50% 50%', '--image-component-object-fit': 'cover', '--image-component-overlay-opacity': '0', '--image-component-overlay-blend-mode': 'normal', '--image-component-container-height': '100%', '--image-component-container-width': '100%' } as any} id="yui_3_17_2_1_1771707202716_143">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771707202716_142">
+                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', WebkitMaskImage: '-webkit-radial-gradient(white, black)' }} data-sqsp-image-block-image-container="" id="yui_3_17_2_1_1771707202716_141">
+                          
+                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771707202716_137">
+                            
+                            <Image 
+                              data-stretch="true" 
+                              crossOrigin="anonymous" 
+                              src="/image-1.webp"
+                              data-image="/image-1.webp"
+                              data-image-dimensions="4996x3331" 
+                              data-image-focal-point="0.5,0.5"
+                              alt="A family meal with various dishes including a large rectangular pizza with toppings, a slice of pepperoni pizza, fried chicken wings garnished with green onions, a bowl of salad with lettuce and cheese, a side of French fries, and glasses of pink and red drinks." 
+                              data-licensed-asset-preview="false" 
+                              data-load="false"
+                              width={4996} 
+                              height={3331} 
+                              sizes="100vw" 
+                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} 
+                              loading="lazy" 
                             />
+                            
+                            <div className="imageEffectContainer" data-effect='{"type": "filmGrain","intensity": 50,"shadow": 0,"speed": 100}'></div>
+                            
                             <div className="fluidImageOverlay"></div>
                           </div>
                         </div>
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-0b12b4954d7f2e3bf119" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-0b12b4954d7f2e3bf119">
+              <div className="fe-block fe-block-db73a2bc0e9f3fe93b8a" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" id="block-db73a2bc0e9f3fe93b8a">
                   <div className="sqs-block-content">
                     <div className="sqs-html-content">
-                      <div className="sqsrte-scaled-text-container loaded">
-                        <span className="sqsrte-scaled-text" style={{ fontSize: '154.3px' }}>
-                          <h1 style={{ whiteSpace: 'pre-wrap' }}>Say Hi to </h1>
-                        </span>
-                      </div>
+                      <h1 style={{ whiteSpace: 'pre-wrap' }}>On mondays we order the big box.</h1>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-f7a4c0cfa5d9377898d0" id="yui_3_17_2_1_1771706185849_189">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-f7a4c0cfa5d9377898d0">
-                  <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="f7a4c0cfa5d9377898d0" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '209.633px' }} data-sqsp-image-block-image-container="">
-                          <div className="js-content-mode-element content-fit">
-                            <Image
-                              data-stretch="false"
-                              src="/image-7.webp"
-                              alt=""
-                              width={1500}
-                              height={523}
-                              sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 41.66666666666667vw"
-                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any}
-                              loading="lazy"
-                            />
-                            <div className="fluidImageOverlay"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="fe-block fe-block-yui_3_17_2_1_1704391605064_26992">
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-yui_3_17_2_1_1704391605064_26992">
+              <div className="fe-block fe-block-42ea9b9c194822fa3437" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" id="block-42ea9b9c194822fa3437">
                   <div className="sqs-block-content">
                     <div className="sqs-html-content">
-                      <p className="sqsrte-large" style={{ whiteSpace: 'pre-wrap' }}>Stop by any time and grab something out of the ordinary. Open every day from 3:30PM until late.</p>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}><strong>Don't you just hate Mondays? Well, we don't! On Mondays we order the Big Box and double our trouble.</strong></p>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>On Mondays and Mondays only, you'll find "The Big Box Deal" as a menu item (no promo code required). Select your first pizza, and then select your second pizza for $12.05. </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-yui_3_17_2_1_1703881549797_13556">
-                <div className="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1703881549797_13556">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1703881549797_13555">
-                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium" data-button-type="primary">
-                      <a href="/menu" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-initialized="true">
-                        VIEW MENU
+              <div className="fe-block fe-block-3051c7258fdf7da45539">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-definition-name="website.components.button" id="block-3051c7258fdf7da45539">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771707202716_236">
+                    <div className="sqs-block-button-container sqs-block-button-container--center sqs-stretched" data-animation-role="button" data-button-size="medium" data-button-type="primary" id="yui_3_17_2_1_1771707202716_235"> 
+                      <a href="/order-bigbox" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-sqsp-button="" data-initialized="true">
+                        BIG BOX ME!
                       </a>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -100,6 +108,198 @@ export default function CallToAction() {
           </div>
         </div>
       </div>
-    </section>
+    <style jsx>{`
+.fe-65a1c9d0ac1b343be05159cc {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 0.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(39,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 0.0px;
+  column-gap: 0.0px;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-65a1c9d0ac1b343be05159cc {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-65a1c9d0ac1b343be05159cc {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 0.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (0.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(31,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-7b816d4d13531865e314 {
+    grid-area: 1/1/25/11;
+    z-index: 0;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-7b816d4d13531865e314 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-7b816d4d13531865e314 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-7b816d4d13531865e314 {
+      grid-area: 1/14/32/27;
+      z-index: 1;
+
+      
+
+      
+    }
+
+    .fe-block-7b816d4d13531865e314 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-7b816d4d13531865e314 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-db73a2bc0e9f3fe93b8a {
+    grid-area: 15/2/23/10;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-db73a2bc0e9f3fe93b8a .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-db73a2bc0e9f3fe93b8a .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-db73a2bc0e9f3fe93b8a {
+      grid-area: 6/2/17/13;
+      z-index: 2;
+
+      
+
+      
+    }
+
+    .fe-block-db73a2bc0e9f3fe93b8a .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-db73a2bc0e9f3fe93b8a .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-42ea9b9c194822fa3437 {
+    grid-area: 26/2/35/10;
+    z-index: 4;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-42ea9b9c194822fa3437 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-42ea9b9c194822fa3437 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-42ea9b9c194822fa3437 {
+      grid-area: 18/2/26/12;
+      z-index: 4;
+
+      
+
+      
+    }
+
+    .fe-block-42ea9b9c194822fa3437 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-42ea9b9c194822fa3437 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-3051c7258fdf7da45539 {
+    grid-area: 36/2/38/10;
+    z-index: 3;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-3051c7258fdf7da45539 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-3051c7258fdf7da45539 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-3051c7258fdf7da45539 {
+      grid-area: 27/2/29/6;
+      z-index: 3;
+
+      
+
+      
+    }
+
+    .fe-block-3051c7258fdf7da45539 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-3051c7258fdf7da45539 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+#block-3051c7258fdf7da45539 {--sqs-block-content-flex: 1;
+                      }
+`}</style>
+</section>
   )
 }

@@ -1,0 +1,219 @@
+"use client"
+
+import Image from "next/image"
+
+export default function CallToAction3() {
+  return (
+    <section data-test="page-section" data-section-theme="white" className="page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle has-background white" data-animation="none" data-fluid-engine-section="" id="yui_3_17_2_1_1771707202716_205">
+      <div className="section-border">
+        <div className="section-background">
+          <Image 
+            alt="" 
+            src="/image-5.webp" 
+            width={2532} 
+            height={1404} 
+            sizes="(max-width: 799px) 200vw, 100vw" 
+            style={{ display: 'block', objectPosition: '50% 50%' }} 
+            loading="lazy" 
+            decoding="async"
+          />
+          <div className="section-background-overlay" style={{ opacity: 0.15 }}></div>
+        </div>
+      </div>
+      <div className="content-wrapper" id="yui_3_17_2_1_1771707202716_204">
+        <div className="content" id="yui_3_17_2_1_1771707202716_203">
+          <div data-fluid-engine="true" id="yui_3_17_2_1_1771707202716_202">
+            <style jsx>{`
+              .fe-6596f6510337c27da4828ba5 {
+                --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+                --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+                display: grid;
+                position: relative;
+                grid-area: 1/1/-1/-1;
+                grid-template-rows: repeat(21,minmax(24px, auto));
+                grid-template-columns:
+                  minmax(var(--grid-gutter), 1fr)
+                  repeat(8, minmax(0, var(--cell-max-width)))
+                  minmax(var(--grid-gutter), 1fr);
+                row-gap: 11.0px;
+                column-gap: 11.0px;
+                overflow-x: hidden;
+                overflow-x: clip;
+              }
+
+              @media (min-width: 768px) {
+                .background-width--inset .fe-6596f6510337c27da4828ba5 {
+                  --inset-padding: calc(var(--sqs-site-gutter) * 2);
+                }
+
+                .fe-6596f6510337c27da4828ba5 {
+                  --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+                  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+                  --inset-padding: 0vw;
+
+                  --row-height-scaling-factor: 0.0215;
+                  --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+                  grid-template-rows: repeat(17,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+                  grid-template-columns:
+                    minmax(var(--grid-gutter), 1fr)
+                    repeat(24, minmax(0, var(--cell-max-width)))
+                    minmax(var(--grid-gutter), 1fr);
+                }
+              }
+
+              .fe-block-1ef399867fe80a1a9b64 {
+                grid-area: 1/2/12/10;
+                z-index: 4;
+              }
+
+              .fe-block-1ef399867fe80a1a9b64 .sqs-block {
+                justify-content: center;
+              }
+
+              .fe-block-1ef399867fe80a1a9b64 .sqs-block-alignment-wrapper {
+                align-items: center;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-1ef399867fe80a1a9b64 {
+                  grid-area: 1/2/18/14;
+                  z-index: 4;
+                }
+
+                .fe-block-1ef399867fe80a1a9b64 .sqs-block {
+                  justify-content: center;
+                }
+
+                .fe-block-1ef399867fe80a1a9b64 .sqs-block-alignment-wrapper {
+                  align-items: center;
+                }
+              }
+
+              .fe-block-23ee79784a4739adc244 {
+                grid-area: 12/2/19/10;
+                z-index: 2;
+              }
+
+              .fe-block-23ee79784a4739adc244 .sqs-block {
+                justify-content: flex-end;
+              }
+
+              .fe-block-23ee79784a4739adc244 .sqs-block-alignment-wrapper {
+                align-items: flex-end;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-23ee79784a4739adc244 {
+                  grid-area: 4/16/12/25;
+                  z-index: 2;
+                }
+
+                .fe-block-23ee79784a4739adc244 .sqs-block {
+                  justify-content: flex-start;
+                }
+
+                .fe-block-23ee79784a4739adc244 .sqs-block-alignment-wrapper {
+                  align-items: flex-start;
+                }
+              }
+
+              .fe-block-yui_3_17_2_1_1706211787573_32812 {
+                grid-area: 20/2/22/10;
+                z-index: 3;
+              }
+
+              .fe-block-yui_3_17_2_1_1706211787573_32812 .sqs-block {
+                justify-content: center;
+              }
+
+              .fe-block-yui_3_17_2_1_1706211787573_32812 .sqs-block-alignment-wrapper {
+                align-items: center;
+              }
+
+              @media (min-width: 768px) {
+                .fe-block-yui_3_17_2_1_1706211787573_32812 {
+                  grid-area: 13/16/15/21;
+                  z-index: 3;
+                }
+
+                .fe-block-yui_3_17_2_1_1706211787573_32812 .sqs-block {
+                  justify-content: center;
+                }
+
+                .fe-block-yui_3_17_2_1_1706211787573_32812 .sqs-block-alignment-wrapper {
+                  align-items: center;
+                }
+              }
+
+              #block-yui_3_17_2_1_1706211787573_32812 {
+                --sqs-block-content-flex: 1;
+              }
+            `}</style>
+            <div className="fluid-engine fe-6596f6510337c27da4828ba5" id="yui_3_17_2_1_1771707202716_201">
+              <div className="fe-block fe-block-1ef399867fe80a1a9b64" id="yui_3_17_2_1_1771707202716_200">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="100" data-definition-name="website.components.imageFluid" id="block-1ef399867fe80a1a9b64">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771707202716_199" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="1ef399867fe80a1a9b64" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="true" data-media-focal-point="0.5,0.5" style={{ '--image-component-focal-point': '50% 50%', '--image-component-object-fit': 'cover', '--image-component-overlay-opacity': '0', '--image-component-overlay-blend-mode': 'normal', '--image-component-container-width': '100%', '--image-component-container-height': '657px' } as any} id="yui_3_17_2_1_1771707202716_198">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771707202716_197">
+                        <div className="fluid-image-container sqs-image-content js-image-container" data-shape-mask="eight-sided-shield" style={{ overflow: 'hidden', clipPath: 'url("#1ef399867fe80a1a9b64")', width: '100%', height: '657px' }} id="yui_3_17_2_1_1771707202716_196">
+                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771707202716_193">
+                            <Image 
+                              data-stretch="false" 
+                              src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/385cb7e5-20b6-4330-83c4-e09263d49567/061222_SPG_Ghirardelli_EDITED_MelatiCitrawireja_-53+%281%29+%281%29.jpg" 
+                              alt="Top-down view of various bowls and plates with salad, fried chicken, pasta salad, and chicken wings, on a wooden table." 
+                              width={5397} 
+                              height={3598} 
+                              sizes="100vw" 
+                              style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} 
+                              loading="lazy" 
+                              decoding="async"
+                            />
+                            <div className="fluidImageOverlay"></div>
+                          </div>
+                        </div>
+                        <svg data-image-mask-id="1ef399867fe80a1a9b64" width="0" height="0" style={{ position: 'absolute' }}>
+                          <defs>
+                            <clipPath id="1ef399867fe80a1a9b64" clipPathUnits="objectBoundingBox">
+                              <path d="M0.5,0 L0.957,0.065,1,0.5,0.957,0.935 L0.5,1,0.043,0.935,0,0.5,0.043,0.065,0.5,0"></path>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-23ee79784a4739adc244" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" id="block-23ee79784a4739adc244">
+                  <div className="sqs-block-content">
+                    <div className="sqs-html-content">
+                      <h1 style={{ whiteSpace: 'pre-wrap' }}>
+                        <span className="sqsrte-text-color--accent">Give the gift of Pie</span>
+                      </h1>
+                      <p className="" style={{ whiteSpace: 'pre-wrap' }}>
+                        <span className="sqsrte-text-color--accent">Grab a gift card today to share the pizza love with all the people you love! </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="fe-block fe-block-yui_3_17_2_1_1706211787573_32812">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-button button-block" data-definition-name="website.components.button" id="block-yui_3_17_2_1_1706211787573_32812">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771707202716_257">
+                    <div className="sqs-block-button-container  sqs-block-button-container--center sqs-stretched" data-animation-role="button" data-button-size="medium" data-button-type="primary" id="yui_3_17_2_1_1771707202716_256">
+                      <a href="/giftcards" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-sqsp-button="" data-initialized="true">
+                        Grab Your Giftcard
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
