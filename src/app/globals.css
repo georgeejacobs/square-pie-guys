@@ -244,6 +244,47 @@
   box-sizing: content-box;
 }
 
+/* --- Section theme text colors --- */
+/* Dark background themes: white text */
+[data-section-theme="dark"],
+[data-section-theme="dark-bold"],
+[data-section-theme="black"],
+[data-section-theme="black-bold"] {
+  color: hsla(var(--white-hsl, 0,0%,100%), 1);
+}
+/* Bright/accent theme: inverse accent text (usually white) */
+[data-section-theme="bright"] {
+  color: hsla(var(--safeInverseAccent-hsl, 0,0%,100%), 1);
+}
+/* Light background themes: dark text */
+[data-section-theme="white"],
+[data-section-theme="white-bold"],
+[data-section-theme="light"],
+[data-section-theme="light-bold"] {
+  color: hsla(var(--black-hsl, 0,0%,0%), 1);
+}
+
+/* --- Section background image sizing --- */
+.section-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* --- Section height minimums --- */
+.page-section.section-height--medium {
+  min-height: 50vh;
+}
+.page-section.section-height--large {
+  min-height: 80vh;
+}
+
+/* --- Fluid engine content flow (prevent overlap) --- */
+.fluid-engine .fe-block {
+  position: relative;
+}
+
 /* --- Button style fixes --- */
 .sqs-button-element--primary,
 .sqs-block-button-element {

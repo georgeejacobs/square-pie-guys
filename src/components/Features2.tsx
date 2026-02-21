@@ -1,78 +1,83 @@
 "use client"
-
-import Image from "next/image"
+import Image from "next/image";
 
 export default function Features2() {
   return (
-    <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-animation="none" id="yui_3_17_2_1_1771614840784_180">
-      
-      <div className="section-border" style={{ clipPath: 'url(#section-divider-658f2bce80842075444608af)' }}>
-        <div className="section-background"></div>
+    <section data-test="page-section" data-section-theme="white" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle has-background white" data-animation="none" id="yui_3_17_2_1_1771637181302_166">
+      <div className="section-border" style={{ clipPath: 'url(#section-divider-6585f6588bffa766875dc1bf)' }}>
+        <div className="section-background">
+          <Image 
+            alt="" 
+            src="/image-5.webp"
+            width={2532} 
+            height={1404}
+            sizes="(max-width: 799px) 200vw, 100vw" 
+            style={{ display: 'block', objectPosition: '50% 50%' }}
+            loading="lazy" 
+          />
+          <div className="section-background-overlay" style={{ opacity: 0.15 }}></div>
+        </div>
       </div>
-      <div className="content-wrapper" id="yui_3_17_2_1_1771614840784_179">
-        <div className="content" id="yui_3_17_2_1_1771614840784_178">
-          <div id="yui_3_17_2_1_1771614840784_177">
-            <div className="fluid-engine fe-658f2bce80842075444608ae" id="yui_3_17_2_1_1771614840784_176">
-              <div className="fe-block fe-block-41bcbba421979d3ae030" id="yui_3_17_2_1_1771614840784_175">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-41bcbba421979d3ae030">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771614840784_174" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="41bcbba421979d3ae030" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771614840784_173">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771614840784_172">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '524.081px' }} id="yui_3_17_2_1_1771614840784_171">
-                          <div className="js-content-mode-element content-fit" id="yui_3_17_2_1_1771614840784_170">
-                            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" data-image="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" data-image-dimensions="1047x913" data-image-focal-point="0.5,0.5" alt="A black and white cartoon illustration of two anthropomorphic slices of pizza wearing sunglasses, sneakers, and caps, walking together in a friendly manner." data-licensed-asset-preview="false" data-load="false" src="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png" width="1047" height="913" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw" style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} srcSet="https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64b164dfe7e65e1a8cd14aff/3e131a04-38fe-40ba-8b19-0f1481409464/AHS+Concorse+Static+Sign+-+Asset+7%402x.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs" />
+      <div className="content-wrapper" id="yui_3_17_2_1_1771637181302_165">
+        <div className="content" id="yui_3_17_2_1_1771637181302_164">
+          <div id="yui_3_17_2_1_1771637181302_163">
+            
+            <div className="fluid-engine fe-6585f6588bffa766875dc1be" id="yui_3_17_2_1_1771637181302_162">
+              <div className="fe-block fe-block-yui_3_17_2_1_1705085365777_87191" id="yui_3_17_2_1_1771637181302_161">
+                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-aspect-ratio="100" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-yui_3_17_2_1_1705085365777_87191">
+                  <div className="sqs-block-content" id="yui_3_17_2_1_1771637181302_160" style={{ height: '100%', width: '100%' }}>
+                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="yui_3_17_2_1_1705085365777_87191" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="true" data-media-focal-point="0.5,0.5" id="yui_3_17_2_1_1771637181302_159">
+                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image" id="yui_3_17_2_1_1771637181302_158">
+                        <div className="fluid-image-container sqs-image-content js-image-container" data-shape-mask="eight-sided-shield" style={{ overflow: 'hidden', clipPath: 'url("#yui_3_17_2_1_1705085365777_87191")', width: '100%', height: '657px' }} id="yui_3_17_2_1_1771637181302_157">
+                          <div className="js-content-mode-element content-fill" id="yui_3_17_2_1_1771637181302_154">
+                            <Image 
+                              src="/image-2.webp"
+                              alt="Meal spread including pizza, lasagna, fried chicken with fries, tomato salad, bread with sauce, and various side dishes with drinks on a wooden table."
+                              width={5876}
+                              height={3917}
+                              sizes="100vw" 
+                              style={{ 
+                                display: 'block',
+                                objectPosition: 'var(--image-component-focal-point)' as any,
+                                objectFit: 'var(--image-component-object-fit)' as any
+                              } as any}
+                              loading="lazy" 
+                            />
                             <div className="fluidImageOverlay"></div>
                           </div>
                         </div>
+                        <svg data-image-mask-id="yui_3_17_2_1_1705085365777_87191" width="0" height="0" style={{ position: 'absolute' }}>
+                          <defs>
+                            <clipPath id="yui_3_17_2_1_1705085365777_87191" clipPathUnits="objectBoundingBox">
+                              <path d="M0.5,0 L0.957,0.065,1,0.5,0.957,0.935 L0.5,1,0.043,0.935,0,0.5,0.043,0.065,0.5,0"></path>
+                            </clipPath>
+                          </defs>
+                        </svg>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-0b12b4954d7f2e3bf119" style={{ mixBlendMode: 'normal' }}>
-                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-0b12b4954d7f2e3bf119">
+              <div className="fe-block fe-block-d5c56f40dea6490c6a02" style={{ mixBlendMode: 'normal' }}>
+                <div className="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2" data-sqsp-block="text" id="block-d5c56f40dea6490c6a02">
                   <div className="sqs-block-content">
                     <div className="sqs-html-content">
-                      <div className="sqsrte-scaled-text-container loaded">
-                        <span className="sqsrte-scaled-text" style={{ fontSize: '154.3px' }}>
-                          <h1 style={{ whiteSpace: 'pre-wrap' }}>Say Hi to </h1>
-                        </span>
-                      </div>
+                      <h1 style={{ whiteSpace: 'pre-wrap' }}>
+                        <span className="sqsrte-text-color--accent">GET ZERO DELIVERY FEES + CASH-BACK REWARDS.</span>
+                      </h1>
+                      <p style={{ whiteSpace: 'pre-wrap' }}>
+                        Order from the Guys directly and <strong><em>earn BI!</em></strong>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="fe-block fe-block-f7a4c0cfa5d9377898d0" id="yui_3_17_2_1_1771614840784_189">
-                <div className="sqs-block website-component-block sqs-block-website-component sqs-block-image image-block sqs-text-ready" data-block-type="1337" data-definition-name="website.components.imageFluid" data-sqsp-block="image" id="block-f7a4c0cfa5d9377898d0">
-                  <div className="sqs-block-content" style={{ height: '100%', width: '100%' }}>
-                    <div className="fluid-image-component-root image-block-outer-wrapper design-layout-fluid image-position-center combination-animation-site-default individual-animation-site-default" data-component-id="f7a4c0cfa5d9377898d0" data-test="image-block-fluid-outer-wrapper" data-is-image-stretched="false" data-is-mask-applied="false" data-media-focal-point="0.5,0.5">
-                      <div className="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper" data-animation-role="image">
-                        <div className="fluid-image-container sqs-image-content js-image-container" style={{ overflow: 'hidden', maskImage: '-webkit-radial-gradient(center, white, black)', width: '100%', height: '241.062px' }}>
-                          <div className="js-content-mode-element content-fit">
-                            <Image src="/image-11.webp" alt="Stylized text logo featuring fun, playful lettering" width={589} height={227} sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 41.66666666666666vw" style={{ display: 'block', objectPosition: 'var(--image-component-focal-point)' as any, objectFit: 'var(--image-component-object-fit)' as any } as any} loading="lazy" />
-                            <div className="fluidImageOverlay"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="fe-block fe-block-yui_3_17_2_1_1704391605064_26992" id="yui_3_17_2_1_1771614840784_192">
-                <div className="sqs-block html-block sqs-block-html" data-block-type="2" data-sqsp-block="text" id="block-yui_3_17_2_1_1704391605064_26992">
+              <div className="fe-block fe-block-yui_3_17_2_1_1705085365777_95078">
+                <div className="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1705085365777_95078">
                   <div className="sqs-block-content">
-                    <div className="sqs-html-content">
-                      <p className="sqsrte-large" style={{ whiteSpace: 'pre-wrap' }}>We're a new kinda pizza spot opening at the San Francisco Airport Terminal 1. From fresh AF pizza to ice cold brews, we believe in keeping it simple, making it delicious, and having a rad time while doing it. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="fe-block fe-block-yui_3_17_2_1_1703881549797_13556" id="yui_3_17_2_1_1771614840784_195">
-                <div className="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1703881549797_13556">
-                  <div className="sqs-block-content" id="yui_3_17_2_1_1771614840784_194">
-                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="large" id="yui_3_17_2_1_1771614840784_193">
-                      <a href="/menu" className="sqs-block-button-element--large sqs-button-element--primary sqs-block-button-element" data-initialized="true">
-                        VIEW MENU
+                    <div className="sqs-block-button-container sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="medium">
+                      <a href="https://spqguys.com/menus" className="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element" data-initialized="true">
+                        ORDER NOW FOR PICKUP
                       </a>
                     </div>
                   </div>
@@ -83,5 +88,5 @@ export default function Features2() {
         </div>
       </div>
     </section>
-  )
+  );
 }
