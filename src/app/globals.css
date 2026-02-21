@@ -268,37 +268,39 @@
   color: hsla(var(--black-hsl, 0,0%,0%), 1) !important;
 }
 
-/* Force all text elements inside themed sections to inherit the section color.
-   Without this, obfuscated selectors set explicit color on headings/paragraphs. */
+/* Force headings and paragraphs inside themed sections to inherit the section color.
+   Without this, obfuscated selectors set explicit color on headings/paragraphs.
+   NOTE: Excludes <a> and <span> because those include button elements that need
+   their own distinct text color (e.g. white bg + blue text). */
 [data-section-theme="dark"] h1, [data-section-theme="dark"] h2, [data-section-theme="dark"] h3,
-[data-section-theme="dark"] h4, [data-section-theme="dark"] p, [data-section-theme="dark"] li,
-[data-section-theme="dark"] a, [data-section-theme="dark"] span,
+[data-section-theme="dark"] h4, [data-section-theme="dark"] h5, [data-section-theme="dark"] h6,
+[data-section-theme="dark"] p, [data-section-theme="dark"] li,
 [data-section-theme="dark-bold"] h1, [data-section-theme="dark-bold"] h2, [data-section-theme="dark-bold"] h3,
-[data-section-theme="dark-bold"] h4, [data-section-theme="dark-bold"] p, [data-section-theme="dark-bold"] li,
-[data-section-theme="dark-bold"] a, [data-section-theme="dark-bold"] span,
+[data-section-theme="dark-bold"] h4, [data-section-theme="dark-bold"] h5, [data-section-theme="dark-bold"] h6,
+[data-section-theme="dark-bold"] p, [data-section-theme="dark-bold"] li,
 [data-section-theme="black"] h1, [data-section-theme="black"] h2, [data-section-theme="black"] h3,
-[data-section-theme="black"] h4, [data-section-theme="black"] p, [data-section-theme="black"] li,
-[data-section-theme="black"] a, [data-section-theme="black"] span,
+[data-section-theme="black"] h4, [data-section-theme="black"] h5, [data-section-theme="black"] h6,
+[data-section-theme="black"] p, [data-section-theme="black"] li,
 [data-section-theme="black-bold"] h1, [data-section-theme="black-bold"] h2, [data-section-theme="black-bold"] h3,
-[data-section-theme="black-bold"] h4, [data-section-theme="black-bold"] p, [data-section-theme="black-bold"] li,
-[data-section-theme="black-bold"] a, [data-section-theme="black-bold"] span,
+[data-section-theme="black-bold"] h4, [data-section-theme="black-bold"] h5, [data-section-theme="black-bold"] h6,
+[data-section-theme="black-bold"] p, [data-section-theme="black-bold"] li,
 [data-section-theme="bright"] h1, [data-section-theme="bright"] h2, [data-section-theme="bright"] h3,
-[data-section-theme="bright"] h4, [data-section-theme="bright"] p, [data-section-theme="bright"] li,
-[data-section-theme="bright"] a, [data-section-theme="bright"] span {
+[data-section-theme="bright"] h4, [data-section-theme="bright"] h5, [data-section-theme="bright"] h6,
+[data-section-theme="bright"] p, [data-section-theme="bright"] li {
   color: inherit !important;
 }
 [data-section-theme="white"] h1, [data-section-theme="white"] h2, [data-section-theme="white"] h3,
-[data-section-theme="white"] h4, [data-section-theme="white"] p, [data-section-theme="white"] li,
-[data-section-theme="white"] a, [data-section-theme="white"] span,
+[data-section-theme="white"] h4, [data-section-theme="white"] h5, [data-section-theme="white"] h6,
+[data-section-theme="white"] p, [data-section-theme="white"] li,
 [data-section-theme="white-bold"] h1, [data-section-theme="white-bold"] h2, [data-section-theme="white-bold"] h3,
-[data-section-theme="white-bold"] h4, [data-section-theme="white-bold"] p, [data-section-theme="white-bold"] li,
-[data-section-theme="white-bold"] a, [data-section-theme="white-bold"] span,
+[data-section-theme="white-bold"] h4, [data-section-theme="white-bold"] h5, [data-section-theme="white-bold"] h6,
+[data-section-theme="white-bold"] p, [data-section-theme="white-bold"] li,
 [data-section-theme="light"] h1, [data-section-theme="light"] h2, [data-section-theme="light"] h3,
-[data-section-theme="light"] h4, [data-section-theme="light"] p, [data-section-theme="light"] li,
-[data-section-theme="light"] a, [data-section-theme="light"] span,
+[data-section-theme="light"] h4, [data-section-theme="light"] h5, [data-section-theme="light"] h6,
+[data-section-theme="light"] p, [data-section-theme="light"] li,
 [data-section-theme="light-bold"] h1, [data-section-theme="light-bold"] h2, [data-section-theme="light-bold"] h3,
-[data-section-theme="light-bold"] h4, [data-section-theme="light-bold"] p, [data-section-theme="light-bold"] li,
-[data-section-theme="light-bold"] a, [data-section-theme="light-bold"] span {
+[data-section-theme="light-bold"] h4, [data-section-theme="light-bold"] h5, [data-section-theme="light-bold"] h6,
+[data-section-theme="light-bold"] p, [data-section-theme="light-bold"] li {
   color: inherit !important;
 }
 
@@ -324,10 +326,12 @@
 }
 
 /* --- Button style fixes --- */
+/* !important on color is required because buttons are <a> tags that inherit
+   the section theme color via CSS cascade. Button text color must override. */
 .sqs-button-element--primary,
 .sqs-block-button-element {
   background-color: var(--primaryButtonBackgroundColor, var(--tweak-form-block-button-background-color, #333));
-  color: var(--primaryButtonTextColor, var(--tweak-form-block-button-text-color, #fff));
+  color: var(--primaryButtonTextColor, var(--tweak-form-block-button-text-color, #fff)) !important;
   border-color: var(--primaryButtonBackgroundColor, var(--tweak-form-block-button-background-color, #333));
   text-decoration: none;
   display: inline-block;
@@ -335,7 +339,7 @@
 }
 .sqs-button-element--secondary {
   background-color: var(--secondaryButtonBackgroundColor, transparent);
-  color: var(--secondaryButtonTextColor, var(--primaryButtonBackgroundColor, #333));
+  color: var(--secondaryButtonTextColor, var(--primaryButtonBackgroundColor, #333)) !important;
   border: 2px solid var(--secondaryButtonTextColor, var(--primaryButtonBackgroundColor, #333));
   text-decoration: none;
   display: inline-block;
@@ -343,7 +347,7 @@
 }
 .sqs-button-element--tertiary {
   background-color: transparent;
-  color: var(--tertiaryButtonTextColor, var(--primaryButtonBackgroundColor, #333));
+  color: var(--tertiaryButtonTextColor, var(--primaryButtonBackgroundColor, #333)) !important;
   border: none;
   text-decoration: underline;
   display: inline-block;
