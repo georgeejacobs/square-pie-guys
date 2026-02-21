@@ -1,24 +1,19 @@
 "use client"
 
-import Image from "next/image"
-
 export default function Footer() {
   return (
     <footer className="sections" id="footer-sections">
-      <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-section-id="658f00a2f272f378735b0764" data-animation="none" style={{ minHeight: '7vh' }}>
+      <section data-test="page-section" data-section-theme="bright" className="page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle bright" data-section-id="658f00a2f272f378735b0764" data-animation="none" style={{ minHeight: '7vh' } as any}>
         <div className="section-border" style={{ clipPath: 'url(#section-divider-658f00a2f272f378735b0764)' }}>
-          <div className="section-background">
-          </div>
+          <div className="section-background"></div>
         </div>
-        <div className="content-wrapper" style={{
-          paddingTop: 'calc(7vmax / 10)', paddingBottom: 'calc(7vmax / 10)'
-        }}>
+        <div className="content-wrapper" style={{ paddingTop: 'calc(7vmax / 10)', paddingBottom: 'calc(7vmax / 10)' }}>
           <div className="content">
             <div>
               
               <div className="fluid-engine fe-658f00a2f272f378735b0763">
                 <div className="fe-block fe-block-78d5c65ecdc06f397a7d" style={{ mixBlendMode: 'normal' }}>
-                  <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" data-sqsp-block="scrolling" id="block-78d5c65ecdc06f397a7d">
+                  <div className="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70" id="block-78d5c65ecdc06f397a7d">
                     <div className="sqs-block-content">
                       <div className="Marquee" style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' } as any} data-ready="true">
                         <div className="Marquee-display ">
@@ -44,12 +39,67 @@ export default function Footer() {
                           </div>
 
                           <h1 style={{ fontSize: '1.2rem', '--marquee-font-size-value': '1.2' } as any}>
-                            <svg className="Marquee-svg" fill="currentColor" aria-hidden="true" style={{ height: '26px', transform: 'translateY(2.6px)', overflow: 'visible' }}>
+                            <svg className="Marquee-svg" fill="currentColor" aria-hidden="true" style={{ height: '26px', transform: 'translateY(2.6px)', overflowX: 'visible' }}>
                               <g className="Marquee-path-group" transform="translate(0, 1.3)">
                                 <path className="Marquee-path" fill="none" stroke="transparent" strokeWidth="0" d="M-550,17.212  L-550,17.212 S-183.15,17.212 0,17.212 S366.85,17.212 550,17.212 S916.85,17.212 1100,17.212 S1466.85,17.212 1650,17.212 S2016.85,17.212 2200,17.212" strokeDasharray="99 9.228 21 9.228 77 9.228 21 9.228 89 9.228 21 9.228 " id="78d5c65ecdc06f397a7d"></path>
                               </g>
                               <text>
-                                <textPath className="Marquee-svg-text" href="#78d5c65ecdc06f397a7d"><tspan className="Marquee-svg-text" x="0">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="108.228">🍕</tspan><tspan className="Marquee-svg-text" x="138.456">We Say Pie</tspan><tspan className="Marquee-svg-text" x="224.68399999999997">🍕</tspan><tspan className="Marquee-svg-text" x="254.91199999999998">It's All Yum</tspan><tspan className="Marquee-svg-text" x="353.14">🍕</tspan><tspan className="Marquee-svg-text" x="383.368">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="491.596">🍕</tspan><tspan className="Marquee-svg-text" x="521.824">We Say Pie</tspan><tspan className="Marquee-svg-text" x="608.0519999999999">🍕</tspan><tspan className="Marquee-svg-text" x="638.2799999999999">It's All Yum</tspan><tspan className="Marquee-svg-text" x="736.5079999999998">🍕</tspan><tspan className="Marquee-svg-text" x="766.7359999999998">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="874.9639999999997">🍕</tspan><tspan className="Marquee-svg-text" x="905.1919999999997">We Say Pie</tspan><tspan className="Marquee-svg-text" x="991.4199999999996">🍕</tspan><tspan className="Marquee-svg-text" x="1021.6479999999996">It's All Yum</tspan><tspan className="Marquee-svg-text" x="1119.8759999999995">🍕</tspan><tspan className="Marquee-svg-text" x="1150.1039999999996">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="1258.3319999999997">🍕</tspan><tspan className="Marquee-svg-text" x="1288.5599999999997">We Say Pie</tspan><tspan className="Marquee-svg-text" x="1374.7879999999998">🍕</tspan><tspan className="Marquee-svg-text" x="1405.0159999999998">It's All Yum</tspan><tspan className="Marquee-svg-text" x="1503.244">🍕</tspan><tspan className="Marquee-svg-text" x="1533.472">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="1641.7">🍕</tspan><tspan className="Marquee-svg-text" x="1671.928">We Say Pie</tspan><tspan className="Marquee-svg-text" x="1758.1560000000002">🍕</tspan><tspan className="Marquee-svg-text" x="1788.3840000000002">It's All Yum</tspan><tspan className="Marquee-svg-text" x="1886.6120000000003">🍕</tspan><tspan className="Marquee-svg-text" x="1916.8400000000004">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="2025.0680000000004">🍕</tspan><tspan className="Marquee-svg-text" x="2055.2960000000003">We Say Pie</tspan><tspan className="Marquee-svg-text" x="2141.5240000000003">🍕</tspan><tspan className="Marquee-svg-text" x="2171.7520000000004">It's All Yum</tspan><tspan className="Marquee-svg-text" x="2269.9800000000005">🍕</tspan><tspan className="Marquee-svg-text" x="2300.2080000000005">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="2408.4360000000006">🍕</tspan><tspan className="Marquee-svg-text" x="2438.6640000000007">We Say Pie</tspan><tspan className="Marquee-svg-text" x="2524.8920000000007">🍕</tspan><tspan className="Marquee-svg-text" x="2555.120000000001">It's All Yum</tspan><tspan className="Marquee-svg-text" x="2653.348000000001">🍕</tspan><tspan className="Marquee-svg-text" x="2683.576000000001">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="2791.804000000001">🍕</tspan><tspan className="Marquee-svg-text" x="2822.032000000001">We Say Pie</tspan><tspan className="Marquee-svg-text" x="2908.260000000001">🍕</tspan><tspan className="Marquee-svg-text" x="2938.488000000001">It's All Yum</tspan><tspan className="Marquee-svg-text" x="3036.7160000000013">🍕</tspan><tspan className="Marquee-svg-text" x="3066.9440000000013">You Say Pizza</tspan><tspan className="Marquee-svg-text" x="3175.1720000000014">🍕</tspan><tspan className="Marquee-svg-text" x="3205.4000000000015">We Say Pie</tspan><tspan className="Marquee-svg-text" x="3291.6280000000015">🍕</tspan><tspan className="Marquee-svg-text" x="3321.8560000000016">It's All Yum</tspan><tspan className="Marquee-svg-text" x="3420.0840000000017">🍕</tspan></textPath>
+                                <textPath className="Marquee-svg-text" href="#78d5c65ecdc06f397a7d">
+                                  <tspan className="Marquee-svg-text" x="0">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="108.228">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="138.456">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="224.68399999999997">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="254.91199999999998">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="353.14">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="383.368">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="491.596">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="521.824">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="608.0519999999999">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="638.2799999999999">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="736.5079999999998">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="766.7359999999998">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="874.9639999999997">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="905.1919999999997">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="991.4199999999996">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="1021.6479999999996">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="1119.8759999999995">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="1150.1039999999996">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="1258.3319999999997">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="1288.5599999999997">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="1374.7879999999998">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="1405.0159999999998">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="1503.244">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="1533.472">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="1641.7">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="1671.928">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="1758.1560000000002">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="1788.3840000000002">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="1886.6120000000003">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="1916.8400000000004">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="2025.0680000000004">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="2055.2960000000003">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="2141.5240000000003">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="2171.7520000000004">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="2269.9800000000005">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="2300.2080000000005">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="2408.4360000000006">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="2438.6640000000007">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="2524.8920000000007">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="2555.120000000001">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="2653.348000000001">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="2683.576000000001">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="2791.804000000001">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="2822.032000000001">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="2908.260000000001">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="2938.488000000001">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="3036.7160000000013">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="3066.9440000000013">You Say Pizza</tspan>
+                                  <tspan className="Marquee-svg-text" x="3175.1720000000014">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="3205.4000000000015">We Say Pie</tspan>
+                                  <tspan className="Marquee-svg-text" x="3291.6280000000015">🍕</tspan>
+                                  <tspan className="Marquee-svg-text" x="3321.8560000000016">It's All Yum</tspan>
+                                  <tspan className="Marquee-svg-text" x="3420.0840000000017">🍕</tspan>
+                                </textPath>
                               </text>
                               <text>
                                 <textPath className="Marquee-svg-group" visibility="hidden" href="#78d5c65ecdc06f397a7d">
@@ -89,10 +139,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="section-divider-display" style={{ '--stroke-thickness': '2px', '--stroke-dasharray': '0', '--stroke-linecap': 'square', '--section-divider-stroke-color': 'hsla(var(--white-hsl),1)' } as any}>
-          
-          
           
           <div className="section-divider-block"></div>
           <svg className="section-divider-svg-clip" style={{ display: 'none' }}>
@@ -132,14 +180,14 @@ export default function Footer() {
               height: var(--divider-height);
             }
 
-[data-section-id="658f00a2f272f378735b0764"] { 
-                --divider-height: 0px; 
-                --z-index: 2;
-              }
-            
-                [data-section-id="6585c397f5242d589388e6ee"] {
-                  --previous-section-divider-offset: 0px;
-                }
+            [data-section-id="658f00a2f272f378735b0764"] { 
+              --divider-height: 0px; 
+              --z-index: 2;
+            }
+          
+            [data-section-id="6585c397f5242d589388e6ee"] {
+              --previous-section-divider-offset: 0px;
+            }
 `}</style>
 </footer>
   )

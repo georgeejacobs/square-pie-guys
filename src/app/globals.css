@@ -245,23 +245,61 @@
 }
 
 /* --- Section theme text colors --- */
+/* !important is required because the browser parses SOME rules from the
+   massive original CSS with obfuscated selectors (e.g. .FTKvhhGcjUsmSLfh[data-section-theme])
+   that have higher specificity than bare attribute selectors. */
+
 /* Dark background themes: white text */
 [data-section-theme="dark"],
 [data-section-theme="dark-bold"],
 [data-section-theme="black"],
 [data-section-theme="black-bold"] {
-  color: hsla(var(--white-hsl, 0,0%,100%), 1);
+  color: hsla(var(--white-hsl, 0,0%,100%), 1) !important;
 }
 /* Bright/accent theme: inverse accent text (usually white) */
 [data-section-theme="bright"] {
-  color: hsla(var(--safeInverseAccent-hsl, 0,0%,100%), 1);
+  color: hsla(var(--safeInverseAccent-hsl, 0,0%,100%), 1) !important;
 }
 /* Light background themes: dark text */
 [data-section-theme="white"],
 [data-section-theme="white-bold"],
 [data-section-theme="light"],
 [data-section-theme="light-bold"] {
-  color: hsla(var(--black-hsl, 0,0%,0%), 1);
+  color: hsla(var(--black-hsl, 0,0%,0%), 1) !important;
+}
+
+/* Force all text elements inside themed sections to inherit the section color.
+   Without this, obfuscated selectors set explicit color on headings/paragraphs. */
+[data-section-theme="dark"] h1, [data-section-theme="dark"] h2, [data-section-theme="dark"] h3,
+[data-section-theme="dark"] h4, [data-section-theme="dark"] p, [data-section-theme="dark"] li,
+[data-section-theme="dark"] a, [data-section-theme="dark"] span,
+[data-section-theme="dark-bold"] h1, [data-section-theme="dark-bold"] h2, [data-section-theme="dark-bold"] h3,
+[data-section-theme="dark-bold"] h4, [data-section-theme="dark-bold"] p, [data-section-theme="dark-bold"] li,
+[data-section-theme="dark-bold"] a, [data-section-theme="dark-bold"] span,
+[data-section-theme="black"] h1, [data-section-theme="black"] h2, [data-section-theme="black"] h3,
+[data-section-theme="black"] h4, [data-section-theme="black"] p, [data-section-theme="black"] li,
+[data-section-theme="black"] a, [data-section-theme="black"] span,
+[data-section-theme="black-bold"] h1, [data-section-theme="black-bold"] h2, [data-section-theme="black-bold"] h3,
+[data-section-theme="black-bold"] h4, [data-section-theme="black-bold"] p, [data-section-theme="black-bold"] li,
+[data-section-theme="black-bold"] a, [data-section-theme="black-bold"] span,
+[data-section-theme="bright"] h1, [data-section-theme="bright"] h2, [data-section-theme="bright"] h3,
+[data-section-theme="bright"] h4, [data-section-theme="bright"] p, [data-section-theme="bright"] li,
+[data-section-theme="bright"] a, [data-section-theme="bright"] span {
+  color: inherit !important;
+}
+[data-section-theme="white"] h1, [data-section-theme="white"] h2, [data-section-theme="white"] h3,
+[data-section-theme="white"] h4, [data-section-theme="white"] p, [data-section-theme="white"] li,
+[data-section-theme="white"] a, [data-section-theme="white"] span,
+[data-section-theme="white-bold"] h1, [data-section-theme="white-bold"] h2, [data-section-theme="white-bold"] h3,
+[data-section-theme="white-bold"] h4, [data-section-theme="white-bold"] p, [data-section-theme="white-bold"] li,
+[data-section-theme="white-bold"] a, [data-section-theme="white-bold"] span,
+[data-section-theme="light"] h1, [data-section-theme="light"] h2, [data-section-theme="light"] h3,
+[data-section-theme="light"] h4, [data-section-theme="light"] p, [data-section-theme="light"] li,
+[data-section-theme="light"] a, [data-section-theme="light"] span,
+[data-section-theme="light-bold"] h1, [data-section-theme="light-bold"] h2, [data-section-theme="light-bold"] h3,
+[data-section-theme="light-bold"] h4, [data-section-theme="light-bold"] p, [data-section-theme="light-bold"] li,
+[data-section-theme="light-bold"] a, [data-section-theme="light-bold"] span {
+  color: inherit !important;
 }
 
 /* --- Section background image sizing --- */
