@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Square Pie Guys",
-  description: "Square Pie Guys has a bold, energetic personality that celebrates Detroit-style pizza with confidence and community pride. The brand uses playful, casual langua",
+  description: "Square Pie Guys has a bold, energetic personality that celebrates Detroit-style pizza culture with confident, uppercase messaging and playful language. The bran",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="yui3-js-enabled wf-degular-n4-active wf-degular-n6-active wf-degular-n7-active wf-degular-i7-active js flexbox canvas canvastext webgl no-touch hashchange history draganddrop rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions video audio svg inlinesvg svgclippaths wf-degular-n8-active wf-degular-i4-active wf-antiqueolivenord-n4-active wf-antiqueolivenord-i4-active wf-active">
+    <html lang="en" className="yui3-js-enabled wf-degular-n4-active wf-degular-n6-active wf-degular-n7-active wf-degular-i7-active js flexbox canvas canvastext webgl no-touch hashchange history draganddrop rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions video audio svg inlinesvg svgclippaths wf-antiqueolivenord-n4-active wf-antiqueolivenord-i4-active wf-degular-n8-active wf-degular-i4-active wf-active">
       <head>
         <link rel="stylesheet" href="/original-styles.css" />
         <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
